@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_005_c09",
+  "document_id": "srch_005",
+  "document_title": "Search for work items using the text field",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/search-syntax-for-text-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 9,
+  "chunk_count_in_doc": 10,
+  "content": "Be aware that this can sometimes lead to unexpected results. For example, suppose one work item contains the text phrase \"VSX will crash\" and another work item contains the phrase \"VSX will not crash\". A text search for \"VSX will crash\" will return both of these work items. This is because the words will and not are part of the reserved words list.\nNote for Jira administrators:\nYou can make Jira Cloud find work items based on the presence of these reserved words by changing the Indexing Language to Other (under Administration > System > General Configuration).\nWord stemming\nSince Jira cannot search for work items containing parts of words (see below), word 'stemming' allows you to retrieve work items from a search based on the 'root' (or 'stem') forms of words instead of requiring an exact match with specific forms of these words. The number of work items retrieved from a search based on a stemmed word is typically larger, since any other work items containing words that are stemmed back to the same root will also be retrieved in the search results.\nFor example, if you search for work items using the query term 'customize' on the Summary field, Jira stems this word to its root form 'custom', and will retrieve all work items whose Summary field also contains any word that can be stemmed back to 'custom'.\nsummary ~ \"customize\"\nThe above will retrieve work items whose Summary field contains the following words:\n- customized\n- customizing\n- customs\n- customer\n- etc.\nNote:\n- Your Jira administrator can disable word stemming (so that Jira will find work items based on exact matches with words) by changing the Indexing Language to Other (under Administration > System > General Configuration).\n- Word stemming applies to all Jira fields (as well as text fields).\n- When Jira indexes its fields, any words that are stemmed are stored in the Jira search index in root form only."
+}

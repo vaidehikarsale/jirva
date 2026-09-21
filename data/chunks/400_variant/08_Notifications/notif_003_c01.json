@@ -1,0 +1,11 @@
+{
+  "chunk_id": "notif_003_c01",
+  "document_id": "notif_003",
+  "document_title": "Configure email notifications for a custom event",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/configure-email-notifications-for-a-custom-event/",
+  "category": "08_Notifications",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 3,
+  "content": "As a Jira administrator, you can set up a custom event to trigger an email notification for a custom workflow transition.\nCustom events are most commonly used to generate notifications for custom workflow transitions. For example, your organization might need you to modify the default workflow by adding a workflow step called QA_Inspection (e.g. between Resolve Work Item and Close Work Item). You would typically also need to generate an email notification to the QA team whenever a work item progresses to the QA_Inspection step of the workflow.\nThere are three overall steps to achieve this:\n- Add a custom event to the system (e.g. Work Item Awaiting QA).\n- Configure the notification scheme to send an email when the custom event is fired.\n- Configure the workflow transition post function to fire the custom event.\nAdd a custom event\nFirst, you need to create a custom event. Later, you'll use this to trigger the email. To add a custom event:\n- Select Settings (), then System.\n- In the sidebar, under ADVANCED, click Events.\n- In the Add New Event section, add a name and description for the custom event.\n- In the Template dropdown, select Generic event.\n- Select Add.\nThe custom event must be associated with the generic event email template. A notification scheme configured to notify users of this event will use this email template when sending the notification. It looks very similar to the “Work item updated” event email.\nThe custom event will appear in the list of events defined within the system. Initially, the event will be marked as inactive, as it is not associated with a notification scheme or workflow post function.\nConfigure the notification scheme to send email\nNow that you have your custom event created, you need to map it to a notification scheme. Notification schemes allow you to reuse your configurations across multiple spaces."
+}

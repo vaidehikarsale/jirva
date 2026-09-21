@@ -1,0 +1,70 @@
+.sidebar {
+  width: 224px;
+  flex-shrink: 0;
+  background: var(--color-surface);
+  border-right: 1px solid var(--color-border);
+  height: 100%;
+  padding: 18px 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-logo {
+  padding: 4px 10px 22px 10px;
+}
+
+.logo-text {
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+}
+
+.sidebar-divider {
+  height: 1px;
+  background: var(--color-border);
+  margin: 10px 8px;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: var(--radius);
+  color: var(--color-text-secondary);
+  font-size: 14px;
+  font-weight: 500;
+  transition: background var(--transition), color var(--transition);
+  border-left: 2px solid transparent;
+}
+
+.sidebar-link-icon {
+  flex-shrink: 0;
+  opacity: 0.8;
+}
+
+.sidebar-link:hover {
+  background: var(--color-neutral-bg);
+  color: var(--color-text);
+}
+
+.sidebar-link.active {
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+  border-left-color: var(--color-accent);
+}
+
+.sidebar-footer {
+  font-size: 11px;
+  color: var(--color-text-secondary);
+  padding: 10px;
+  opacity: 0.7;
+}

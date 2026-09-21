@@ -1,0 +1,11 @@
+{
+  "chunk_id": "fld_005_c03",
+  "document_id": "fld_005",
+  "document_title": "Associate fields with screens in Jira Cloud",
+  "source_url": "https://support.atlassian.com/jira/kb/associate-fields-with-screens-in-jira-cloud/",
+  "category": "05_Fields",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 3,
+  "chunk_count_in_doc": 3,
+  "content": "- Select Work item layout > Edit work item layout\nRequest type editor in Jira Service Management projects\n- Select Project settings\n- Select Request management > Request types > choose a category of request type\n- Select one of the request types from the page\n- Within the editor, you can add, remove, and reorder fields\nRelated Documentation\nWas this helpful?"
+}

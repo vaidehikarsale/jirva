@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_009_c26",
+  "document_id": "srch_009",
+  "document_title": "JQL fields reference",
+  "source_url": "https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 26,
+  "chunk_count_in_doc": 33,
+  "content": "| Syntax | textfields | \n|---|---|\n| Field Type | TEXT | \n| Auto-complete | No | \n| Supported operators | ~ | \n| Unsupported operators | !~, = , != , > , >= , < , <=IS , IS NOT , IN , NOT IN , WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED | \n| Supported functions | None | \n| Examples |  | \nTime spent\nOnly available if time-tracking has been enabled by your Jira administrator.\nSearch for work items where the time spent is set to a particular value (i.e. a number, not a date or date range). Use \"w\", \"d\", \"h\" and \"m\" to specify weeks, days, hours, or minutes.\n| Syntax | timeSpent | \n|---|---|\n| Field Type | DURATION | \n| Auto-complete | No | \n| Supported operators | = , != , > , >= , < , <= IS , IS NOT , IN , NOT IN | \n| Unsupported operators | ~ , !~ WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED | \n| Supported functions | None | \n| Examples | Find work items where the time spent is more than 5 days:timeSpent > 5d | \nType\nSearch for work items that have a particular work type. You can search by work type name or work type ID (i.e. the number that Jira automatically allocates to a work type).\n| Syntax | type | \n|---|---|\n| Alias | workType | \n| Field Type | WORK_TYPE | \n| Auto-complete | Yes | \n| Supported operators | = , != IS , IS NOT , IN , NOT IN |"
+}

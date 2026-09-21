@@ -1,0 +1,11 @@
+{
+  "chunk_id": "notif_001_c02",
+  "document_id": "notif_001",
+  "document_title": "Configure notification schemes",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/configure-notification-schemes/",
+  "category": "08_Notifications",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 6,
+  "content": "- Select Notification schemes to open the notification schemes page, which lists all the current notification schemes in your Jira installation.\n- Locate the notification scheme of interest and click its linked name to open the Edit Notifications page for that notification scheme. \nThe Edit Notifications page lists all of the events , along with the recipients who will receive notifications when each event occurs.\n- Select the Add link in the appropriate event row (see the list of events below), which opens the Add Notification page, where you can choose who to notify (about the event) from the list of available recipients (see below).\n- Select the appropriate recipient (filling in any required information for your particular choice of recipient).\n- Select the Add button. You are taken back to the Edit Notifications page (see above), with the notification you just specified now listed against the appropriate work item event.\n- If you make a mistake, or you would like to remove who is being notified, simply click the Delete link beside the person/group/role.\nAssociate a notification scheme with a space or space board\nNow that the scheme is created, you can associate the scheme with the spaces that you want to use it. Once associated, any events on that space or its board will trigger the notifications that you configured in the scheme.\nTo associate a notification scheme to a space (and its board):\n- Select Settings (), then Spaces.\n- Search for and select the space you want to associate the notification scheme with.\n- Next to the name of your space in the sidebar, select More actions (•••), then Space settings.\n- Select Notifications.\n- Select the Actions dropdown menu and choose Use a different scheme.\n- On the subsequent Associate Notification Scheme to Space page, which lists all available notification schemes, select the notification scheme you want to associate with the space and select the Associate button.\nEvents"
+}

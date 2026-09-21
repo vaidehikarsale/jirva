@@ -1,0 +1,11 @@
+{
+  "chunk_id": "ts_002_c03",
+  "document_id": "ts_002",
+  "document_title": "Common browser-related problems in Atlassian products",
+  "source_url": "https://support.atlassian.com/atlassian-knowledge-base/kb/browser-troubleshooting-guide/",
+  "category": "10_Troubleshooting",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 3,
+  "chunk_count_in_doc": 6,
+  "content": "Particularities of specific browsers\nMozilla Firefox:\nOne of the problems that may happen with Firefox is that some Atlassian Application pages (even the login page) have missing fields, gadgets, etc. This problem usually occurs on Firefox 17.0.1 and versions released after it. The cause of this problem is that Firefox has a property called \"Safebrowsing\". This may block some external communications even with trusted websites (like gadgets for example) or even block the site itself if it's considered \"Unsafe.\" To disable this option the user will have to browse through Tools/Security/ , uncheck \"Block reported attack sites\" and \"Block reported web forgeries\" and then clear the browser's cache.\nAlso, Mozilla Firefox has had a history of issues related to Memory Leaks. Some users may report that Atlassian Applications (or any other website/tool) is having performance issues only in this browser. Check the version of the browser that's being used and upgrade it to the latest version.\nThere is a bug reported in (JRA-31774) where in both Chrome and Firefox, there is a JQL query length limitation of 2.000 characters, but Internet Explorer doesn't have such a limitation. So sometimes a user creates a filter with more than 2.000 characters in Internet Explorer and later tries to use this same filter in Chrome or Firefox errors are thrown because of the length limitation. (This has been fixed in JIRA 6.0.5)\nInternet Explorer (IE):"
+}

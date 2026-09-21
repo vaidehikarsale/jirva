@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c22",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 22,
+  "chunk_count_in_doc": 28,
+  "content": "| Syntax | standardWorkTypes() | \n|---|---|\n| Supported fields | Type | \n| Supported operators | IN ,NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \nstartOfDay()\nPerform searches based on the start of the current day.\nSee also startOfWeek(), startOfMonth(), startOfYear(), endOfDay(), endOfWeek(), endOfMonth() and endOfYear().\n| Syntax | startOfDay() where inc is an optional increment of(+/-)nn(y\\|M\\|w\\|d\\|h\\|m) . If the time unit qualifier is omitted, it defaults to the natural period of the function, e.g.startOfDay(\"+1\") is the same asstartOfDay(\"+1d\") . If the plus/minus(+/-) sign is omitted, plus(+) is assumed. | \n|---|---|\n| Supported fields | Created, Due, Resolved, Updated, custom fields of type Date/Time | \n| Supported operators | = ,!= ,> ,>= ,< ,<= ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Unsupported operators | ~ ,!~ ,IS ,IS NOT ,IN ,NOT IN | \n| Examples |  | \nstartOfMonth()\nPerform searches based on the start of the current month."
+}

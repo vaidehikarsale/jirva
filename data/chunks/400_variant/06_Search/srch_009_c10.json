@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_009_c10",
+  "document_id": "srch_009",
+  "document_title": "JQL fields reference",
+  "source_url": "https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 10,
+  "chunk_count_in_doc": 33,
+  "content": "- An unnamed link statement in your typed query will override an ORDER BY statement in the saved filter.\n- You can’t run or save a filter that would cause an infinite loop (i.e. you can’t reference a saved filter if it eventually references your current filter).\n| Syntax | filter | \n|---|---|\n| Aliases | request , savedFilter , searchRequest  | \n| Field Type | Filter | \n| Auto-complete | Yes | \n| Supported operators | = , !=IN , NOT IN | \n| Unsupported operators | ~ , !~ , > , >= , < , <= IS , IS NOT, WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED | \n| Supported functions | None | \n| Examples |  | \nFix version\nSearch for work items that are assigned to a particular fix version. You can search by version name or version ID (i.e. the number that Jira automatically allocates to a version).\n| Syntax | fixVersion | \n|---|---|\n| Field Type | VERSION | \n| Auto-complete | Yes | \n| Supported operators | = , != , > , >= , < , <=IS , IS NOT, IN , NOT IN, WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED  Note that the comparison operators (e.g. \">\") use the version order that has been set up by your space admin, not a numeric or alphabetic order. | \n| Unsupported operators | ~ , !~ | \n| Supported functions | When used with the = and != operators, this field supports:  When used with the IN and NOT IN operators, this field supports:  | \n| Examples |  | \nHierarchy level\nFilter work items according to their hierarchy level using a JQL filter. This field uses numbers that correlate to hierarchy levels. Use:"
+}

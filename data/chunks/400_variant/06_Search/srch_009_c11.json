@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_009_c11",
+  "document_id": "srch_009",
+  "document_title": "JQL fields reference",
+  "source_url": "https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 11,
+  "chunk_count_in_doc": 33,
+  "content": "| Examples |  | \nHierarchy level\nFilter work items according to their hierarchy level using a JQL filter. This field uses numbers that correlate to hierarchy levels. Use:\n- 1 to filter by the level for larger pieces of work (for example, the parent work items your space uses to group related work). This level is defined by your Jira administrator.\n- 0 to filter by standard level work items, such as stories or tasks\n- -1 to filter by subtasks\nCurrently, this field doesn’t support custom hierarchy levels made in plans.\n| Syntax | hierarchyLevel | \n|---|---|\n| Field Type | Number | \n| Auto-complete | Yes | \n| Supported operators | = , != , > , >= , < , <= , IN , NOT IN | \n| Unsupported operators | ~ , !~ , IS, IS NOT, WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED | \n| Supported functions |  | \n| Examples |  | \nJourney\nSearch for work items that were created during a specific journey execution.\n| Syntax | journeyID | \n|---|---|\n| Auto-complete | No | \n| Supported operators | = , !=IN, NOT IN, IS, IS NOT | \n| Unsupported operators | > , >= , < , <=~ , !~ WAS NOT, WAS NOT IN, CHANGED  | \n| Supported functions | None | \n| Examples | Find work items with the journey ID \"123\":journeyID = 123 | \nJourney parent\nSearch for journey parent work items that were created using a specific journey type.\n| Syntax | journeyParentOfTypeId | \n|---|---|\n| Auto-complete | No | \n| Supported operators | = , !=IN, NOT IN, IS, IS NOT |"
+}

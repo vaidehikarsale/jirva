@@ -1,0 +1,11 @@
+{
+  "chunk_id": "wf_006_c01",
+  "document_id": "wf_006",
+  "document_title": "Use the simplified workflow",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/use-the-simplified-workflow/",
+  "category": "01_Workflows",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 2,
+  "content": "This is for company-managed software spaces only.\nBy default, software spaces with a scrum or kanban board use a simplified workflow, rather than a regular Jira workflow. Find out about the differences between simplified workflows and Jira workflow\nHowever, it’s also possible for software spaces to switch to using a regular Jira workflow. If your space is currently using the Jira workflow, you may want to switch it back to the simplified workflow. You will then be able to easily add new statuses from within your software space.\nNote that the default steps for the simplified workflow (described in the table above) will not be created when you switch from the Jira workflow. Your existing workflow steps will be included in the workflow instead. The default steps are only created if the simplified workflow is chosen when the board and space are created in your software space.\nBefore you begin\nTo configure the board and any of its settings, you must be either:\n- a space administrator for the location of the board\n- a board administrator for the board itself\nSee Permissions overview for more information.\nSwitch to the simplified workflow\nHow can I tell if my board is using the simplified workflow?\n- Next to your board’s name in the sidebar, select More actions (•••), then Board settings.\n- Select Layout to expand the menu, then select Columns.\n- Check what’s described under Workflow type.\nIf you’re using the simplified workflow, you’ll see the words: You’re using the simplified workflow. Otherwise, you’ll see the words: You’re using the Jira workflow.\nYou’ll also notice that the Add status button is missing if the space is using a Jira workflow.\nSpace prerequisites\nYou will only be able to switch to the simplified workflow if:"
+}

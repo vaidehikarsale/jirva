@@ -1,0 +1,8 @@
+{
+  "id": "jsm_002",
+  "title": "Check out your queues",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/check-out-your-queues/",
+  "category": "09_Jira_Service_Management",
+  "source_type": "Atlassian Official Documentation",
+  "content": "Customer requests become work items in your space, where they’re organized into queues.\nQueues let you quickly view, triage and assign work items as they come in. They also provide high-level information on a work item – usually a summary, status and customer name. Adding work categories (Service requests, Incidents, Problems, Changes, or Post-incident reviews) to your service space adds extra functionality to queues and your work items. Find out how to add work categories to a service space.\nQueues are usually sorted by a Service Level Agreement (SLA) or goal for your team's service interactions. A clock on the work item indicates the time until your team's next target is due.\nAgents working in Jira Service Management spaces spend most of their time working in queues, so it’s important to understand how they work. Read more about queues.\nWas this helpful?"
+}

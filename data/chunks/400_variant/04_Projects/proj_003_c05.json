@@ -1,0 +1,11 @@
+{
+  "chunk_id": "proj_003_c05",
+  "document_id": "proj_003",
+  "document_title": "Get started with team-managed spaces",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/get-started-with-team-managed-projects/",
+  "category": "04_Projects",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 5,
+  "chunk_count_in_doc": 6,
+  "content": "Customize card covers\nTo add or change a work item’s card cover on the board:\n- Hover over a work item.\n- Select More actions ().\n- Select Select cover.\n- Choose a color, gradient, photo by Unsplash, or an image attachment to set it as the cover.\nTo hide all card covers on the entire board:\n- On the board, select View settings.\n- In the Show fields section, select (or deselect) Card cover.\nYou can also add card cover images to company-managed software spaces.\nChoose the best view for your board\nAs your team works with the board, you might find that you need to cut through the noise to find exactly the right things to pick up and work on, or see what your team is up to.\nTeam-managed boards have default filters and grouping that can help you get a better view of your team’s work.\n- Select Filter below the space navigation (or use keyboard shortcut Shift +F ) to open the filter panel. Use these filters to display work items that match specific fields and values.\n- Use the search bar to display work items containing a specific search term.\n- Use the assignee filter to display work items assigned to a specific person.\n- Select Group by to display work items in swimlanes based on the chosen category.\nClear done work items from your board\nIf you work in a kanban style, Done work items are automatically cleared from the board every 14 days. If you’re working with a large number of work items, you can keep your board tidy by manually clearing the work items in your Done column.\nTo manually clear Done work items from your board, hover over the Done column and select More actions (…), then Clear Done work items.\nOnly space admins and Jira admins can clear Done work items. Work items will be automatically cleared from your board 14 days after being moved to the Done column."
+}

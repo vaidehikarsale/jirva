@@ -1,0 +1,11 @@
+{
+  "chunk_id": "perm_007_c02",
+  "document_id": "perm_007",
+  "document_title": "Permissions for company-managed projects",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/permissions-for-company-managed-projects/",
+  "category": "02_Permissions",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 3,
+  "content": "It can only be granted to users who have been invited by an admin.\nEdit workflows\nThe Edit workflows permission allows a user to update statuses and transitions in a workflow using the Workflow settings page. Users with this permission must use the new workflow editor.\nIt can only be granted to users who have been invited by an admin.\nThis permission can only allows a user to change a workflow if it’s not used by any other spaces. More about how permissions interact\nManage versions (releases)\nThe Manage versions (releases) permission allows users to create, release, archive, merge, edit and delete versions using the Releases feature. More about releases\nManage sprints\nThe Manage sprints permission allows users to create, start, and complete sprints as well as adjust the sprint duration and goal.\n- This permission does not allow users to update the work contained in a sprint. For that, users need the Schedule work items and Edit work items permissions. More about how permissions interact\n- If a sprint contains work from multiple boards, users need the Manage sprints permission in all spaces to update the sprint. Space roles can simplify handling this permission in complex setups. More about space roles\n- If your boards use complex JQL queries that unite work from multiple spaces, you may need to grant users the Manage sprints in all spaces in your site. An easier way to resolve problems from complex queries is to simplify your boards' JQL queries.\nView aggregated data\nThe View aggregated data permission allows users to see insights about their board, backlog, and deployments. This permission doesn’t require Jira app access, and can be granted to any user who has access to your site.\nEven if users don’t have access to a space, this permission can expose information such as:\n- the average estimations or work item count of a space\n- the work types used in a space"
+}

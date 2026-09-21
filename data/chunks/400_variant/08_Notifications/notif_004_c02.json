@@ -1,0 +1,11 @@
+{
+  "chunk_id": "notif_004_c02",
+  "document_id": "notif_004",
+  "document_title": "Manage your Jira personal settings",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/manage-your-jira-personal-settings/",
+  "category": "08_Notifications",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 4,
+  "content": "You can choose what notifications you’d like to receive from a variety of work item activity.\nYou can choose to receive (or not receive) notifications in-app or by email by using the checkboxes.\nUse the Customize space notifications section to set specific notifications for different spaces. You can customize notifications for up to 50 spaces.\nAll your notification settings (default or custom) act like a filter on top of the notification settings configured by your admin. If your admin has turned off a particular notification, you may not receive it even if you’ve chosen to receive that kind of notification in your settings.\nChoose email notifications for work item activity in Jira Cloud\nYour Jira admin sets up your default notifications. Depending on the space, you may get notifications when someone adds a comment on a work item or someone completes a work log entry. These actions tend to happen in short bursts, with a few small, individual changes added to a work item within minutes of each other.\nInstead of sending one email per change, Jira will consolidate individual updates into a single summary email. To make sure relevant updates are batched together, notifications could be delayed by up to 10 minutes.\nImportant notifications will come through immediately, like mentions, alerts, SLA notifications, and newly assigned work items.\nYou can override and control some of these notifications to reduce the amount of email you receive from Jira.\nOutside of these settings, you may receive other email notifications including:\n- Announcements and updates about your Jira site\n- Updates for work item filter subscriptions if you’ve set them up\n- Notifications for activity outside of Jira, including those regarding your Atlassian account\nLimit email notifications for work item activity\nBy default, you receive the notifications configured by your Jira admin."
+}

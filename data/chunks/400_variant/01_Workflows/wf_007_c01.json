@@ -1,0 +1,11 @@
+{
+  "chunk_id": "wf_007_c01",
+  "document_id": "wf_007",
+  "document_title": "Manage workflows and schemes",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/create-and-manage-issue-workflows-and-issue-workflow-schemes/",
+  "category": "01_Workflows",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 1,
+  "content": "Manage workflows and schemes\nCreate and manage workflow schemes to help define the lifecycle of your work.\nThe new workflow editor has all its actions in one place.\nView topic\nExplore workflows in Jira Cloud. Learn how to associate workflows with spaces or work types using a workflow scheme.\nView topic\nLearn how to activate, import, and export a workflow.\nView topic\nExplore how you can create, copy, import, and delete workflows in your spaces.\nView topic\nRead about setting up workflow transitions for your work items.\nView topic\nEdit work item workflows by configuring workflow triggers, conditions, validators, and post functions.\nView topic\nLearn how to configure statuses in your teams' workflows\nView topics\nLearn how to configure resolutions in Jira, and how to set them up in workflows for your teams.\nView topics\nExplore advanced configurations for transitions in Jira workflows.\nView topics\nExplore how to configure different issue workflow schemes in Jira Cloud.\nView topics\nLearn about why and how we create temporary workflows when you're making an update.\nView topic\nAccess, add, embed, edit, copy, and disable work item collectors in Jira Cloud.\nView topics"
+}

@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_005_c03",
+  "document_id": "srch_005",
+  "document_title": "Search for work items using the text field",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/search-syntax-for-text-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 3,
+  "chunk_count_in_doc": 10,
+  "content": "text ~ \"jira software\" AND text ~ \"\\\"hello world\\\"\"\nAs you can see in the preceding examples, when searching for an exact phrase, the query contains two pairs of quote-marks. The external ones are needed to meet the JQL rules and aren’t related to your search query.\nBoolean operators\nBoolean operators allow terms to be combined through logic operators. Jira supports AND, \"+\", OR, NOT and \"-\" as Boolean operators.\nBoolean operators must be ALL CAPS.\nOR\nThe OR operator is the default conjunction operator. This means that if there is no Boolean operator between two terms, the OR operator is used. The OR operator links two terms, and finds a matching document if either of the terms exist in a document. This is equivalent to a union using sets. The symbol || can be used in place of the word OR.\nTo search for documents that contain either \"atlassian jira\" or just \"confluence\", use the query:\n\"atlassian jira\" || confluence\nor\n\"atlassian jira\" OR confluence\nAND\nThe AND operator matches documents where both terms exist anywhere in the text of a single document. This is equivalent to an intersection using sets. The symbol && can be used in place of the word AND.\nTo search for documents that contain \"atlassian jira\" and \"work item tracking\", use the query:\n\"atlassian jira\" AND \"work item tracking\"\nRequired term\nThe \"+\" or required operator requires that the term after the \"+\" symbol exists somewhere in a the field of a single document.\nTo search for documents that must contain \"jira\" and may contain \"atlassian\", use the query:\n+jira atlassian\nNOT\nThe NOT operator excludes documents that contain the term after NOT. This is equivalent to a difference using sets. The symbol ! can be used in place of the word NOT."
+}

@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c09",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 9,
+  "chunk_count_in_doc": 28,
+  "content": "| Unsupported operators | ~ ,!~ ,IS ,IS NOT ,IN ,NOT IN | \n| Examples |  | \nendOfYear()\nPerform searches based on the end of the current year.\nSee also endOfDay(), endOfWeek(), endOfMonth(), startOfDay(), startOfWeek(), startOfMonth(), and startOfYear().\n| Syntax | endOfYear() where inc is an optional increment of(+/-)nn(y\\|M\\|w\\|d\\|h\\|m) . If the time unit qualifier is omitted, it defaults to the natural period of the function, e.g.endOfYear(\"+1\") is the same asendOfYear(\"+1y\") . If the plus/minus(+/-) sign is omitted, plus(+) is assumed. | \n|---|---|\n| Supported fields | Created, Due, Resolved, Updated, custom fields of type Date/Time | \n| Supported operators | = ,!= ,> ,>= ,< ,<= ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Unsupported operators | ~ ,!~ ,IS ,IS NOT ,IN ,NOT IN | \n| Examples |  | \nentitlementDetail()\nOnly applicable for sites with Jira Service Management subscriptions.\nPerform searches based on the entitlement’s details.\nTo use this JQL function, turn on Customer service management and Products and entitlements on the Features page in Space settings.\nThis function will return up to 32,000 entitlements.\n| Syntax | entitlementDetail(\"Field Name\", \"Field Value\") | \n|---|---|\n| Supported fields | Entitlement |"
+}

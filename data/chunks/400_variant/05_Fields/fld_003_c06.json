@@ -1,0 +1,11 @@
+{
+  "chunk_id": "fld_003_c06",
+  "document_id": "fld_003",
+  "document_title": "Customize work item fields in team-managed spaces",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/customize-an-issues-fields-in-team-managed-projects/",
+  "category": "05_Fields",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 6,
+  "chunk_count_in_doc": 6,
+  "content": "- Next to your space's name in the sidebar, select More actions (•••), then Space settings, then Work types.\n- Select the work type you want to edit.\n- Select the Required checkbox for any fields you want to make mandatory.\n- Select Save changes.\nOnce saved, new work items of that type can’t be created unless the required field is filled out.\nWas this helpful?"
+}

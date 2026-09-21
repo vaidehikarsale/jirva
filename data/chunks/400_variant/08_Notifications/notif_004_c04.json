@@ -1,0 +1,11 @@
+{
+  "chunk_id": "notif_004_c04",
+  "document_id": "notif_004",
+  "document_title": "Manage your Jira personal settings",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/manage-your-jira-personal-settings/",
+  "category": "08_Notifications",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 4,
+  "chunk_count_in_doc": 4,
+  "content": "To view and manage apps:\n- From the top right of your screen, select Settings ().\n- Under Personal Jira settings, select General settings.\n- Select Manage apps in the Connected apps section at the bottom of the page.\nCheck out Allowing OAuth access for more information on when to issue or revoke OAuth access tokens.\nWas this helpful?"
+}

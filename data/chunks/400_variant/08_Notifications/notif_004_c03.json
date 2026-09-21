@@ -1,0 +1,11 @@
+{
+  "chunk_id": "notif_004_c03",
+  "document_id": "notif_004",
+  "document_title": "Manage your Jira personal settings",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/manage-your-jira-personal-settings/",
+  "category": "08_Notifications",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 3,
+  "chunk_count_in_doc": 4,
+  "content": "- Notifications for activity outside of Jira, including those regarding your Atlassian account\nLimit email notifications for work item activity\nBy default, you receive the notifications configured by your Jira admin.\nTo choose not to receive email notifications for specific types of work item activity, or all work item activity in general:\n- From the top right of your screen, select Settings ().\n- Under Personal Jira settings, select Notification settings.\n- If not already there, select Spaces and work items in the side navigation.\n- Switch the toggle off for Send me emails for work item activity, or select the relevant checkboxes for email notifications you want to receive.\nYou can choose whether you receive email notifications for issue activity when:\n- You’re watching the work item\n- You’re the reporter\n- You're the assignee of the work item\n- Someone mentions you\n- You make changes to a work item\nEven if you clear all checkboxes, you may still receive other email notifications configured by your Jira admin.\nFilter emails in your inbox\nSummary emails have variable From fields, depending on who's adding updates to a work item:\n- The From field will be the actioner's name, if only one person added the updates presented in the email.\n- The From field will be Jira, if multiple people added the updates presented in the email.\nThe sender's email will always be jira@<yourinstance>.atlassian.net.\nManage connected apps\nYou can view and manage apps with access to your Jira account via the Personal settings page. These apps use OAuth access tokens issued by Jira to give them access to restricted data on an external, OAuth-compliant web application or website (also known as a \"consumer\").\nTo view and manage apps:\n- From the top right of your screen, select Settings ()."
+}

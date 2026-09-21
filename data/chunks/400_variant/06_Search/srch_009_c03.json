@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_009_c03",
+  "document_id": "srch_009",
+  "document_title": "JQL fields reference",
+  "source_url": "https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 3,
+  "chunk_count_in_doc": 33,
+  "content": "| Examples |  | \nAttachments\nSearch for work items that have or do not have attachments.\n| Syntax | attachments | \n|---|---|\n| Field Type | ATTACHMENT | \n| Auto-complete | Yes | \n| Supported operators | IS, IS NOT | \n| Unsupported operators | =, != , ~ , !~ , > , >= , < , <= IN, NOT IN, WAS, WAS IN, WAS NOT, WAS NOT IN, CHANGED | \n| Supported functions | None | \n| Examples |  | \nCategory\nSearch for work items that belong to spaces in a particular category.\n| Syntax | category | \n|---|---|\n| Field Type | CATEGORY | \n| Auto-complete | Yes | \n| Supported operators | =, !=IS, IS NOT, IN, NOT IN | \n| Unsupported operators | ~ , !~ , > , >= , < , <= WAS, WAS IN, WAS NOT, WAS NOT IN, CHANGED | \n| Supported functions | None | \n| Examples |  | \nChange gating type\nUsed in business spaces only.\nSearch for types of change gating that are used in change requests. \"Tracked-only\" requests are produced by integrations that stand separately from a change management process. These tools don't respect approval or change gating strategies. Change requests that are \"tracked-only\" are just for record-keeping purposes.\n| Syntax | change-gating-type | \n|---|---|\n| Field Type | TEXT | \n| Auto-complete | Yes | \n| Supported operators | = , != IS, IS NOT, IN, NOT IN | \n| Unsupported operators | ~ , !~ , > , >= , < , <=WAS, WAS IN, WAS NOT, WAS NOT IN, CHANGED | \n| Supported functions | None | \n| Examples |  | \nComment"
+}

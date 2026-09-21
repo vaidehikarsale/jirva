@@ -1,0 +1,11 @@
+{
+  "chunk_id": "fld_003_c02",
+  "document_id": "fld_003",
+  "document_title": "Customize work item fields in team-managed spaces",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/customize-an-issues-fields-in-team-managed-projects/",
+  "category": "05_Fields",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 6,
+  "content": "- Open a work item. From the Details section, select Edit fields (), then Create fields.\nOr, add a field via Space settings:\n- Next to the name of your space in the sidebar, select More actions (•••), then Space settings. Then go to Fields.\n- On this page, select Add fields. Once the field is in your space, it will appear on the Fields page, in the table. \n  - To reuse an existing field, search for it in the panel. To reuse a field from another space, it needs to have been created by an administrator and not in another team-managed project. How to use a field across your entire site.\n  - To make a new field that lives only in this space, use Create field. These fields can’t be reused by other spaces. More on the types of custom fields.\nFields can also be set for specific work types.\n- Next to your space's name in the sidebar, select More actions (•••), then Space settings, then Work types. Select the work type you want to add the field to.\n- Drag the field from the toolbar into the list of fields. Jira will highlight the areas you can drop the field into.\nTo rearrange the order of fields in the work item, drag and drop the fields into the order you prefer. To remove a field, drag the field back into the fields toolbar.\nThe previously created fields list contains:\n- Fields you created on other work types\n- Fields Jira created for you\n- Fields third-party apps created for you\nYou can drag previously created fields into your work type to reuse them. Using the same field between more than one work type makes it easier to sort, search, and report on those fields."
+}

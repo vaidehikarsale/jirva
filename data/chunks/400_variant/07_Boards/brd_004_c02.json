@@ -1,0 +1,11 @@
+{
+  "chunk_id": "brd_004_c02",
+  "document_id": "brd_004",
+  "document_title": "Configure columns",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/configure-columns/",
+  "category": "07_Boards",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 8,
+  "content": "- Expand the remainder of the menu in the sidebar by selecting Layout.\n- Select Columns.\n- Under Map statuses to columns, you can edit the columns as described in the following table.\n| Add a new column | To the right of the columns, select Add (+). Enter a name for the new column and select its category, then select Add column. If you’re using the simplified workflow, a new status will automatically be created to match your new column. More about the simplified workflow | \n|---|---|\n| Change the name of a column | Select a column’s name to edit, modify the existing name, then press Enter. | \n| Delete a column | Select Delete () at the top of the column. Any Jira workflow statuses mapped to the deleted column are moved back to the Unmapped statuses panel. What are Jira workflows? | \n| Move a column | Hover over the top of a column, then drag the column left or right to its new position. Drop the column to place it in its new position. | \nEach column has a gray, blue, or green bar, as shown in the screenshot above.\n- The single left-most column will always be grey, representing items in a new state.\n- The single right-most column will always be green, representing items in a successful state.\n- The middle column (or columns, if you add more) are always blue, representing items in progress.\nThese colors are shown in a number of places in Jira, such as gadgets for Jira apps.\nMap statuses to columns\nBy default, a board's columns are mapped to the default Jira statuses, as shown in the following tables. You can change this if you wish. For example, if you are using additional, customized Jira statuses, you will probably want to map them to appropriate columns in your board."
+}

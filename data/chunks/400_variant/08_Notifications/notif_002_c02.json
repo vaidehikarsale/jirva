@@ -1,0 +1,11 @@
+{
+  "chunk_id": "notif_002_c02",
+  "document_id": "notif_002",
+  "document_title": "Configure email notifications",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/configure-email-notifications/",
+  "category": "08_Notifications",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 3,
+  "content": "The 'Sender Address' for a space can be configured as follows:\n- Choose Settings (), then Spaces.\n- Find the space you want to change the sender address for and select More actions (•••), then Space settings.\n- Select Notifications.\n- Select the pencil icon to the right of the Email address.\n- On the Notification email page, select Edit next to the email card.\n- From the Email dropdown, choose a custom email address, or use the default Jira Cloud email. Alternatively, you may customize the email prefix if you choose to use the default Jira Cloud email.\n- Click Save.\nEmail recipients\nFor each event notification, Jira will only send the first encountered email intended for a recipient. Hence, in the case where a user is included in two or more recipient lists (e.g. the Space Lead and current reporter) for one event notification, the user will only receive the first encountered email notification. Jira will log the fact that this user was on multiple recipient lists.\nUser control over email notifications\nEach user on your Jira Cloud site (including you) can choose to turn off email notifications for certain situations, to reduce the amount of emails they get from Jira. To do this, a user needs to configure their personal settings.\nBy default, they'll get email updates for work item activity when:\n- They’re watching the work item\n- They’re the reporter\n- They’re the assignee for the work item\n- Someone mentions them\nIf they don't want email updates for certain types of work item activity, they can uncheck the relevant checkbox. For example, if they only want emails when someone mentions them, they should uncheck all checkboxes relating to work item activity except You’re mentioned in a comment\nEmail HTML formatting"
+}

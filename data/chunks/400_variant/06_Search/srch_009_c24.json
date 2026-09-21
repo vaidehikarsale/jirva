@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_009_c24",
+  "document_id": "srch_009",
+  "document_title": "JQL fields reference",
+  "source_url": "https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 24,
+  "chunk_count_in_doc": 33,
+  "content": "| Syntax | sprint | \n|---|---|\n| Field Type | NUMBER | \n| Auto-complete | Yes | \n| Supported operators | = , != IS , IS NOT, IN , NOT IN | \n| Unsupported operators | ~ , !~ , > , >= , < , <= WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED | \n| Supported functions |  | \n| Examples |  | \nStatus\nSearch for work items that have a particular status. You can search by status name or status ID (i.e. the number that Jira automatically allocates to a status).\nThe WAS, WAS NOT, WAS IN and WAS NOT IN operators can only be used with the name, not the ID.\n| Syntax | status | \n|---|---|\n| Field Type | STATUS | \n| Auto-complete | Yes | \n| Supported operators | = , != IS , IS NOT, IN , NOT IN , WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED | \n| Unsupported operators | ~ , !~ , > , >= , < , <= | \n| Supported functions | None | \n| Examples |  | \nSummary\nSearch for work items where the summary contains specific text using Jira text-search syntax. More about searching syntax for text fields.\n| Syntax | summary | \n|---|---|\n| Field Type | TEXT | \n| Auto-complete | No | \n| Supported operators | ~ , !~ IS , IS NOT | \n| Unsupported operators | = , != , > , >= , < , <=IN , NOT IN , WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED | \n| Supported functions | None | \n| Examples |  | \nText\nThis is a master-field that allows you to search all text fields for work items, such as:\n- Summary\n- Description\n- Environment\n- Comments"
+}

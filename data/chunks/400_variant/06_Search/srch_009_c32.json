@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_009_c32",
+  "document_id": "srch_009",
+  "document_title": "JQL fields reference",
+  "source_url": "https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 32,
+  "chunk_count_in_doc": 33,
+  "content": "Use this JQL query to add colors to your work item cards! For example, add a red stripe to work items that have some blockers, and keep all other work items green. This will help you bring the right information to your team’s attention, at a glance. For more info, see Customizing cards.\n| Syntax | workItemLinkType | \n|---|---|\n| Auto-complete | Yes | \n| Supported operators | = , !=IN , NOT IN | \n| Unsupported operators | ~ , !~ , > , >= , < , <= WAS , WAS IN , WAS NOT , WAS NOT IN , CHANGED , IS , IS NOT | \n| Supported functions | None | \n| Examples | Find work items:  | \nJira work item link types have the following properties:\n- Name: The title for the link type\n- Outward description: The description of how a work item affects other work items\n- Inward description: The description of how a work item is affected by other work items\nFor example, a link type could have the following properties:\n- Name: Problem/Incident\n- Outward description: causes\n- Inward description: is caused by\nWhen searching workItemLinkType, Jira searches all three properties. This can mean you're unable to isolate work items with a specific inward or outward description if the link type's name and either of the descriptions are the same. This is the case for the default \"Blocks\" link type, where the name and outward description are \"blocks\".\nIf you need to be able to search specifically for work items with an outward description of \"blocks\", for example, a Jira administrator must change the name of the link type to something else. If you're a Jira admin, take a look at Configuring work item linking for more info.\nWork ratio\nOnly available if time-tracking has been enabled by your Jira administrator."
+}

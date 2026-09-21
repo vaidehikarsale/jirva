@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_006_c01",
+  "document_id": "srch_006",
+  "document_title": "What is a saved search",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/what-is-a-saved-search/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 2,
+  "content": "You can save work item searches as filters. You can search for work items using different criteria in basic or advanced search, and then save your search criteria as a filter, becoming the filter’s owner. The owner can decide what to do with their filter — either make it private for personal use or share it with different entities, such as users, spaces, or groups. If the filter is private, only the owner and Jira admin can view and modify it.\nTo access all work:\n- From the top navigation bar, select Search .\n- Select View all work items.\nSave your search\nSave your search criteria with a filter so you can get to your work items faster.\n- Define and run your search.\n- Select Save as above the search results.\n- Enter a name for the new filter and select Submit.\nBy default, when you create a filter, it’ll be starred. You can remove a starred filter by selecting Filters from the sidebar and removing it from the list.\nTo see all the filters, select Filters, then View all filters from the sidebar.\nIf you’re in a team-managed space, you won’t be able to see the list of filters (system and starred) in the sidebar. To see your starred filters in a team-managed space, you need to select Filters from the sidebar.\nRun a saved search\nSaved searches (also known as filters) are shown in the sidebar. To run a filter—for example, My open work items—select the filter name. If you can't see the sidebar, select the arrow below the Jira logo to expand it.\nSelecting some filters, like the Viewed recently filter, will switch you to the advanced search (JQL) as the basic search can't represent the ORDER BY clause in this filter.\nFilters in Jira\nSystem filters"
+}

@@ -1,0 +1,11 @@
+{
+  "chunk_id": "brd_005_c03",
+  "document_id": "brd_005",
+  "document_title": "Monitor work in a kanban space",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/monitor-work-in-a-kanban-project/",
+  "category": "07_Boards",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 3,
+  "chunk_count_in_doc": 3,
+  "content": "| Create subtasks | Select a work item and select . Subtasks are useful for breaking a story (work item) down into implementable chunks. | \n| Flag a work item | Select a work item and select More actions (), then Add flag. | \n| Delete a work item | Select a work item and select More actions (), then Delete. | \n| Bulk change work items |  More about bulk changing work items | \n| Release work items | Select Release to release completed work items. When you release work items, these work items no longer appear in the Done column, and a release version is created, which you can view in the Releases tab of the space. | \nWas this helpful?"
+}

@@ -1,0 +1,4 @@
+category,prefix,title,url
+01_Workflows,wf,Configure workflow schemes,https://support.atlassian.com/jira-cloud-administration/docs/configure-workflow-schemes/
+01_Workflows,wf,Enable a workflow,https://support.atlassian.com/jira-cloud-administration/docs/manage-issue-workflows/
+01_Workflows,wf,How to create workflows for business spaces,https://support.atlassian.com/jira-software-cloud/docs/how-to-create-workflows/

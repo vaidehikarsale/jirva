@@ -1,0 +1,11 @@
+{
+  "chunk_id": "fld_004_c01",
+  "document_id": "fld_004",
+  "document_title": "Edit or delete a custom field",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/edit-or-delete-a-custom-field/",
+  "category": "05_Fields",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 2,
+  "content": "Fields capture data about work items in your site. As admin, you hold the keys to creating fields that align with how your organization works.\nJira comes with fields essential to planning, but admins can create additional fields that match how their organization manages work. Unlike those made in team-managed spaces, fields created by Jira admins can be re-used across multiple spaces, which has benefits for organizations at scale:\n- Better reporting and visibility - the same fields across multiple spaces collect key business metrics and insights into one dataset which can then be used to generate reports for stakeholders.\nWhen creating a field for reporting purposes, fields with predefined options such as Single select, multi-select, or Checkboxes work best. Open-ended fields like Text fields can result in variants and unclean data which makes reporting difficult. More about types of fields\n- Simpler management - As the admin, fields that you create are managed in one place. Updates the fields once, and the changes automatically apply across your site.\nWays you can manage fields\nJira offers a number of configuration options to show fields when and where they’re needed. There’s no right way to configure your site, but the differences between the different configuration options can be overwhelming.\nWhy isn’t my field showing where it’s supposed to?\nJira’s field management tools give you granular control over what shows where. They can also conflict with each other. The Find your field function checks all of your configurations to find blockers. How to find missing fields\nGroup fields together with Field configurations and Field configuration schemes\nWhether you’re using a field that came with Jira or one you’ve made yourself, start by grouping fields together into a field configuration. These can be grouped together and assigned to individual work types using field configuration schemes. More about field configurations\nConfigure which fields a space uses"
+}

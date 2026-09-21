@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c17",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 17,
+  "chunk_count_in_doc": 28,
+  "content": "Search for all requests sent by the members of an organization. Returns requests that the members have shared with or kept private from that organization, and with any other organizations they're a member of.\nIf an organizationMembers() function in your JQL query returns more than 10,000 users, the search won't run and you'll get an error. To fix this, reduce the organization size in your query or use labels or custom fields to filter instead.\n| Syntax | organizationMembers() | \n|---|---|\n| Supported fields | Assignee, Reporter, Voter, Watcher, custom fields of type User | \n| Supported operators | IN ,NOT IN ,WAS IN ,WAS NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS NOT ,CHANGED | \n| Examples |  | \nparentEpic\nOnly applicable for company-managed spaces.\nSearch for work items and subtasks that are linked to the parent-level work type used for larger pieces of work (epic by default in software spaces).\n| Syntax | parentEpic = workItemkey | \n|---|---|\n| Supported fields | Work item | \n| Supported operators | = ,!= ,IN ,NOT IN | \n| Unsupported operators | ~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \npaused()\nOnly applicable for sites with Jira Service Management subscriptions.\nReturns work items that have an SLA that is paused due to a condition.\nTo find work items that are paused because they are outside calendar hours, use withinCalendarHours().\n| Syntax | paused() | \n|---|---|"
+}

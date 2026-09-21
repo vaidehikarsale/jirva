@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_005_c01",
+  "document_id": "srch_005",
+  "document_title": "Search for work items using the text field",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/search-syntax-for-text-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 10,
+  "content": "Search for work items using the text field with the right syntax. You can use the syntax for text fields when searching for recent or specific work items (supported fields), and advanced search (when CONTAINS (~) operator is used).\nTo search for a word like \"customize\" on an individual field, like the summary, use summary ~ \"customize\". To perform a search of all text fields, use text ~ \"customize\". For more examples, check out Advanced searching - fields reference.\nSearch syntax for text fields\nThe below information will help you understand the syntax you can use for searching.\nQuery terms\nA query is broken up into terms and operators. There are two types of terms: single terms (e.g. \"hello\") and phrases (e.g. \"hello dolly\"). Query terms in Jira are not case-sensitive. Multiple terms can be combined together with Boolean operators to form a more complex query (see below). If you combine multiple terms without specifying any Boolean operators, they will be joined using AND operators.\nTerm searches\nYou can search for multiple-character wildcard searches using * at the end of a word. Multiple character wildcard searches enclosed in quotation marks look for 0 or more characters. For example, to search for Windows, Win95, or WindowsNT, you can use the search:\nwin*\nUnsupported term searches:\n- A single character search ( ? ) will automatically convert to a wildcard search ( * ) at the end of the term.\n- Operators for fuzzy search ( ~ ), proximity search, and term boosting ( ^ ) no longer have an affect on searches. When these operators are present in a search, they will be ignored.\nExact searches (phrases)"
+}

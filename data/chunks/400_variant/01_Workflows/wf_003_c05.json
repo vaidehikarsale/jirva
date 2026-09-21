@@ -1,0 +1,11 @@
+{
+  "chunk_id": "wf_003_c05",
+  "document_id": "wf_003",
+  "document_title": "How to create workflows for business spaces",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/how-to-create-workflows/",
+  "category": "01_Workflows",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 5,
+  "chunk_count_in_doc": 6,
+  "content": "To change to a different initial status (the first one after the circle), click the transition line then drag the arrow from the existing initial status to your new one.\nManage task actions through transitions\nYou can take control over how your work items behave as they are progressing through the workflow by customizing transitions. For example, you can make sure work items are always assigned to a certain person when they are in a certain status.\nNote that this is an advanced task.\nControl status changes using conditions\nUse conditions to determine who can change work items from one specific status to another. For example, make it so that only a particular assignee (like a reviewer) can change the status of a work item to Ready to publish.\nSet up validation tasks\nUse validators to ensure that a status change gets validated before it happens. For example, before changing to a Review status, a validator can check if a draft is ready.\nCreate automatic actions\nUse post-functions to trigger specific changes on work items after they've passed conditions and validators. For example, you can set a post-function to make sure a resolution reason is always given when the resolution is set.\nControl assignees for specific statuses\nYou can make it so that whenever a status of a work item is changed, it forces the user to choose a new assignee. This ensures that the next part of the work gets done by the right person. See advanced workflow configuration for more.\nManage transition properties\nBusiness spaces recognize some properties on transitions. The most common one is to limit resolutions displayed to the user on a given transition. For example, we might want the resolution scratched to show up for disk media when retiring, but not for books.\nFor more information about these tasks, see Advanced workflow configuration.\nGet the most out of your workflows"
+}

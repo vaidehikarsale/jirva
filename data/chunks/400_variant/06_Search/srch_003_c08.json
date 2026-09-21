@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c08",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 8,
+  "chunk_count_in_doc": 28,
+  "content": "| Unsupported operators | ~ ,!~ ,IS ,IS NOT ,IN ,NOT IN | \n| Examples |  | \nendOfWeek()\nSearch for work items that are due by the end of the last day of the current week. By default, this function considers Saturday to be the last day of the week. You can use a different day (for example, Sunday) as the end of the week. See the syntax in the examples mentioned below.\nSee also endOfDay(), endOfMonth(), endOfYear(), startOfDay(), startOfWeek(), startOfMonth(), and startOfYear().\n| Syntax | endOfWeek() where inc is an optional increment of(+/-)nn(y\\|M\\|w\\|d\\|h\\|m) . If the time unit qualifier is omitted, it defaults to the natural period of the function, e.g.endOfWeek(\"+1\") is the same asendOfWeek(\"+1w\") . If the plus/minus(+/-) sign is omitted, plus(+) is assumed. | \n|---|---|\n| Supported fields | Created, Due, Resolved, Updated, custom fields of type Date/Time | \n| Supported operators | = ,!= ,> ,>= ,< ,<= ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Unsupported operators | ~ ,!~ ,IS ,IS NOT ,IN ,NOT IN | \n| Examples |  | \nendOfYear()\nPerform searches based on the end of the current year."
+}

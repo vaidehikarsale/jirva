@@ -1,0 +1,11 @@
+{
+  "chunk_id": "jsm_003_c03",
+  "document_id": "jsm_003",
+  "document_title": "Best practices for managing queues at scale",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/best-practices-for-managing-queues-at-scale/",
+  "category": "09_Jira_Service_Management",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 3,
+  "chunk_count_in_doc": 3,
+  "content": "- JQL clauses provided by Marketplace apps installed on your site can sometimes be problematic. Reduce their use if a queue is underperforming.\nUpdate the queues that search text fields for keywords\nIt is possible to create queues that will perform full-text searches across work items. These queues perform on-the-fly categorization, and might suggest room for improvement in your work item structure. For example, you might be trying to extract “summary ~ ‘fault’” or “description ~ ‘component name’” or the worst of all “text ~ ‘thing’”.\nWe recommend:\n- using request types and hidden fields to help customer categorize work items at point of creation, then build queues based on categories\n- Automation flows to categorize work items (e.g. applying components or labels) then build queues based on categories.\n- Use Filters or Search for finding specific work items.\nBuild dynamic queues that work for individuals\nQueues in ‘priority groups’ are sometimes not for everyone. When faced with all the noise of a busy space, it’s not uncommon for individuals to create queues for themselves. Although this might boost their productivity, it will slow everyone else down who has to see and load a queue that is irrelevant to them.\nWe recommend:\n- building dynamic, personalized queues using JQL functions like “currentUser()”\n- encouraging your agents to star queues that are relevant to them\nWas this helpful?"
+}

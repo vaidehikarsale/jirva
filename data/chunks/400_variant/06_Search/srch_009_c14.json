@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_009_c14",
+  "document_id": "srch_009",
+  "document_title": "JQL fields reference",
+  "source_url": "https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 14,
+  "chunk_count_in_doc": 33,
+  "content": "\"yyyy/MM/dd HH:mm\"\"yyyy-MM-dd HH:mm\"\"yyyy/MM/dd\"\"yyyy-MM-dd\"\nOr use \"w\" (weeks), \"d\" (days), \"h\" (hours) or \"m\" (minutes) to specify a date relative to the current time. The default is \"m\" (minutes). Be sure to use quote-marks (\"); if you omit the quote-marks, the number you supply will be interpreted as milliseconds after epoch (1970-1-1).\n| Syntax | lastViewed | \n|---|---|\n| Field Type | DATE | \n| Auto-complete | No | \n| Supported operators | = , != , > , >= , < , <=IS , IS NOT, IN , NOT IN | \n| Unsupported operators | ~ , !~ WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED  | \n| Supported functions | When used with the EQUALS, NOT EQUALS, GREATER THAN, GREATER THAN EQUALS, LESS THAN or LESS THAN EQUALS operators, this field supports:  | \n| Examples |  | \nLevel\nOnly available if work-level security has been enabled by your Jira administrator.\nSearch for work items with a particular security level. You can search by work-level security name or work item level security ID (i.e. the number that Jira automatically allocates to a work-level security).\n| Syntax | level | \n|---|---|\n| Field Type | SECURITY LEVEL | \n| Auto-complete | Yes | \n| Supported operators | = , != IS , IS NOT, IN , NOT IN |"
+}

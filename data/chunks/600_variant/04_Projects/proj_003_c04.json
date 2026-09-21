@@ -1,0 +1,11 @@
+{
+  "chunk_id": "proj_003_c04",
+  "document_id": "proj_003",
+  "document_title": "Get started with team-managed spaces",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/get-started-with-team-managed-projects/",
+  "category": "04_Projects",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 4,
+  "chunk_count_in_doc": 4,
+  "content": "- Select Filter below the space navigation (or use keyboard shortcut Shift +F ) to open the filter panel. Use these filters to display work items that match specific fields and values.\n- Use the search bar to display work items containing a specific search term.\n- Use the assignee filter to display work items assigned to a specific person.\n- Select Group by to display work items in swimlanes based on the chosen category.\nClear done work items from your board\nIf you work in a kanban style, Done work items are automatically cleared from the board every 14 days. If you’re working with a large number of work items, you can keep your board tidy by manually clearing the work items in your Done column.\nTo manually clear Done work items from your board, hover over the Done column and select More actions (…), then Clear Done work items.\nOnly space admins and Jira admins can clear Done work items. Work items will be automatically cleared from your board 14 days after being moved to the Done column.\nOnce a work item is cleared, it will no longer appear on your board. This also applies to the work item’s subtasks. When a parent work item is cleared, its subtasks are also cleared, regardless of each subtask’s status.\nTo view cleared work items, select See all Done work items in the Done column, or enable the space work item navigator and select the Done filter.\nLearn more\nIf you want to learn more or want to ask us about Jira's team-managed spaces, join the discussion at Atlassian Community.\nWas this helpful?"
+}

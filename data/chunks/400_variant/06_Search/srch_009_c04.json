@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_009_c04",
+  "document_id": "srch_009",
+  "document_title": "JQL fields reference",
+  "source_url": "https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 4,
+  "chunk_count_in_doc": 33,
+  "content": "| Unsupported operators | ~ , !~ , > , >= , < , <=WAS, WAS IN, WAS NOT, WAS NOT IN, CHANGED | \n| Supported functions | None | \n| Examples |  | \nComment\nSearch for work items that have a comment that contains particular text using Jira text-search syntax. More about searching syntax for text fields.\nIf a work item has more than 1,000 comments, JQL will only search the most recent ones. To find content in older comments, use the work item view or export the data directly.\n| Syntax | comment | \n|---|---|\n| Field Type | TEXT | \n| Auto-complete | No | \n| Supported operators | ~ , !~ | \n| Unsupported operators | = , != , > , >= , < , <= IS, IS NOT, IN, NOT IN, WAS, WAS IN, WAS NOT, WAS NOT IN, CHANGED | \n| Supported functions | None | \n| Examples |  | \nComponent\nSearch for work items that belong to a particular component(s) of a space. You can search by component name or component ID (i.e. the number that Jira automatically allocates to a component).\n| Syntax | component | \n|---|---|\n| Field Type | COMPONENT | \n| Auto-complete | Yes | \n| Supported operators | = , != IS , IS NOT , IN , NOT IN | \n| Unsupported operators | ~ , !~ , > , >= , < , <= WAS, WAS IN, WAS NOT, WAS NOT IN, CHANGED | \n| Supported functions | When used with the IN and NOT IN operators, component supports:  | \n| Examples |  | \nCreated"
+}

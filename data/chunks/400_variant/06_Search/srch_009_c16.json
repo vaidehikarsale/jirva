@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_009_c16",
+  "document_id": "srch_009",
+  "document_title": "JQL fields reference",
+  "source_url": "https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 16,
+  "chunk_count_in_doc": 33,
+  "content": "Parent\nSearch for all child work items of a parent work item. For example, you can view all stories under the larger piece of work they belong to. This field works for both team-managed and company-managed spaces.\nYou can search by work item key or by ID.\n| Syntax | parent | \n|---|---|\n| Field Type | WORKITEM | \n| Auto-complete | No | \n| Supported operators | = , != IN , NOT IN | \n| Unsupported operators | > , >= , < , <= , ~ , !~ IS , IS NOT, WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED  | \n| Supported functions | None | \n| Examples |  | \nParent space\nSearch for all child work items with a parent work item that belongs to a specific space. You can search by the name of a space or space ID (i.e. the number that Jira automatically allocates to a space).\n| Syntax | parentSpace | \n|---|---|\n| Field Type | PROJECT | \n| Auto-complete | No | \n| Supported operators | =, !=, IN, NOT IN | \n| Unsupported operators | ~, !~ WAS, WAS IN, WAS NOT, WAS NOT IN, CHANGED | \n| Supported functions | When used with the IN and NOT IN operators, space supports:  | \n| Examples |  | \nPriority\nSearch for work items with a particular priority. You can search by priority name or priority ID (i.e. the number that Jira automatically allocates to a priority).\n| Syntax | priority | \n|---|---|\n| Field Type | PRIORITY | \n| Auto-complete | Yes | \n| Supported operators | = , != , > , >= , < , <= IS , IS NOT, IN , NOT IN , WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED  |"
+}

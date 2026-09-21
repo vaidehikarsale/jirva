@@ -3,3 +3,16 @@ __pycache__/
 node_modules/
 *.pyc
 .venv/
+ 
+# Frontend build output (generated, not source)
+frontend/dist/
+ 
+# Logs
+*.log
+ 
+# OS junk
+.DS_Store
+Thumbs.db
+ 
+# Runtime/test data - not committed, resets locally per your decision
+data/tickets_store.json

@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_007_c01",
+  "document_id": "srch_007",
+  "document_title": "Save your search as a filter",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/save-your-search-as-a-filter/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 1,
+  "content": "Learn more about saved searches and use filters in Jira.\nJira's powerful work item search functionality is enhanced by the ability to save searches, called filters, for later use. You can do the following with Jira filters:\n- Share and email search results with your colleagues, as well as people outside of your organization\n- Create lists of favorite filters\n- Have search results emailed to you according to your preferred schedule\n- View and export the search results in various formats (for example, RSS or Excel)\n- Display the search results in a report format\n- Display the search results in a dashboard gadget\nWas this helpful?"
+}

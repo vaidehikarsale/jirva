@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c06",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 6,
+  "chunk_count_in_doc": 28,
+  "content": "| Examples |  | \nearliestUnreleasedVersion()\nPerform searches based on the earliest unreleased version in a space. See also unreleasedVersions().\nVersion order is determined by the order versions are placed in on the Releases page in the space. The version at the bottom of the list is considered the \"earliest.\" To change the order of versions, drag and drop them to a new place in the list.\n| Syntax | earliestUnreleasedVersion(space) | \n|---|---|\n| Supported fields | AffectedVersion, FixVersion, custom fields of type Version | \n| Supported operators | = ,!= | \n| Unsupported operators | ~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,IN ,NOT IN ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \nendOfDay()\nPerform searches based on the end of the current day.\nSee also endOfWeek(), endOfMonth(), endOfYear(), startOfDay(), startOfWeek(), startOfMonth(), and startOfYear().\n| Syntax | endOfDay() where inc is an optional increment of(+/-)nn(y\\|M\\|w\\|d\\|h\\|m) . If the time unit qualifier is omitted, it defaults to the natural period of the function, e.g.endOfDay(\"+1\") is the same asendOfDay(\"+1d\") . If the plus/minus(+/-) sign is omitted, plus(+) is assumed. | \n|---|---|\n| Supported fields | Created, Due, Resolved, Updated, custom fields of type Date/Time |"
+}

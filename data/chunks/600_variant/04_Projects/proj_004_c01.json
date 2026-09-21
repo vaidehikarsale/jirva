@@ -1,0 +1,11 @@
+{
+  "chunk_id": "proj_004_c01",
+  "document_id": "proj_004",
+  "document_title": "What type of project am I using",
+  "source_url": "https://support.atlassian.com/jira/kb/what-type-of-project-am-i-using/",
+  "category": "04_Projects",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 1,
+  "content": "Summary\nThis question can refer both to whether a project is company-managed or team-managed and which particular Jira app the project uses.\nYou can find this information for each project on your View all projects page:\nhttps://<your site name>.atlassian.net/jira/projects\nSolution\nJira Service Management (JSM)\n- Previously called Jira Service Desk\n- JSM projects will have a URL that contains “ /servicedesk/ ”\n- In a site’s View all projects page, JSM projects will show Type: Service management\nJira Software projects\n- Software projects will have a URL that contains “ /software/ ”\n- In a site’s View all projects page software projects will show Type: Company/Team-managed Software\n- Side note: JSW projects can user either a Scrum or Kanban board\nJira Business projects\n- Previously called Jira Core and Jira Work Management (JWM)\n- Business projects will have a URL that includes “ /core/ ”\n- In a site’s View all projects page, Business projects will show Type: Company/Team-managed Business\nWas this helpful?"
+}

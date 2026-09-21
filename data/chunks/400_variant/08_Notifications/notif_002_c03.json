@@ -1,0 +1,11 @@
+{
+  "chunk_id": "notif_002_c03",
+  "document_id": "notif_002",
+  "document_title": "Configure email notifications",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/configure-email-notifications/",
+  "category": "08_Notifications",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 3,
+  "chunk_count_in_doc": 3,
+  "content": "Email HTML formatting\nEach Jira user can specify in their personal settings whether to send outgoing emails in text or HTML format. Jira Administrators can specify a default email format:\n- Choose Settings (), then System.\n- Select Default user preferences.\n- Select Edit default values.\n- In the Email format dropdown, choose either text or html.\n- Select Update.\nTroubleshoot email notifications\nTo diagnose why a user is or is not receiving notifications for a work item, admins can log in as a user to impersonate them and view their notification configuration setup to help troubleshoot.\nJira can send a maximum of 100 emails per day on the Free plan. After 100 emails, notifications are paused until the following day. You can upgrade your plan to allow for more email notifications. When upgrading to a paid plan, it may take up to 30 days for this limit to be lifted. If you're trialing a Standard, Premium or Enterprise plan, or have recently upgraded to a paid plan, and need to increase your daily email limit, contact our support team.\nWas this helpful?"
+}

@@ -1,0 +1,11 @@
+{
+  "chunk_id": "notif_001_c06",
+  "document_id": "notif_001",
+  "document_title": "Configure notification schemes",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/configure-notification-schemes/",
+  "category": "08_Notifications",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 6,
+  "chunk_count_in_doc": 6,
+  "content": "- are members of any work item security levels that have been applied to the work item.\nJira can only send email notifications if SMTP email has been enabled (see Configuring email notifications).\nJira's default setting is to not notify users of their own changes. This can be changed on a per user basis via their profile preferences.\nCustomize the look and feel of your email notifications\nCurrently, Jira Cloud does not offer a way for you to customize the look and feel of your email notifications. But, there are many third party apps available on the Atlassian Marketplace that can help you.\nWas this helpful?"
+}

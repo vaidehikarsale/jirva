@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c08",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 8,
+  "chunk_count_in_doc": 18,
+  "content": "It is possible for work items to belong to both a completed sprint(s) and an incomplete sprint(s).\n| Syntax | futureSprints() | \n|---|---|\n| Supported fields | Sprint | \n| Supported operators | IN ,NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \nworkItemHistory()\nFind work items that you have recently viewed, i.e. work items that are in the 'Recent work' section of the 'Work items' dropdown menu.\n- workItemHistory() returns up to 50 work items, whereas the 'Recent work' dropdown returns only 5.\n- If you are not logged in to Jira, only work items from your current browser session will be included.\n| Syntax | workItemHistory() | \n|---|---|\n| Supported fields | Work item | \n| Supported operators | IN ,NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \nworkItemsWithRemoteLinksByGlobalId()\nPerform searches based on work items that are associated with remote links that have any of the specified global IDs.\nThis function accepts 1 to 100 globalIds. Specifying 0 or more than 100 globalIds will result in errors.\n| Syntax | workItemsWithRemoteLinksByGlobalId(globalId) | \n|---|---|\n| Supported fields | Work item | \n| Supported operators | IN ,NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \nlastLogin()\nPerform searches based on the time at which the current user's previous session began. See also currentLogin().\n| Syntax | lastLogin() | \n|---|---|\n| Supported fields | Created, Due, Resolved, Updated, custom fields of type Date/Time | \n| Supported operators | = ,!= ,> ,>= ,< ,<= ,WAS * ,WAS IN * ,WAS NOT * ,WAS NOT IN *,CHANGED * * Only in predicate | \n| Unsupported operators | ~ ,!~ ,IS ,IS NOT ,IN ,NOT IN | \n| Examples |  | \nlatestReleasedVersion()"
+}

@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_009_c22",
+  "document_id": "srch_009",
+  "document_title": "JQL fields reference",
+  "source_url": "https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 22,
+  "chunk_count_in_doc": 22,
+  "content": "| Field Type | NUMBER | \n| Auto-complete | No | \n| Supported operators | = , != , > , >= , < , <= IS , IS NOT , IN , NOT IN | \n| Unsupported operators | ~ , !~ WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED | \n| Supported functions | None | \n| Examples | Find work items on which more than 75% of the original estimate has been spent:workRatio > 75 | \nWas this helpful?"
+}

@@ -1,0 +1,11 @@
+{
+  "chunk_id": "jsm_001_c02",
+  "document_id": "jsm_001",
+  "document_title": "What are queues",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/what-are-queues/",
+  "category": "09_Jira_Service_Management",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 2,
+  "content": "You can add views to your queue so that you can visualize and manage your work in different ways. By default, queues have a list view of your work, but you can add a board or calendar to your queue and see your work items in the way that works best for you and your team. Find out how to add views to queues.\nThe total number of queues is limited to 300 per service space per work category across all sections. Any given queue will only refresh its count up until 999 work items at which point it will display 999+.\nIt is possible for an under-performing queue to present a warning instead of showing the number of work items in that queue. In this occasion, space admins are advised to reconfigure the queue’s filters. Learn more about the best practices for managing queues at scale.\nWas this helpful?"
+}

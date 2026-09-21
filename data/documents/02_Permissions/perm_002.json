@@ -1,0 +1,8 @@
+{
+  "id": "perm_002",
+  "title": "Manage permissions",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/manage-permissions/",
+  "category": "02_Permissions",
+  "source_type": "Atlassian Official Documentation",
+  "content": "Define who can access your Jira site using Permissions\nA quick overview of the types of permissions you'll find in Jira, and how they interact.\nView topic\nGlobal permissions span multiple spaces throughout your entire site\nView topic\nView and edit the global permissions of users and groups in your site\nView topic\nThe Permission helper is a great tool for diagnosing permissions misconfigurations.\nView topic\nHaving troubles setting up permissions? Here's some common solutions.\nView topic\nWas this helpful?\nYes\nNo\nIt wasn't accurate\nIt wasn't clear\nIt wasn't relevant\nProvide feedback about this article\nStill need help?\nThe Atlassian Community is here for you.\nAsk the Community\nExplore more\nTypes of permissions in Jira\nWhat are global permissions, and what do they control?\nView, grant, revoke global permissions in Jira\nCheck a user’s access from a work item\nTroubleshoot permissions configurations\nManage permissions in Jira Cloud\nDefine who can access your Jira site using Permissions\nGrant space permissions using permission schemes\nTypes of permissions you can grant in a space scheme\nRestrict sensitive data using work item security schemes\nInvite and manage guests in Jira\nCommunity\nQuestions, discussions, and articles"
+}

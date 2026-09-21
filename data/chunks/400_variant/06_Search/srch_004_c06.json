@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_004_c06",
+  "document_id": "srch_004",
+  "document_title": "JQL operators",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-operators/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 6,
+  "chunk_count_in_doc": 13,
+  "content": "Examples\n- Find all work items where the Assignee is someone other than Jack, Jill, or John: assignee not in (Jack,Jill,John)\n- Find all work items where the Assignee is someone other than Jack, Jill, or John whose Atlassian account IDs are abcde-12345-fedcba or fedcb-12345-edcba or cdefb-67895-cbaed, respectively: assignee not in (abcde-12345-fedcba,fedcb-12345-edcba,cdefb-67895-cbaed)\n- Find all work items where the Assignee is not Jack, Jill, or John: assignee not in (Jack,Jill,John) or assignee is empty\n- Find all work items where the Assignee is not Jack, Jill, or John whose Atlassian account IDs are abcde-12345-fedcba or fedcb-12345-edcba or cdefb-67895-cbaed, respectively: assignee not in (abcde-12345-fedcba,fedcb-12345-edcba,cdefb-67895-cbaed) or assignee is empty\n- Find all work items where the FixVersion is not 'A', 'B', 'C', or 'D': FixVersion not in (A, B, C, D)\n- Find all work items where the FixVersion is not 'A', 'B', 'C', or 'D', or has not been specified: FixVersion not in (A, B, C, D) or FixVersion is empty\nCONTAINS (~)"
+}

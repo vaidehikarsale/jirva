@@ -1,0 +1,11 @@
+{
+  "chunk_id": "notif_001_c03",
+  "document_id": "notif_001",
+  "document_title": "Configure notification schemes",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/configure-notification-schemes/",
+  "category": "08_Notifications",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 3,
+  "chunk_count_in_doc": 6,
+  "content": "- On the subsequent Associate Notification Scheme to Space page, which lists all available notification schemes, select the notification scheme you want to associate with the space and select the Associate button.\nEvents\nJira apps support the following events, which can generate email notifications (as defined in a notification scheme).\n| Event | Description | \n|---|---|\n| Work item created | A work item has been entered into the system. | \n| Work item updated | A work item has had its details changed. This includes the deletion of a work item comment. | \n| Work item assigned | A work item has been assigned to a new user. | \n| Work item resolved | A work item has been resolved (usually after being worked on and fixed). | \n| Work item closed | A work item has been closed (note that a work item may be closed without being resolved). | \n| Work item commented | A work item has had a comment added to it. | \n| Work item comment edited | A work item's comment has been modified. | \n| Work item reopened | A work item has been re-opened. | \n| Work item deleted | A work item has been deleted. | \n| Work item moved | A work item has been moved into or out of this space. | \n| Work logged on work item | A work item has had hours logged against it (i.e. a worklog has been added). | \n| Work started on work item | The Assignee has started working on a work item. | \n| Work stopped on work item | The Assignee has stopped working on a work item. | \n| Work item worklog updated | An entry in a work item's worklog has been modified. | \n| Work item worklog deleted | An entry in a work item's worklog has been deleted. | \n| Generic event | The exact nature of this event depends on the workflow transition(s) from it was fired. |"
+}

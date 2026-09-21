@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_009_c07",
+  "document_id": "srch_009",
+  "document_title": "JQL fields reference",
+  "source_url": "https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 7,
+  "chunk_count_in_doc": 33,
+  "content": "\"customField1[Dropdown]\" in (12, closedSprints())\nwould search for option values 12 and 16 and ID 12.\n| Syntax | CustomFieldName | \n|---|---|\n| Alias | cf[CustomFieldID] | \n| Field Type | Depends on the custom field's configuration Jira text-search syntax can be used with custom fields of type 'Text'. | \n| Auto-complete | Yes, for custom fields of type picker, group picker, select, checkbox and radio button fields | \n| Supported operators | Different types of custom field support different operators. | \n| Supported operators: number and date fields | = , != , > , >= , < , <= IS , IS NOT , IN , NOT IN | \n| Unsupported operators: number and date fields | ~ , !~ WAS, WAS IN, WAS NOT, WAS NOT IN, CHANGED | \n| Supported operators: picker, select, checkbox and radio button fields | = , != IS , IS NOT , IN , NOT IN | \n| Unsupported operators: picker, select, checkbox and radio button fields | ~ , !~ , > , >= , < , <= WAS, WAS IN, WAS NOT, WAS NOT IN, CHANGED | \n| Supported operators: text fields | ~ , !~ IS , IS NOT | \n| Unsupported operators: text fields | = , != , > , >= , < , <= IN , NOT IN , WAS, WAS IN, WAS NOT, WAS NOT IN, CHANGED | \n| Supported operators: URL fields | = , !=IS , IS NOT , IN , NOT IN | \n| Unsupported operators: URL fields | ~ , !~ , > , >= , < , <= WAS, WAS IN, WAS NOT, WAS NOT IN, CHANGED |"
+}

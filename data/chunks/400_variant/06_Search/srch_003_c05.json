@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c05",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 5,
+  "chunk_count_in_doc": 28,
+  "content": "| Supported operators | = ,!= ,> ,>= ,< ,<= ,WAS * ,WAS IN * ,WAS NOT * ,WAS NOT IN *,CHANGED * * Only in predicate | \n| Unsupported operators | ~ ,!~ ,IS ,IS NOT ,IN ,NOT IN | \n| Examples |  | \ncurrentUser()\nPerform searches based on the currently logged-in user.\nThis function can only be used by logged-in users. So if you are creating a saved filter that you expect to be used by anonymous users, do not use this function.\n| Syntax | currentUser() | \n|---|---|\n| Supported fields | Assignee, Reporter, Voter, Watcher, Creator, custom fields of type User | \n| Supported operators | = ,!= | \n| Unsupported operators | ~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,IN ,NOT IN ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \ncustomerDetail()\nPerform searches based on the customers details.\nTo use this JQL function, enable Customer service management on the Features page. To find this, go to Space settings then Features.\nThis function returns up to 32,000 customers.\nResults include deleted or deactivated customers. To exclude them, append this condition to your query: AND reporter NOT IN inactiveUsers().\n| Syntax | customerDetail() | \n|---|---|\n| Supported fields | Assignee, Reporter, Voter, Watcher, custom fields of type User | \n| Supported operators | IN ,NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT IN ,WAS NOT ,CHANGED | \n| Examples |  |"
+}

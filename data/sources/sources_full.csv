@@ -1,0 +1,58 @@
+category,prefix,title,url
+01_Workflows,wf,Configure workflow schemes,https://support.atlassian.com/jira-cloud-administration/docs/configure-workflow-schemes/
+01_Workflows,wf,Enable a workflow,https://support.atlassian.com/jira-cloud-administration/docs/manage-issue-workflows/
+01_Workflows,wf,How to create workflows for business spaces,https://support.atlassian.com/jira-software-cloud/docs/how-to-create-workflows/
+01_Workflows,wf,Configure advanced work item workflows,https://support.atlassian.com/jira-cloud-administration/docs/configure-advanced-issue-workflows/
+01_Workflows,wf,Best practices for workflows in Jira,https://support.atlassian.com/jira-software-cloud/docs/best-practices-for-workflows-in-jira/
+01_Workflows,wf,Use the simplified workflow,https://support.atlassian.com/jira-software-cloud/docs/use-the-simplified-workflow/
+01_Workflows,wf,Manage workflows and schemes,https://support.atlassian.com/jira-cloud-administration/docs/create-and-manage-issue-workflows-and-issue-workflow-schemes/
+02_Permissions,perm,Create a new permission scheme,https://support.atlassian.com/jira-cloud-administration/docs/create-a-new-permission-scheme/
+02_Permissions,perm,Manage permissions,https://support.atlassian.com/jira-cloud-administration/docs/manage-permissions/
+02_Permissions,perm,What are permission schemes in Jira,https://support.atlassian.com/jira-cloud-administration/docs/what-are-permission-schemes-in-jira/
+02_Permissions,perm,Grant space permissions using permission schemes,https://support.atlassian.com/jira-cloud-administration/docs/grant-space-permissions-using-permission-schemes/
+02_Permissions,perm,Overview of Jira Cloud permissions,https://support.atlassian.com/jira-service-management-cloud/docs/overview-of-jira-cloud-permissions/
+02_Permissions,perm,Grant or revoke permissions in a scheme,https://support.atlassian.com/jira-cloud-administration/docs/grant-or-revoke-permissions-in-a-scheme/
+02_Permissions,perm,Permissions for company-managed projects,https://support.atlassian.com/jira-cloud-administration/docs/permissions-for-company-managed-projects/
+03_Issues,iss,Add edit and delete an issue type,https://support.atlassian.com/jira-cloud-administration/docs/add-edit-and-delete-an-issue-type/
+03_Issues,iss,Creating issues and subtasks,https://support.atlassian.com/jira-work-management/docs/create-an-issue-and-a-sub-task/
+03_Issues,iss,Link subtasks work items and pages to a work item,https://support.atlassian.com/jira-service-management-cloud/docs/link-subtasks-issues-and-pages-from-the-new-issue-view/
+03_Issues,iss,Associate work types with spaces,https://support.atlassian.com/jira-cloud-administration/docs/associate-issue-types-with-projects/
+04_Projects,proj,What are team-managed and company-managed projects,https://support.atlassian.com/jira-software-cloud/docs/what-are-team-managed-and-company-managed-projects/
+04_Projects,proj,Learn how company-managed and team-managed projects differ,https://support.atlassian.com/jira-work-management/docs/learn-how-company-managed-and-team-managed-projects-differ/
+04_Projects,proj,Get started with team-managed spaces,https://support.atlassian.com/jira-software-cloud/docs/get-started-with-team-managed-projects/
+04_Projects,proj,What type of project am I using,https://support.atlassian.com/jira/kb/what-type-of-project-am-i-using/
+05_Fields,fld,Understanding custom field descriptions in Jira Cloud,https://support.atlassian.com/jira/kb/understanding-custom-field-descriptions-in-jira-cloud/
+05_Fields,fld,Edit a custom fields options,https://support.atlassian.com/jira-cloud-administration/docs/edit-a-custom-fields-options/
+05_Fields,fld,Customize work item fields in team-managed spaces,https://support.atlassian.com/jira-software-cloud/docs/customize-an-issues-fields-in-team-managed-projects/
+05_Fields,fld,Edit or delete a custom field,https://support.atlassian.com/jira-cloud-administration/docs/edit-or-delete-a-custom-field/
+05_Fields,fld,Associate fields with screens in Jira Cloud,https://support.atlassian.com/jira/kb/associate-fields-with-screens-in-jira-cloud/
+05_Fields,fld,Manage screen schemes,https://support.atlassian.com/jira-cloud-administration/docs/manage-screen-schemes/
+06_Search,srch,Use advanced search with Jira Query Language JQL,https://support.atlassian.com/jira-service-management-cloud/docs/use-advanced-search-with-jira-query-language-jql/
+06_Search,srch,JQL functions,https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/
+06_Search,srch,JQL operators,https://support.atlassian.com/jira-service-management-cloud/docs/jql-operators/
+06_Search,srch,Search for work items using the text field,https://support.atlassian.com/jira-software-cloud/docs/search-syntax-for-text-fields/
+06_Search,srch,What is a saved search,https://support.atlassian.com/jira-software-cloud/docs/what-is-a-saved-search/
+06_Search,srch,Save your search as a filter,https://support.atlassian.com/jira-software-cloud/docs/save-your-search-as-a-filter/
+06_Search,srch,Save your search as a custom filter,https://support.atlassian.com/jira-service-management-cloud/docs/save-your-search-as-a-custom-filter/
+06_Search,srch,JQL fields reference,https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/
+07_Boards,brd,Create a board based on spaces,https://support.atlassian.com/jira-software-cloud/docs/create-a-board/
+07_Boards,brd,Create a Kanban board based on spaces,https://support.atlassian.com/jira-software-cloud/docs/create-a-kanban-board-based-on-projects/
+07_Boards,brd,Configure a company-managed board,https://support.atlassian.com/jira-software-cloud/docs/configure-a-company-managed-board/
+07_Boards,brd,Configure columns,https://support.atlassian.com/jira-software-cloud/docs/configure-columns/
+07_Boards,brd,Monitor work in a kanban space,https://support.atlassian.com/jira-software-cloud/docs/monitor-work-in-a-kanban-project/
+07_Boards,brd,Create a board based on filters,https://support.atlassian.com/jira-software-cloud/docs/create-a-board-based-on-filters/
+08_Notifications,notif,Configure notification schemes,https://support.atlassian.com/jira-cloud-administration/docs/configure-notification-schemes/
+08_Notifications,notif,Configure email notifications,https://support.atlassian.com/jira-cloud-administration/docs/configure-email-notifications/
+08_Notifications,notif,Configure email notifications for a custom event,https://support.atlassian.com/jira-cloud-administration/docs/configure-email-notifications-for-a-custom-event/
+08_Notifications,notif,Manage your Jira personal settings,https://support.atlassian.com/jira-software-cloud/docs/manage-your-jira-personal-settings/
+08_Notifications,notif,Send notifications from a custom domain email address,https://support.atlassian.com/jira-service-management-cloud/docs/send-notifications-from-a-custom-domain-email-address/
+09_Jira_Service_Management,jsm,What are queues,https://support.atlassian.com/jira-service-management-cloud/docs/what-are-queues/
+09_Jira_Service_Management,jsm,Check out your queues,https://support.atlassian.com/jira-service-management-cloud/docs/check-out-your-queues/
+09_Jira_Service_Management,jsm,Best practices for managing queues at scale,https://support.atlassian.com/jira-service-management-cloud/docs/best-practices-for-managing-queues-at-scale/
+09_Jira_Service_Management,jsm,Make a queue for your team,https://support.atlassian.com/jira-service-management-cloud/docs/make-a-queue-for-your-team/
+09_Jira_Service_Management,jsm,Manage your request types and ticket categories,https://support.atlassian.com/jira-service-management-cloud/docs/manage-your-request-types-and-ticket-categories/
+09_Jira_Service_Management,jsm,Whats the difference between request types and issue types,https://support.atlassian.com/jira-service-management-cloud/docs/whats-the-difference-between-request-types-and-issue-types/
+09_Jira_Service_Management,jsm,Categorize customer requests into request types,https://support.atlassian.com/jira-service-management-cloud/docs/categorize-customer-requests-into-request-types/
+10_Troubleshooting,ts,Common browser-related problems in Atlassian products,https://support.atlassian.com/atlassian-knowledge-base/kb/browser-troubleshooting-guide/
+10_Troubleshooting,ts,Understand common issues in Jira Service Management Cloud,https://support.atlassian.com/jira/kb/troubleshooting-common-issues-in-jira-service-management-cloud/
+09_Jira_Service_Management,jsm,Set up service level agreement SLA goals,https://support.atlassian.com/jira-service-management-cloud/docs/set-up-sla-goals/

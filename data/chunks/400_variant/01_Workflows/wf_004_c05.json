@@ -1,0 +1,11 @@
+{
+  "chunk_id": "wf_004_c05",
+  "document_id": "wf_004",
+  "document_title": "Configure advanced work item workflows",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/configure-advanced-issue-workflows/",
+  "category": "01_Workflows",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 5,
+  "chunk_count_in_doc": 11,
+  "content": "- Set the status of a work item to the linked status of the destination workflow status.\n- Add a comment to a work item if one is entered during a transition.\n- Update change history for a work item and store the work item in the database.\n- Re-index a work item to keep indexes in sync with the database.\n- Fire a Generic event that can be processed by the listeners. Do not edit or remove this post function. Changing this essential post function will cause unintended behavior for automations and Marketplace add-ons. If you wish to customize the post function events that fire on a transition, consider adding a custom post function and leave the default event alone.\nThese essential post functions cannot be deleted from a transition or reordered. However, you can insert other post functions between them.\nPost functions that fire events may act differently than you expect. Jira waits to call any notification listeners until the end of the post function sequence. So, your events will fire in the order you expect, but notifications won’t be triggered until the end of the transition.\nOptional post functions\nJira includes several optional post functions that can be added to transitions.\n| Optional post function | Description | \n|---|---|\n| Assign to Current User | Assigns the work item to the user who is executing the transition. | \n| Assign to Lead Developer | Assigns the work item to the component lead, if one exists, or space lead. | \n| Assign to Reporter | Assigns the work item to the user who created the work item. | \n| Clear Field Value | Clear value of a given field. | \n| Copy Value From Other Field | Copies the value of one field to another, either within the same work item or from parent to subtask. | \n| Create Perforce Job Function | Creates a Perforce Job (if required) after completing the workflow transition. |"
+}

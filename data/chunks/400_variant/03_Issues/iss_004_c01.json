@@ -1,0 +1,11 @@
+{
+  "chunk_id": "iss_004_c01",
+  "document_id": "iss_004",
+  "document_title": "Link subtasks work items and pages to a work item",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/link-subtasks-issues-and-pages-from-the-new-issue-view/",
+  "category": "03_Issues",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 2,
+  "content": "Use links to point to web pages, documentation or even other work items for yourself and others when resolving a work item using the actions listed just under the work item’s summary.\nCreate subtasks\nTrack what you need to do to help resolve a request by creating a subtask for the work item. \\\n- Open a work item.\n- Select Create subtask ().\n- Enter the name of your subtask, then select Create.\n- Keep creating more subtasks, or select Cancel to finish.\nLink work items\nIf other work items relate to the one you’re working on and their details could help add context, you can link them together. Linking work items doesn’t change the work item in any other way. You can either link an existing work item, or create a new work item and link it.\n- Open a work item.\n- Select Link work item ().\n- Search for an existing work item to link, or select + Create linked work item to create a new work item.\n- If you searched for an existing work item, choose how they relate to each other, then select Link.\n- If you created a new linked work item, fill in the work item create form, then select Create.\nTo link work items that are done, search for the exact work item key, otherwise the work item won’t appear in the search.\nYou can link up to 2000 work items to a single work item.\nLink pages\nYou can also link any Confluence pages that have information related to the work item you’re working on, or external links if they help provide context.\nYou need to have a linked Confluence space to link a page.\n- Open a work item.\n- Select Link page ().\n- Search for and select the page to link.\n- Select Link.\nYou can add up to 2000 links to an work item. This includes:\n- web links\n- Confluence pages\n- links to an external work item on a different Jira instance"
+}

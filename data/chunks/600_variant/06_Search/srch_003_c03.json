@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c03",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 3,
+  "chunk_count_in_doc": 18,
+  "content": "| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \ncompleted()\nOnly applicable for sites with Jira Service Management subscriptions.\nReturns work items where the SLA cycle is complete, meaning the work item has reached one of their stop events.\n| Syntax | completed() | \n|---|---|\n| Supported fields | SLA | \n| Supported operators | = ,!= | \n| Unsupported operators | ~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,IN ,NOT IN ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \ncomponentsLeadByUser()\nFind work items in components that are led by a specific user. You can optionally specify a user, or if the user is omitted, the current user (i.e. you) will be used.\nIf you are not logged in to Jira, a user must be specified.\n| Syntax | componentsLeadByUser()  | \n|---|---|\n| Supported fields | Component | \n| Supported operators | IN ,NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \ncurrentLogin()\nPerform searches based on the time at which the current user's session began. See also lastLogin().\n| Syntax | currentLogin() | \n|---|---|\n| Supported fields | Created, Due, Resolved, Updated, custom fields of type Date/Time | \n| Supported operators | = ,!= ,> ,>= ,< ,<= ,WAS * ,WAS IN * ,WAS NOT * ,WAS NOT IN *,CHANGED * * Only in predicate | \n| Unsupported operators | ~ ,!~ ,IS ,IS NOT ,IN ,NOT IN | \n| Examples |  | \ncurrentUser()\nPerform searches based on the currently logged-in user.\nThis function can only be used by logged-in users. So if you are creating a saved filter that you expect to be used by anonymous users, do not use this function.\n| Syntax | currentUser() | \n|---|---|\n| Supported fields | Assignee, Reporter, Voter, Watcher, Creator, custom fields of type User | \n| Supported operators | = ,!= |"
+}

@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_009_c31",
+  "document_id": "srch_009",
+  "document_title": "JQL fields reference",
+  "source_url": "https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 31,
+  "chunk_count_in_doc": 33,
+  "content": "| Examples |  | \nWork item key\nSearch for work items with a particular key or ID (i.e. the number that Jira automatically allocates to a work item).\n| Syntax | workItemKey | \n|---|---|\n| Aliases | id , workItem , key | \n| Field Type | WORKITEM | \n| Auto-complete | No | \n| Supported operators | = , != , > , >= , < , <= , ~ , !~ IN, NOT IN | \n| Unsupported operators | IS, IS NOT, WAS NOT, WAS NOT IN, CHANGED  | \n| Supported functions | When used with the IN or NOT IN operators, workItemKey supports:  | \n| Examples |  | \nWork item link\nSearches for work items linked or not linked to a work item. You can restrict the search to links of a particular type.\n| Syntax | workItemLink ,workItemLink[\"link type\"] , orworkItemLinkType , wherelink type orLinkType is a variable you replace with the work item link type (blocks, duplicates, or is blocked by, for example). | \n|---|---|\n| Auto-complete | Yes | \n| Supported operators | = , != IN , NOT IN | \n| Unsupported operators | ~ , !~ , > , >= , < , <= WAS , WAS IN , WAS NOT , WAS NOT IN , CHANGED , IS , IS NOT | \n| Supported functions | None | \n| Examples | Find work items:  | \nWork item link type\nSearch for work items that have a particular link type, like blocks or is duplicated by. You can only find work items from the Jira instance you're searching on; remote links to work items on other Jira instances won’t be included."
+}

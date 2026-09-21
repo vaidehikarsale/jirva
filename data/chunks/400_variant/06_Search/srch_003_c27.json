@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c27",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 27,
+  "chunk_count_in_doc": 28,
+  "content": "| Examples |  | \nvotedWorkItems()\nPerform searches based on work itemss for which you have voted. Also, see the Voter field. Note, this function can only be used by logged-in users.\nThis function will return up to 32,000 work item IDs.\n| Syntax | votedWorkItems() | \n|---|---|\n| Supported fields | Work item | \n| Supported operators | IN ,NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT IN ,WAS NOT ,CHANGED | \n| Examples |  | \nwatchedWorkItems()\nPerform searches based on work items that you are watching. Also, see the Watcher field. Note that this function can only be used by logged-in users.\nThis function will return up to 32,000 work item IDs.\n| Syntax | watchedWorkItems() | \n|---|---|\n| Supported fields | Work item | \n| Supported operators | IN ,NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \nwithinCalendarHours()\nOnly applicable for sites with Jira Service Management subscriptions.\nReturns work items that have an SLA that is running according to the SLA calendar."
+}

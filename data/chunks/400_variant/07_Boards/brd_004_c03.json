@@ -1,0 +1,11 @@
+{
+  "chunk_id": "brd_004_c03",
+  "document_id": "brd_004",
+  "document_title": "Configure columns",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/configure-columns/",
+  "category": "07_Boards",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 3,
+  "chunk_count_in_doc": 8,
+  "content": "If your board's space is using the default Jira workflow:\n| Default column | Default mapped statuses | \n|---|---|\n| To Do | Open, Reopened | \n| In Progress | In Progress | \n| Done | Resolved, Closed | \nIf your board's space is using the simplified workflow:\n| Default column | Default mapped statuses | \n|---|---|\n| To Do | To Do | \n| In Progress | In Progress | \n| Done | Done | \nEdit which statuses are mapped to specific columns\n- Next to your board’s name in the sidebar, select More actions (•••), then Board settings.\n- Expand the remainder of the menu in the sidebar by selecting Layout.\n- Select Columns.\n- Under Map statuses to columns, you can edit which statuses are mapped to specific columns as described in the following table.\n| Map a status to a column | Drag and drop a status from the Unmapped statuses panel to the appropriate column. | \n|---|---|\n| Unmap a status from a column | Drag and drop a status from its current column to the Unmapped statuses panel. | \n| Change which column a status is mapped to | Drag and drop a status from its original column to its new column. | \nJira only considers work items in the right-most column of your board as complete. If you have statuses such as Done, Blocked, or Canceled, that represent completed work, make sure they're mapped to the right-most column in your board settings. When these statuses aren't mapped correctly, you might not be able to complete a sprint due to “incomplete” work items. Or items in certain statuses (like Blocked or Canceled) might not show up as completed, and they could be carried forward into future sprints."
+}

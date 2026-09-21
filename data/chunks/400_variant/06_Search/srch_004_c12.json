@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_004_c12",
+  "document_id": "srch_004",
+  "document_title": "JQL operators",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-operators/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 12,
+  "chunk_count_in_doc": 13,
+  "content": "Examples\n- Find work items that have never had a status of 'Resolved' or 'In Progress': status WAS NOT IN (\"Resolved\",\"In Progress\")\n- Find work items that did not have a status of 'Resolved' or 'In Progress' before 2nd February: status WAS NOT IN (\"Resolved\",\"In Progress\") BEFORE \"2011/02/02\"\nWAS NOT\nThe \"WAS NOT\" operator is used to find work items that have never had the specified value for the specified field.\nThis operator has the following optional predicates:\n- AFTER \"date\"\n- BEFORE \"date\"\n- BY \"username\"\n- DURING (\"date1\",\"date2\")\n- ON \"date\"\nThis operator will match the value name (e.g. \"Resolved\"), which was configured in your system at the time that the field was changed. This operator will also match the value ID associated with that value name too — that is, it will match \"4\" as well as \"Resolved\".\nNote: This operator can be used with the Assignee, Fix Version, Priority, Reporter, Resolution, and Status fields only.\nExamples\n- Find work items that do not have, and have never had a status of 'In Progress': status WAS NOT \"In Progress\"\n- Find work items that did not have a status of 'In Progress' before 2nd February: status WAS NOT \"In Progress\" BEFORE \"2011/02/02\"\nCHANGED\nThe \"CHANGED\" operator is used to find work items that have a value that had changed for the specified field.\nThis operator has the following optional predicates:\n- AFTER \"date\"\n- BEFORE \"date\"\n- BY \"username\"\n- DURING (\"date1\",\"date2\")\n- ON \"date\"\n- FROM \"oldvalue\"\n- TO \"newvalue\""
+}

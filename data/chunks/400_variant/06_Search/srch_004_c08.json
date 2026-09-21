@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_004_c08",
+  "document_id": "srch_004",
+  "document_title": "JQL operators",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-operators/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 8,
+  "chunk_count_in_doc": 13,
+  "content": "DOES NOT CONTAIN (!~)\nThe \"!~\" operator is used to search for work items where the value of the specified field is not a \"fuzzy\" match for the specified value. For use with text fields, such as:\n- Summary\n- Description\n- Environment\n- Comment*\n- custom fields that use the \"Free Text Searcher\"; this includes custom fields of the following built-in Custom Field Types \n  - Free Text Field (unlimited text)\n  - Text Field (< 255 characters)\n  - Read-only Text Field\nAnd, the work item key.\n*If the work item contains more than 1 comment, this operator will fail, because all comments will be included in the search.\nThe JQL field \"text\" as in text ~ \"some words\" searches a work item’s Summary, Description, Environment, Comments. It also searches all text custom fields. If you have many text custom fields you can improve performance of your queries by searching on specific fields, e.g. Summary ~ \"some words\" OR Description ~ \"some words\"\nExamples\n- Find all work items where the Summary does not contain the word \"run\" (or derivatives of that word, such as \"running\" or \"ran\"): summary !~ run\n- Find all work items with a work item key that does not start with “12”: issueKey !~ \"-12*\"\nIS\nThe \"IS\" operator can only be used with EMPTY or NULL. That is, it is used to search for work items where the specified field has no value.\nNote that not all fields are compatible with this operator; see the individual field reference for details.\nExamples\n- Find all work items that have no Fix Version: fixVersion is emptyor fixVersion is null\nIS NOT\nThe \"IS NOT\" operator can only be used with EMPTY or NULL. That is, it is used to search for work items where the specified field has a value."
+}

@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c04",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 4,
+  "chunk_count_in_doc": 28,
+  "content": "| Examples |  | \ncompleted()\nOnly applicable for sites with Jira Service Management subscriptions.\nReturns work items where the SLA cycle is complete, meaning the work item has reached one of their stop events.\n| Syntax | completed() | \n|---|---|\n| Supported fields | SLA | \n| Supported operators | = ,!= | \n| Unsupported operators | ~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,IN ,NOT IN ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \ncomponentsLeadByUser()\nFind work items in components that are led by a specific user. You can optionally specify a user, or if the user is omitted, the current user (i.e. you) will be used.\nIf you are not logged in to Jira, a user must be specified.\n| Syntax | componentsLeadByUser()  | \n|---|---|\n| Supported fields | Component | \n| Supported operators | IN ,NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \ncurrentLogin()\nPerform searches based on the time at which the current user's session began. See also lastLogin().\n| Syntax | currentLogin() | \n|---|---|\n| Supported fields | Created, Due, Resolved, Updated, custom fields of type Date/Time | \n| Supported operators | = ,!= ,> ,>= ,< ,<= ,WAS * ,WAS IN * ,WAS NOT * ,WAS NOT IN *,CHANGED * * Only in predicate |"
+}

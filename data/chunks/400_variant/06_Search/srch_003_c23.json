@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c23",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 23,
+  "chunk_count_in_doc": 28,
+  "content": "| Unsupported operators | ~ ,!~ ,IS ,IS NOT ,IN ,NOT IN | \n| Examples |  | \nstartOfMonth()\nPerform searches based on the start of the current month.\nSee also startOfDay(), startOfWeek() startOfYear(), endOfDay(), endOfWeek(), endOfMonth() and endOfYear().\n| Syntax | startOfMonth() where inc is an optional increment of(+/-)nn(y\\|M\\|w\\|d\\|h\\|m) . If the time unit qualifier is omitted, it defaults to the natural period of the function, e.g.startOfMonth(\"+1\") is the same asstartOfMonth(\"+1M\") . If the plus/minus(+/-) sign is omitted, plus(+) is assumed. | \n|---|---|\n| Supported fields | Created, Due, Resolved, Updated, custom fields of type Date/Time | \n| Supported operators | = ,!= ,> ,>= ,< ,<= ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Unsupported operators | ~ ,!~ ,IS ,IS NOT ,IN ,NOT IN | \n| Examples |  | \nstartOfWeek()\nSearch for new work items created since the start of the first day of the current week. By default, this function considers Sunday to be the first day of the week when ISO8601 for the Date Picker is disabled in Look and feel settings. You can use a different day (for example, Monday) as the start of the week."
+}

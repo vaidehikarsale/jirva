@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_004_c07",
+  "document_id": "srch_004",
+  "document_title": "JQL operators",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-operators/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 7,
+  "chunk_count_in_doc": 13,
+  "content": "CONTAINS (~)\nThe \"~\" operator is used to search for work items where the value of the specified field matches the specified value (either an exact match or a \"fuzzy\" match — see examples below). For use with text fields, such as:\n- Summary\n- Description\n- Environment\n- Comments\n- custom fields that use the \"Free Text Searcher\"; this includes custom fields of the following built-in Custom Field Types \n  - Free Text Field (unlimited text)\n  - Text Field (< 255 characters)\n  - Read-only Text Field\nAnd, the work item key.\nThe JQL field \"text\" as in text ~ \"some words\" searches a work item’s Summary, Description, Environment, Comments. It also searches all text custom fields. If you have many text custom fields you can improve performance of your queries by searching on specific fields, e.g. Summary ~ \"some words\" OR Description ~ \"some words\"\nExamples\n- Find all work items where the Summary contains the word \"win\" (or simple derivatives of that word, such as \"wins\"): summary ~ win\n- Find all work items with a space key ending in “WIN” and work item number starting with “1”: issueKey ~ \"*WIN-1*\"\n- Find all work items where the Summary contains a wild-card match for the word \"win\": summary ~ \"win*\"\n- Find all work items where the Summary contains the word \"work items\" and the word \"collector\": summary ~ \"workItem collector\"\n- Find all work items where the Summary contains the exact phrase \"full screen\" (see Search syntax for text fields for details on how to escape quote-marks and other special characters): summary ~ \"\\\"full screen\\\"\"\nDOES NOT CONTAIN (!~)"
+}

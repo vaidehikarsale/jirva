@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c15",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 15,
+  "chunk_count_in_doc": 28,
+  "content": "| Syntax | myPendingApproval() | \n|---|---|\n| Supported fields | Custom fields of type Approval | \n| Supported operators | = | \n| Unsupported operators | != ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,IN ,NOT IN ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \nmyPending()\nOnly applicable for sites with Jira Service Management subscriptions.\nSearch for requests where the current user is the approver for a pending approval step, and may or may not have already approved or declined the approval.\n| Syntax | myPending() | \n|---|---|\n| Supported fields | Custom fields of type Approval | \n| Supported operators | = | \n| Unsupported operators | != ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,IN ,NOT IN ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \nnow()\nPerform searches based on the current time.\n| Syntax | now() | \n|---|---|\n| Supported fields | Created, Due, Resolved, Updated, custom fields of type Date/Time | \n| Supported operators | = ,!= ,> ,>= ,< ,<= ,WAS * ,WAS IN * ,WAS NOT * ,WAS NOT IN *,CHANGED * * Only in predicate | \n| Unsupported operators | ~ ,!~ ,IS ,IS NOT ,IN ,NOT IN | \n| Examples |  | \nopenSprints()\nSearch for work items that are assigned to a sprint that was started, but has not yet been completed.\n| Syntax | openSprints() | \n|---|---|\n| Supported fields | Sprint | \n| Supported operators | IN ,NOT IN |"
+}

@@ -1,0 +1,49 @@
+.tickets-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  font-size: 13px;
+}
+
+.tickets-table th {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text-secondary);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.tickets-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text);
+}
+
+.tickets-table tr:last-child td {
+  border-bottom: none;
+}
+
+.tickets-table td.mono {
+  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  font-size: 12px;
+}
+
+.delete-link {
+  background: none;
+  border: none;
+  color: var(--color-danger);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 6px;
+  border-radius: var(--radius);
+}
+
+.delete-link:hover {
+  background: var(--color-danger-bg);
+}
+
+.delete-link:disabled {
+  color: var(--color-text-secondary);
+  cursor: default;
+}

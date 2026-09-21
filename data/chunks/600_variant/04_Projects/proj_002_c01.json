@@ -1,0 +1,11 @@
+{
+  "chunk_id": "proj_002_c01",
+  "document_id": "proj_002",
+  "document_title": "Learn how company-managed and team-managed projects differ",
+  "source_url": "https://support.atlassian.com/jira-work-management/docs/learn-how-company-managed-and-team-managed-projects-differ/",
+  "category": "04_Projects",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 1,
+  "content": "The key difference between team-managed and company-managed spaces is how they are administered. Learn more about these spaces.\nWe have two ways to manage your spaces in Jira: company-managed and team-managed (formerly known as classic and next-gen). Find out how they differ, and which one is right for your space.\n- Want to migrate from a company-managed space to a team-managed space, and vice versa? Here's how.\n- Learn how we features differ between team-managed spaces and company-managed spaces in Jira.\n- How work types differ between team-managed and company-managed spaces.\n- Learn more about what makes configuring and setting up your team-managed space different from company-managed spaces.\nWas this helpful?"
+}

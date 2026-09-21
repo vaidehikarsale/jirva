@@ -1,0 +1,11 @@
+{
+  "chunk_id": "ts_002_c04",
+  "document_id": "ts_002",
+  "document_title": "Common browser-related problems in Atlassian products",
+  "source_url": "https://support.atlassian.com/atlassian-knowledge-base/kb/browser-troubleshooting-guide/",
+  "category": "10_Troubleshooting",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 4,
+  "chunk_count_in_doc": 6,
+  "content": "Internet Explorer (IE):\nSome users may experience a \"Page not Found Error\" on Internet Explorer while performing some actions that involve the URL. For example, exporting files to Excel, bulk actions, etc. When performing the action, the user will face the \"Page not Found Error\" and no clear explanation will be shown in the Application logs. This happens because Internet Explorer has a limit of 2,083 characters in the URL. Attempts to use URLs longer than this produced will throw the described error. The workaround for this is to use another browser.\nIE 9 also claims to support HTML 5 (with limitations), which leads to confusion over functionality such as Drag and Drop.\nSometimes changing IE's configuration to the default fixes a lot of unexpected behaviors. To do this, follow the instructions on this page.\nGoogle Chrome / MS Edge:\nSince January 2020 Microsoft Edge has been based on Chromium same as Google Chrome. For troubleshooting intents and purposes they can be considered equal.\nGoogle automatically installs new Add-Ons without advising the end user about it, so the \"No Add-Ons\" mode is a really important question for Chrome-related issues.\nThere is a bug reported in (JRA-31774) where in both Chrome and Firefox, there is a JQL query length limitation of 2.000 characters, but IE doesn't have such a limitation. So sometimes a user creates a filter with more than 2.000 characters in IE and later tries to use this same filter in Chrome or Firefox errors are thrown because of the length limitation. (This has been fixed in JIRA 6.0.5)"
+}

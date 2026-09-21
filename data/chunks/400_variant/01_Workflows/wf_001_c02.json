@@ -1,0 +1,11 @@
+{
+  "chunk_id": "wf_001_c02",
+  "document_id": "wf_001",
+  "document_title": "Configure workflow schemes",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/configure-workflow-schemes/",
+  "category": "01_Workflows",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 3,
+  "content": "|---|---|\n| Add a workflow to the scheme | 1. Select Add Workflow, and select Add Existing. 2. Select the desired workflow and work types. | \n| Edit a workflow | Hover over the desired workflow and select Edit. See Working with workflows for further instructions. Note that you must have the edit workflow permission. | \n| Remove a workflow from the scheme | Select the cross icon under Operations to remove the workflow from the scheme. | \n| Change the work types associated with a workflow | 1. Select Assign under Work Types for the desired workflow. 2. Select the desired work types in the dialog that appears. 3. Select Finish. | \n| View the text-based representation of a workflow | Hover over the desired workflow, and click View as Text. | \n| Change the workflow scheme associated with the space | Select Switch Scheme next to the scheme name. See Managing your workflows for further instructions. | \nConfigure a workflow scheme outside of a space\nYou can use this procedure to edit any workflow scheme in the system, including those shared by multiple spaces. The workflow scheme can be either active or inactive. Note that editing active workflow schemes will automatically create a draft so you don't impact existing work.\n- Select Settings, then Work items.\n- Under WORKFLOWS, select Workflow Schemes.\n- Select Edit for the relevant workflow.\n- Edit your workflow scheme as needed.\n- Publish your draft to make your changes active.\n| What do you want to do? | Steps | \n|---|---|\n| Add a workflow to the scheme | 1. Select Add Workflow, and select Add Existing. 2. Select the desired workflow and work types. | \n| Remove a workflow from the scheme | Select Remove in the Operations column. |"
+}

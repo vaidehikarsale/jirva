@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_009_c29",
+  "document_id": "srch_009",
+  "document_title": "JQL fields reference",
+  "source_url": "https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 29,
+  "chunk_count_in_doc": 33,
+  "content": "| Supported functions | None | \n| Examples | Find all work items that have 12 or more votes:votes >= 12 | \nWatcher\nSearch for work items that a particular user is watching. You can search by the user's full name, ID, or email address. Note that you can only find work items for which you have the \"View Voters and Watchers\" permission, unless you are searching for work items where you are the watcher.\n| Syntax | watcher | \n|---|---|\n| Field Type | USER | \n| Auto-complete | Yes | \n| Supported operators | = , != IS , IS NOT , IN , NOT IN | \n| Unsupported operators | ~ , !~ , > , >= , < , <= WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED | \n| Supported functions | When used with the IN and NOT IN operators, this field supports:  When used with the EQUALS and NOT EQUALS operators, this field supports:  | \n| Examples |  | \nWatchers\nSearch for work items with a specified number of watchers.\n| Syntax | watchers | \n|---|---|\n| Field Type | NUMBER | \n| Auto-complete | No | \n| Supported operators | = , != , > , >= , < , <= IN , NOT IN | \n| Unsupported operators | ~ , !~ IS , IS NOT , WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED | \n| Supported functions | None | \n| Examples | Find all work items that are being watched by more than 3 people:watchers > 3 | \nWorklog comment\nThis field is only available if time tracking has been enabled by your Jira administrator, and can only support the CONTAINS operator (\"~\").\nSearch for work items that have certain text present in worklog comments using Jira text-search syntax. More about searching syntax for text fields."
+}

@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_005_c08",
+  "document_id": "srch_005",
+  "document_title": "Search for work items using the text field",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/search-syntax-for-text-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 8,
+  "chunk_count_in_doc": 10,
+  "content": "\"table\", \"that\", \"the\", \"their\", \"then\", \"there\", \"these\", \"they\", \"this\", \"to\", \"trans\", \"transaction\", \"trigger\", \"true\", \"uid\", \"union\", \"unique\", \"update\", \"user\", \"validate\", \"values\", \"view\", \"was\", \"when\", \"whenever\", \"where\", \"while\", \"will\", \"with\""
+}

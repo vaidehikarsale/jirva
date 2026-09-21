@@ -1,0 +1,11 @@
+{
+  "chunk_id": "wf_005_c04",
+  "document_id": "wf_005",
+  "document_title": "Best practices for workflows in Jira",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/best-practices-for-workflows-in-jira/",
+  "category": "01_Workflows",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 4,
+  "chunk_count_in_doc": 4,
+  "content": "- Whether workflow rules are working properly\n- How a representative from each role in your team goes through the workflow\n2. Testing with your team in your actual space\nTesting is a continuous process.\nAfter getting your workflow into Jira, there are bound to be problems your team run into that you didn’t consider. That’s why it’s important to get feedback from the people actually using the workflow.\nIt’s not something you have to do every day, or even every week, but keep in touch with your every now and then. If you have meetings about the tools you use or about how you work, make sure to talk about how the workflows are working for them.\nWas this helpful?"
+}

@@ -1,0 +1,11 @@
+{
+  "chunk_id": "jsm_001_c02",
+  "document_id": "jsm_001",
+  "document_title": "What are queues",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/what-are-queues/",
+  "category": "09_Jira_Service_Management",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 2,
+  "content": "- You may have a number of teams, departments, or locales working in the same space. You could create different queues for each of these teams.\nSearching and filtering a queue\nYou can look for specific work items by using the search bar at the top of the queue page. The search bar can search through almost all text fields on your work items including the work key, but can’t search through the comments or worklog of your work items.\nIn the list view, use the dropdown filters next to the search bar to filter your queue. By default, the request type, status, and assignee filters are always available, but you can also use More filters to add additional filtering options based on other fields in your space. Some filtering options are also available for the board and calendar views.\nAdding different views to a queue\nYou can add views to your queue so that you can visualize and manage your work in different ways. By default, queues have a list view of your work, but you can add a board or calendar to your queue and see your work items in the way that works best for you and your team. Find out how to add views to queues.\nThe total number of queues is limited to 300 per service space per work category across all sections. Any given queue will only refresh its count up until 999 work items at which point it will display 999+.\nIt is possible for an under-performing queue to present a warning instead of showing the number of work items in that queue. In this occasion, space admins are advised to reconfigure the queue’s filters. Learn more about the best practices for managing queues at scale.\nWas this helpful?"
+}

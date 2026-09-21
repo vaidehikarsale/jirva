@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_009_c12",
+  "document_id": "srch_009",
+  "document_title": "JQL fields reference",
+  "source_url": "https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 12,
+  "chunk_count_in_doc": 33,
+  "content": "| Syntax | journeyParentOfTypeId | \n|---|---|\n| Auto-complete | No | \n| Supported operators | = , !=IN, NOT IN, IS, IS NOT | \n| Unsupported operators | > , >= , < , <=~ , !~ WAS NOT, WAS NOT IN, CHANGED  | \n| Supported functions | None | \n| Examples | Find work items with the journey parent ID \"123\":journeyParentOfTypeID = 123 | \nJourney type\nSearch for work items that were created using a specific journey type.\n| Syntax | journeyTypeId | \n|---|---|\n| Auto-complete | No | \n| Supported operators | = , !=IN, NOT IN, IS, IS NOT | \n| Unsupported operators | > , >= , < , <=~ , !~ WAS NOT, WAS NOT IN, CHANGED  | \n| Supported functions | None | \n| Examples | Find work items with the journey type ID \"123\":journeyType = 123 | \nJourney type version\nSearch for work items that were created using a specific version of a journey type.\n| Syntax | journeyTypeVersion | \n|---|---|\n| Auto-complete | No | \n| Supported operators | = , !=IN, NOT IN, IS, IS NOT | \n| Unsupported operators | > , >= , < , <=~ , !~ WAS NOT, WAS NOT IN, CHANGED  | \n| Supported functions | None | \n| Examples | Find work items where the journey type version is \"1\":journeyTypeVersion = 1 | \nJourney work item\nSearch for specific work items that were created using a specific journey type.\n| Syntax | journeyWorkItemId | \n|---|---|\n| Auto-complete | No | \n| Supported operators | = , !=IN, NOT IN, IS, IS NOT |"
+}

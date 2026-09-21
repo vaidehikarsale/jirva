@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_009_c15",
+  "document_id": "srch_009",
+  "document_title": "JQL fields reference",
+  "source_url": "https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 15,
+  "chunk_count_in_doc": 33,
+  "content": "| Syntax | level | \n|---|---|\n| Field Type | SECURITY LEVEL | \n| Auto-complete | Yes | \n| Supported operators | = , != IS , IS NOT, IN , NOT IN | \n| Unsupported operators | > , >= , < , <= , ~ , !~ WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED  | \n| Supported functions | None | \n| Examples |  | \nOrganization\nUsed in business spaces only.\nSearch for all requests shared with an organization. Requests that were kept private won't be returned.\n| Syntax | organizations | \n|---|---|\n| Field Type | USER | \n| Auto-complete | Yes | \n| Supported operators | = , !=IN, NOT IN | \n| Examples | Search for all requests shared with the organization Atlassian: organizations = \"Atlassian\" | \nOriginal estimate\nOnly available if time-tracking has been enabled by your Jira administrator.\nSearch for work items where the original estimate is set to a particular value (i.e. a number, not a date or date range). Use \"w\", \"d\", \"h\" and \"m\" to specify weeks, days, hours, or minutes.\n| Syntax | originalEstimate | \n|---|---|\n| Alias | timeOriginalEstimate | \n| Field Type | DURATION | \n| Auto-complete | No | \n| Supported operators | = , != , > , >= , < , <= IS , IS NOT, IN , NOT IN | \n| Unsupported operators | ~ , !~ WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED  | \n| Supported functions | None | \n| Examples |  | \nParent\nSearch for all child work items of a parent work item. For example, you can view all stories under the larger piece of work they belong to. This field works for both team-managed and company-managed spaces."
+}

@@ -1,0 +1,11 @@
+{
+  "chunk_id": "brd_004_c06",
+  "document_id": "brd_004",
+  "document_title": "Configure columns",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/configure-columns/",
+  "category": "07_Boards",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 6,
+  "chunk_count_in_doc": 6,
+  "content": "- Next to the name of your space in the sidebar, select More actions (•••), then Space settings.\n- Select Features.\n- Make sure the Backlog feature is enabled.\nCheck status mapping for backlog\n- Next to your board’s name in the sidebar, select More actions (•••), then Board settings.\n- Expand the remainder of the menu in the sidebar by selecting Layout.\n- Select Columns.\n- Ensure that statuses intended for the backlog are mapped to the “Backlog” column if available.\nWas this helpful?"
+}

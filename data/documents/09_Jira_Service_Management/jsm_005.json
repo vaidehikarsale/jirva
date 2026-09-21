@@ -1,0 +1,8 @@
+{
+  "id": "jsm_005",
+  "title": "Manage your request types and ticket categories",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/manage-your-request-types-and-ticket-categories/",
+  "category": "09_Jira_Service_Management",
+  "source_type": "Atlassian Official Documentation",
+  "content": "Learn about the four main ITSM categories in Jira Service Management: service requests, incidents, problems, and changes.\nTickets are the requests raised in your service space either by customers, or by agents on your customer's behalf. You can use ITSM categories and request types to organize the requests your customers submit.\nWas this helpful?\nStill need help?\nThe Atlassian Community is here for you."
+}

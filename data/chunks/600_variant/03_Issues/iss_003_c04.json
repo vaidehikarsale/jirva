@@ -1,0 +1,11 @@
+{
+  "chunk_id": "iss_003_c04",
+  "document_id": "iss_003",
+  "document_title": "Creating issues and subtasks",
+  "source_url": "https://support.atlassian.com/jira-work-management/docs/create-an-issue-and-a-sub-task/",
+  "category": "03_Issues",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 4,
+  "chunk_count_in_doc": 4,
+  "content": "In company-managed projects, you can restrict access by setting the issue’s security level.\nTo set the issue security level on issues in company-managed projects:\n- Choose the lock icon at the top-right of the issue. This icon only appears if the project has a security scheme configured.\n- Select the desired security level.\nYou can also remove an issue's security level by selecting the lock icon and selecting Remove security level.\nJira admins can add, edit, or remove security levels (and their membership) through issue security schemes. Learn more about issue security schemes.\nDelete an issue\nTo delete an issue, you must have the Delete issues permission in the project where the issue was created. Learn more about project permissions.\nTo delete an issue:\n- Navigate to the issue and view its details.\n- Select ... > Delete."
+}

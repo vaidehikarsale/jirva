@@ -1,0 +1,11 @@
+{
+  "chunk_id": "brd_001_c02",
+  "document_id": "brd_001",
+  "document_title": "Create a board based on spaces",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/create-a-board/",
+  "category": "07_Boards",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 2,
+  "content": "If you're basing your board on one or more existing spaces, this will create a pre-configured board that contains all the work items in your chosen space. Your board will have a work item filter with the following query:\nspace = \"[YOUR SPACE]\" ORDER BY Rank ASC\nWas this helpful?"
+}

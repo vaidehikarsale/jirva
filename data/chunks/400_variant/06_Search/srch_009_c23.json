@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_009_c23",
+  "document_id": "srch_009",
+  "document_title": "JQL fields reference",
+  "source_url": "https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 23,
+  "chunk_count_in_doc": 33,
+  "content": "| Supported functions | When used with the EQUALS, NOT EQUALS, GREATER THAN, GREATER THAN EQUALS, LESS THAN or LESS THAN EQUALS operators, this field supports:  | \n| Examples |  | \nSLA\nUsed in service spaces only.\nSearch and sort through your requests to ensure that you're hitting your SLA goals. You can search for requests whose SLAs are in a certain state of completion, or that have a certain amount of time on their SLA clock.\n| Syntax | Time to resolutionTime to first response <your custom SLA name > | \n|---|---|\n| Field Type | SLA | \n| Auto-complete | No | \n| Supported operators | = , !=, > , >= , < , <= | \n| Unsupported operators | ~ , !~IS , IS NOT , IN , NOT IN , WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED | \n| Supported functions |  | \n| Examples |  | \nSprint\nSearch for work items that are assigned to a particular sprint. This works for active sprints and future sprints. The search is based on either the sprint name or the sprint ID (i.e. the number that Jira automatically allocates to a sprint).\nIf you have multiple sprints with similar (or identical) names, you can simply search by using the sprint name — or even just part of it. The possible matches will be shown in the autocomplete drop-down, with the sprint dates shown to help you distinguish between them. (The sprint ID will also be shown, in brackets).\n| Syntax | sprint | \n|---|---|\n| Field Type | NUMBER | \n| Auto-complete | Yes | \n| Supported operators | = , != IS , IS NOT, IN , NOT IN |"
+}

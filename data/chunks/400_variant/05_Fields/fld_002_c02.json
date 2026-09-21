@@ -1,0 +1,11 @@
+{
+  "chunk_id": "fld_002_c02",
+  "document_id": "fld_002",
+  "document_title": "Edit a custom fields options",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/edit-a-custom-fields-options/",
+  "category": "05_Fields",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 2,
+  "content": "- Enter your new options one at a time in the box that appears.\n- Select Add to save.\nRestrict what users can be selected in a field\nThis setting is only available on User picker (single user) and User picker (multiple user) field types.\nInstead of showing every user in your site on every work item, you can restrict the list of names based on group or space role. This has the added benefit of hiding inactive users from this field.\nTo filter users:\n- Select Edit User Filtering on the context that you want to update.\n- Choose whether you’d like to restrict this field based on Groups or Space roles, then select who should appear in this field. If you don’t select a group or space role, no users will show in your field.\n- Select Add to save.\nWas this helpful?"
+}

@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c03",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 3,
+  "chunk_count_in_doc": 28,
+  "content": "| Syntax | cascadeOption(parentOption)  | \n|---|---|\n| Supported fields | Custom fields of type Cascading Select | \n| Supported operators | IN , NOT IN | \n| Unsupported operators | = , != , ~ , !~ , > , >= , < , <= IS , IS NOT, WAS , WAS IN , WAS NOT , WAS NOT IN , CHANGED | \n| Examples |  | \nchoiceOption()\nSearch for work items that match the selected IDs of a Multiple Choice or Dropdown custom field.\nRequires at least one argument. For multiple arguments, returns the ID of each one. Arguments must be valid option values. In cases where the argument could be both an ID and the option value, returns work items where the option value matches.\n| Syntax | choiceOption(ValueOption)  | \n|---|---|\n| Supported fields | Custom fields of types Multiple Choice and Dropdown | \n| Supported operators | IN ,NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \nclosedSprints()\nSearch for work items that are assigned to a completed Sprint.\n| Syntax | closedSprints() | \n|---|---|\n| Supported fields | Sprint | \n| Supported operators | IN ,NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \ncompleted()\nOnly applicable for sites with Jira Service Management subscriptions.\nReturns work items where the SLA cycle is complete, meaning the work item has reached one of their stop events."
+}

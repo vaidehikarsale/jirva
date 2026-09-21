@@ -1,0 +1,11 @@
+{
+  "chunk_id": "wf_006_c02",
+  "document_id": "wf_006",
+  "document_title": "Use the simplified workflow",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/use-the-simplified-workflow/",
+  "category": "01_Workflows",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 2,
+  "content": "- Under Workflow type, select the Simplify workflow button. If this button doesn't display, check that your space meets the prerequisites described above.\n- In the Simplify workflow modal, select which statuses trigger the resolution to be set to Done, then select Next.\n- Review the changes to your workflow, then select Confirm. The Add status button will now be shown in the Unmapped statuses section.\nYou can view workflow statuses and transitions in company-managed spaces. When viewing a work item, select the status dropdown, then View workflow.\nWas this helpful?"
+}

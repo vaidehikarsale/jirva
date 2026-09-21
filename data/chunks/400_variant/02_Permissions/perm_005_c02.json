@@ -1,0 +1,11 @@
+{
+  "chunk_id": "perm_005_c02",
+  "document_id": "perm_005",
+  "document_title": "Overview of Jira Cloud permissions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/overview-of-jira-cloud-permissions/",
+  "category": "02_Permissions",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 2,
+  "content": "Workflows\nUsing workflows, admins can limit what users can do on specific work items to:\n- limit users' access while work is in a specific status\n- restrict changes to a work item based on its status\n- block work from progressing to a new status until it meets acceptance criteria\nBy these powers combined, Jira admins can systemically align Jira with their organization’s ways of working. More about space workflows\nWork item security schemes\nJira admins can use work item security schemes to restrict the visibility of individual work items within an otherwise accessible space. Once configured, a work item security scheme hides work items from public view, save for users who have permission to view sensitive information. This is applied independently from space permissions. More about work item security schemes\nYou can use Rovo to explain and troubleshoot Jira permissions. Open Rovo Chat and enter /manage-jira-permissions, then tell Rovo what problem you’re trying to solve, or ask for a rundown on your current permissions setup.\nWork with external collaborators using guest roles\nIf you need to give external collaborators limited access to Jira without a full license, you can invite them as guests. Guests are free, non-billable, and restricted to a single space per site — with a fixed set of permissions that can't be expanded through permission schemes or space roles. How to invite and manage guests in Jira\nWas this helpful?"
+}

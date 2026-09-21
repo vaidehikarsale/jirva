@@ -1,0 +1,11 @@
+{
+  "chunk_id": "wf_003_c04",
+  "document_id": "wf_003",
+  "document_title": "How to create workflows for business spaces",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/how-to-create-workflows/",
+  "category": "01_Workflows",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 4,
+  "chunk_count_in_doc": 4,
+  "content": "Control assignees for specific statuses\nYou can make it so that whenever a status of a work item is changed, it forces the user to choose a new assignee. This ensures that the next part of the work gets done by the right person. See advanced workflow configuration for more.\nManage transition properties\nBusiness spaces recognize some properties on transitions. The most common one is to limit resolutions displayed to the user on a given transition. For example, we might want the resolution scratched to show up for disk media when retiring, but not for books.\nFor more information about these tasks, see Advanced workflow configuration.\nGet the most out of your workflows\n- Before you edit a workflow, make sure it isn't being used by any other spaces! Any changes made to a shared workflow will impact all the spaces using it.\n- To re-use a workflow in another space, select Create with shared configuration when you create the new space or update the default workflow in the new space to the one that you want.\n- Remember to hit Publish to make new or edited workflows active in your space.\nWas this helpful?"
+}

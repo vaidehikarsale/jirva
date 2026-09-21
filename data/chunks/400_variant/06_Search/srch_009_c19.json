@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_009_c19",
+  "document_id": "srch_009",
+  "document_title": "JQL fields reference",
+  "source_url": "https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 19,
+  "chunk_count_in_doc": 33,
+  "content": "| Syntax | reporter | \n|---|---|\n| Field Type | USER | \n| Auto-complete | Yes | \n| Supported operators | = , != IS , IS NOT, IN , NOT IN , WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED | \n| Unsupported operators | ~ , !~ , > , >= , < , <= | \n| Supported functions | When used with the IN and NOT IN operators, this field supports:  When used with the EQUALS and NOT EQUALS operators, this field supports:  | \n| Examples |  | \nRequest channel type\nUsed in business spaces only.\nSearch for requests by the channel that they were created by. For example, you could search for all requests that were emailed to the service space, or all requests that were sent from a customer portal.\n| Syntax | request-channel-type | \n|---|---|\n| Field Type | TEXT | \n| Auto-complete | Yes | \n| Supported operators | = , != IS, IS NOT, IN, NOT IN | \n| Unsupported operators | ~ , !~ , > , >= , < , <=WAS, WAS IN, WAS NOT, WAS NOT IN, CHANGED | \n| Supported functions | When used with the IN and NOT IN operators, this field supports:  | \n| Examples |  | \nRequest last activity time\nUsed in business spaces only.\nSearch for requests that were created on, before, or after a particular date (or date range). Note that if a time-component is not specified, midnight will be assumed. Search results are relative to your configured time zone (which is by default the Jira server's time zone).\nUse one of the following formats:"
+}

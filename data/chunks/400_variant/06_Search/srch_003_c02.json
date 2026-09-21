@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c02",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 28,
+  "content": "| Examples |  | \napprover()\nOnly applicable for sites with Jira Service Management subscriptions.\nSearch for requests where any specified user is an approver for a pending or completed approval step, and may or may not have already approved or declined the approval. You must specify a username.\n| Syntax | approver(user1, user2) | \n|---|---|\n| Supported fields | Custom fields of type Approval | \n| Supported operators | = | \n| Unsupported operators | != ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,IN ,NOT IN ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \nbreached()\nOnly applicable for sites with Jira Service Management subscriptions.\nReturns work items that whose most recent SLA has missed its goal.\n| Syntax | breached() | \n|---|---|\n| Supported fields | SLA | \n| Supported operators | = ,!= | \n| Unsupported operators | ~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,IN ,NOT IN ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \ncascadeOption()\nSearch for work items that match the selected values of a Cascading Select custom field.\nThe parentOption parameter matches against the first tier of options in the cascading select field. \nThe childOption parameter matches against the second tier of options in the cascading select field, and is optional. \nThe keyword none can be used to search for work items where either or both of the options have no value.\n| Syntax | cascadeOption(parentOption)  | \n|---|---|\n| Supported fields | Custom fields of type Cascading Select | \n| Supported operators | IN , NOT IN |"
+}

@@ -1,0 +1,11 @@
+{
+  "chunk_id": "iss_002_c02",
+  "document_id": "iss_002",
+  "document_title": "Add edit and delete an issue type",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/add-edit-and-delete-an-issue-type/",
+  "category": "03_Issues",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 2,
+  "content": "Delete a work type\nBefore deleting a work type, we recommend searching for all work items of that type and bulk editing them to select another existing work type. You can then delete the original work type without affecting existing work.\n- Select Settings () then Work items.\n- Select Work types.\n- Find the relevant work type and select Delete.\nWas this helpful?"
+}

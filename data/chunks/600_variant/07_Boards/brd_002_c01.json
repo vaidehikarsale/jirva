@@ -1,0 +1,11 @@
+{
+  "chunk_id": "brd_002_c01",
+  "document_id": "brd_002",
+  "document_title": "Create a Kanban board based on spaces",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/create-a-kanban-board-based-on-projects/",
+  "category": "07_Boards",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 1,
+  "content": "If you're setting up Jira for the first time, follow the prompts to create a space. A new board may already be selected for your space by default. You can change which board is associated with your space using by selecting Change to view all options.\nIf you've already set up Jira, follow these instructions to create a Kanban board using work items from a space.\n- From the top navigation at the top of the page, select the search field (or press / ) and select Go to all: Boards. Then select Create board in the upper right of the screen.\n- In the modal that pops up, choose Create a Kanban board.\n- Select whether to base your board on a new software space or one or more existing spaces (you need the Browse spaces permission for both options).\n- Follow the prompts to set up your board.\nAnother way you can create a kanban board is by:\n- Hover your cursor over the company-managed software space in the sidebar until a plus icon () shows up next to the space name.\n- Select Create board (), then select Kanban.\n- Enter a name for your board.\n- Choose what to include in the board from the dropdown.\n- Select Create.\nYour new board is now ready to use! At the top is a link that you may want to send to other people so that they can use it too.\nIf you're basing your board on one or more existing spaces, this will create a pre-configured board that contains all the work items in your chosen space. Your board will have a work item filter with the following query:\nspace = \"[YOUR SPACE]\" ORDER BY Rank ASC\nWas this helpful?"
+}

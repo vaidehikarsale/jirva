@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_005_c04",
+  "document_id": "srch_005",
+  "document_title": "Search for work items using the text field",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/search-syntax-for-text-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 4,
+  "chunk_count_in_doc": 10,
+  "content": "+jira atlassian\nNOT\nThe NOT operator excludes documents that contain the term after NOT. This is equivalent to a difference using sets. The symbol ! can be used in place of the word NOT.\nTo search for documents that contain \"atlassian jira\" but not \"japan\", use the query:\n\"atlassian jira\" NOT \"japan\"\nThe NOT operator cannot be used with just one term. For example, the following search will return no results:\nNOT \"atlassian jira\"\nUsage of the NOT operator over multiple fields may return results that include the specified excluded term. This is due to the fact that the search query is executed over each field in turn, and the result set for each field is combined to form the final result set. Hence, a work item that matches the search query based on one field, but fails based on another field will be included in the search result set.\nExcluded term\nThe \"-\" or prohibit operator excludes documents that contain the term after the \"-\" symbol.\nTo search for documents that contain \"atlassian jira\" but not \"japan\", use the query:\n\"atlassian jira\" -japan\nGrouping\nYou can use parentheses to group clauses to form sub-queries, which can be very helpful if you want to control the boolean logic for a query.\nTo search for bugs and either atlassian or jira, use the query:\nbugs AND (atlassian OR jira)\nThis eliminates any confusion and makes sure that bugs must exist, and either term atlassian or jira may exist.\nDon’t use the grouping character '(' at the start of a search query, as this will result in an error. For example, \"(atlassian OR jira) AND bugs\" will not work.\nReserved words"
+}

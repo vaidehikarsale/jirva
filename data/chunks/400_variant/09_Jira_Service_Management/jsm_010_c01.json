@@ -1,0 +1,11 @@
+{
+  "chunk_id": "jsm_010_c01",
+  "document_id": "jsm_010",
+  "document_title": "Set up service level agreement SLA goals",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/set-up-sla-goals/",
+  "category": "09_Jira_Service_Management",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 1,
+  "content": "To update an existing SLA’s goals:\n- Select Request management, then SLAs.\n- Find the SLA you need to update and select Edit.\n- The list of goals will become editable. At the bottom of the list of goals, select Add goal or click an existing goal to start editing.\n- Under Time target, set up a target time for the work item to be resolved. If priority changes, timers adjust the remaining goal time based on the new priority.\n- Choose a calendar to specify the working hours during which time can be counted against SLAs. Read more about setting up SLA calendars.\n- Under Apply to work items, use JQL to define the type of work item you want to track. To configure SLAs for specific regions or time zones, create and use custom fields. Read more about writing JQL queries for SLAs.\n- Group your goals by priority to get more time targets for each goal. Read about grouping goals to create efficient SLA configurations.\n- Select Save.\nWas this helpful?"
+}

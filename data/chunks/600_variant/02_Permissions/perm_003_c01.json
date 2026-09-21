@@ -1,0 +1,11 @@
+{
+  "chunk_id": "perm_003_c01",
+  "document_id": "perm_003",
+  "document_title": "What are permission schemes in Jira",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/what-are-permission-schemes-in-jira/",
+  "category": "02_Permissions",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 1,
+  "content": "Permission schemes allow you to define what users can do within a space, as opposed to global permissions which define what users can do across your entire site.\nThese schemes can be shared with other spaces, but any changes will be applied to all that use it. How to create a new permission scheme\nUse space roles to grant permissions\nAlong with users and groups, Jira admins can also grant capabilities to roles within a space that can later be defined by Space admins. Jira calls these space roles, and they give permission schemes the flexibility to be used in multiple spaces without granting unwanted access. It also allows Space admins to update permissions in their spaces without requiring help from a Jira admin.\nYou can use Rovo to explain and troubleshoot Jira permissions. Open Rovo Chat and enter /manage-jira-permissions, then tell Rovo what problem you’re trying to solve, or ask for a rundown on your current permissions setup.\nWas this helpful?"
+}

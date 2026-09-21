@@ -1,0 +1,11 @@
+{
+  "chunk_id": "wf_001_c03",
+  "document_id": "wf_001",
+  "document_title": "Configure workflow schemes",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/configure-workflow-schemes/",
+  "category": "01_Workflows",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 3,
+  "chunk_count_in_doc": 3,
+  "content": "| Remove a workflow from the scheme | Select Remove in the Operations column. | \n| Change the work types associated with a workflow | 1. Select Assign under Work Types for the desired workflow. 2. Select the desired work types. 3. Select Finish. | \n| View a representation of a workflow | Select either the text or diagram link next to the workflow name. | \n| Remove a work type from the scheme | Select the x next to the name of the work type to remove it. | \nEdit, copy, and delete workflow schemes\n- Select Settings, then Work items.\n- Under WORKFLOWS, select Workflow Schemes.\n- Check out the following options:\n| What do you want to do? | Steps | \n|---|---|\n| Edit the name and description of a workflow scheme | Select Edit. Use inline edit mode – click in the associated field – to update the name and description. | \n| Copy a workflow scheme | Select Copy to create a workflow scheme with the prefix \"Copy of (name of current workflow)\" and placed in the inactive workflow schemes. | \n| Delete a workflow scheme | Select Delete and confirm the deletion. You cannot delete an active workflow scheme. You must first disassociate it from all spaces. | \nAssociate workflow schemes with a space\nCheck out Managing your workflows for more information about enabling your workflow configuration by associating a scheme with a space.\nWas this helpful?"
+}

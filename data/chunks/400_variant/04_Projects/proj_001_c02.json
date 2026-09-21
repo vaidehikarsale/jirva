@@ -1,0 +1,11 @@
+{
+  "chunk_id": "proj_001_c02",
+  "document_id": "proj_001",
+  "document_title": "What are team-managed and company-managed projects",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/what-are-team-managed-and-company-managed-projects/",
+  "category": "04_Projects",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 2,
+  "content": "Choose a company-managed space if you:\n- want to standardize configuration across multiple spaces in your organization.\n- want complex customization for permissions and workflows.\nWas this helpful?"
+}

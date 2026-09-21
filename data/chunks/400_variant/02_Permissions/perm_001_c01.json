@@ -1,0 +1,11 @@
+{
+  "chunk_id": "perm_001_c01",
+  "document_id": "perm_001",
+  "document_title": "Create a new permission scheme",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/create-a-new-permission-scheme/",
+  "category": "02_Permissions",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 1,
+  "content": "Permission schemes determine who can do what in a space. Like other schemes in Jira, these can be used by multiple spaces, allowing admins to quickly update permissions at scale.\nThe processes on this page require the Administer Jira permission.\nTo create a permission scheme:\n- Select Settings (), then Work items.\n- Under Work item attributes, select Permission Schemes. You may need to scroll down since it’s at the bottom of the list.\n- To create a new permission scheme, select Add Permission Scheme.\n- Give your new scheme a name and a short description, then select Add.\nOnce you’ve created a permission scheme, you can use it to grant access to users, and then associate it to a space.\nWas this helpful?"
+}

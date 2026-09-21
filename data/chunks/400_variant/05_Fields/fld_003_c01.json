@@ -1,0 +1,11 @@
+{
+  "chunk_id": "fld_003_c01",
+  "document_id": "fld_003",
+  "document_title": "Customize work item fields in team-managed spaces",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/customize-an-issues-fields-in-team-managed-projects/",
+  "category": "05_Fields",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 6,
+  "content": "This page is for team-managed spaces\nTo check whether your space is team-managed or company-managed, select More actions (•••) next to the space name in either the header or the sidebar. At the bottom of the menu that opens, your space details will be shown.\nIf you're in a company-managed space, check out these company-managed space articles instead.\nSpecific types of work require specific kinds of information so that your team can successfully complete their tasks. Jira can collect and display this information to give your team the context they need to get the job done.\nThese extra details appear in a work item's fields. You can customize each work type to show different fields and collect the exact information your team needs.\nSpace admins can manage team-managed fields in space settings. Jira admins can also manage those fields, together with all other company‑managed and team‑managed fields, in Jira admin settings.\nHow fields appear on your work items\nWhen you add fields to your work types, they appear on all work items of that type.\n- Fields you add to Description fields in your space's settings appear in the main content area of your work items.\n- Fields you add to Context fields in your space's settings appear on the right side of your work items.\n- If you drag fields under the Hide fields below dotted line, they appear on your work items when someone completes the field. If the field is empty, it’s hidden. Select Show X more fields when viewing a work item to interact with hidden fields.\nAdd fields to your space\nThere are a couple of ways to add fields. To add a field via your work item:\n- Open a work item. From the Details section, select Edit fields (), then Create fields.\nOr, add a field via Space settings:"
+}

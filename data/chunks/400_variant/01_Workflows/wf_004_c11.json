@@ -1,0 +1,11 @@
+{
+  "chunk_id": "wf_004_c11",
+  "document_id": "wf_004",
+  "document_title": "Configure advanced work item workflows",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/configure-advanced-issue-workflows/",
+  "category": "01_Workflows",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 11,
+  "chunk_count_in_doc": 11,
+  "content": "- When you're done, select Update.\n- Explore how to effectively use triggers in your workflows.\n- Triggers are a powerful tool for keeping your Jira Cloud work items synchronized with the information in your development tools.\n- These triggers require an integration with a code repository or integration with other Atlassian development apps.\n- Having problems setting up workflow triggers in Jira Cloud? See how you can resolve them.\n- Explore available Jira Cloud workflow properties to apply restrictions on your workflow.\n- Add permissions and restrictions on workflow statuses and transitions.\n- Discover how to map custom screens to transitions, ensuring the right information is captured at crucial stages of your space.\n- Learn how to restrict workflows based on user groups, so that only designated team members can move items through specific statuses.\nWas this helpful?"
+}

@@ -1,0 +1,11 @@
+{
+  "chunk_id": "ts_003_c04",
+  "document_id": "ts_003",
+  "document_title": "Understand common issues in Jira Service Management Cloud",
+  "source_url": "https://support.atlassian.com/jira/kb/troubleshooting-common-issues-in-jira-service-management-cloud/",
+  "category": "10_Troubleshooting",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 4,
+  "chunk_count_in_doc": 4,
+  "content": "A Jira and Space administrator can’t view Queues, Reports, and other options on the space sidebar\nWhen adding a new Org, Site, and Jira administrator, depending on the Product access settings, a Jira Service Management license is not automatically granted.\nIf a Jira administrator who is also a Space administrator is unable to view specific features on Service spaces, such as Queues, Reports, Change calendar, Customers, Knowledge base, among other features, it’s due to not having a Service Management product access (license).\nIf none of the linked fixes resolve your issue, gather the request key, project, and any error text, and contact Atlassian Support.\nWas this helpful?"
+}

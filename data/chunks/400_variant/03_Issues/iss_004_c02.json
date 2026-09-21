@@ -1,0 +1,11 @@
+{
+  "chunk_id": "iss_004_c02",
+  "document_id": "iss_004",
+  "document_title": "Link subtasks work items and pages to a work item",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/link-subtasks-issues-and-pages-from-the-new-issue-view/",
+  "category": "03_Issues",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 2,
+  "content": "- Search for and select the page to link.\n- Select Link.\nYou can add up to 2000 links to an work item. This includes:\n- web links\n- Confluence pages\n- links to an external work item on a different Jira instance\n- links to other Atlassian products.\nLink app content\nSome apps can provide information in ways a description and other details can’t. Diagrams and charts are two common types of content that apps provide, but many other options are available.\nYour Jira site needs to have installed Atlassian Marketplace apps to link app content.\nTo link app content:\n- Open a work item.\n- Select the app’s icon under the work item summary.\n- Complete the next steps, depending on the app.\nWas this helpful?"
+}

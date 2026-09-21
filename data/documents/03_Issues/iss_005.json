@@ -1,0 +1,8 @@
+{
+  "id": "iss_005",
+  "title": "Associate work types with spaces",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/associate-issue-types-with-projects/",
+  "category": "03_Issues",
+  "source_type": "Atlassian Official Documentation",
+  "content": "As a Jira administrator, you can associate a work type scheme with multiple spaces to better manage work types in one go. Your space administrators can also select a work type scheme based on the work types they need in each of their spaces.\nHow to associate a work type scheme with a space\n- Select Settings (), then select Work items.\n- In the Work types section, select Work type schemes.\n- Select Associate for the scheme you want to associate with a space.\n- Find the spaces you want to associate with the scheme and select Associate.\nHow Jira administrators manage work type schemes\n- Next to the name of your space in the sidebar, select More actions (•••), then Space settings.\n- Select Work types, then Actions, then select Use a different scheme.\n- Choose one of the three options: \n  - If you know the work type scheme name, select an existing work type scheme.\n  - If you know which space you want to copy, choose a scheme from an existing space.\n  - If you want to create a new scheme with default work types, choose a new scheme to be associated with your current space.\n- When you have selected a scheme, select OK.\nWas this helpful?"
+}

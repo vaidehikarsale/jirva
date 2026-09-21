@@ -1,0 +1,11 @@
+{
+  "chunk_id": "iss_003_c04",
+  "document_id": "iss_003",
+  "document_title": "Creating issues and subtasks",
+  "source_url": "https://support.atlassian.com/jira-work-management/docs/create-an-issue-and-a-sub-task/",
+  "category": "03_Issues",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 4,
+  "chunk_count_in_doc": 6,
+  "content": "- Open the issue you're working with\n- Click the issue type icon in the top-left corner next to the issue key\n- Choose the new issue type\nIf there are different fields in the new issue type, or if it has a different workflow, we'll open the move issue screen to complete the change.\nConvert a subtask to an issue\nYou can't do this in the new issue view just yet. Click the issue key to go to the full-page view (if you're not already there) then click through to the old issue view at the top-right to complete this process.\n- Navigate to the subtask issue you would like convert.\n- Select more (•••) > Convert to Issue.\n- In the Step 1. Select Issue Type screen, select a new issue type (i.e. a standard issue type) and select Next.\n- If the subtask's current status is not an allowed status for the new issue type, the Step 2. Select New Status screen is displayed. Select a new status and select Next.\n- In the Step 3. Update Fields screen, you will be prompted to enter any additional fields if they are required. Otherwise, you will see the message 'All fields will be updated automatically'. Select Next.\n- The Step 4. Confirmation screen is displayed. If you are satisfied with the new details for the issue, select Finish.\n- The issue will be displayed. You will see that it is no longer a subtask, that is, there is no longer a parent issue number displayed at the top of the screen.\nConvert an issue to a subtask\n- Open the issue and select on the issue type icon at the top-left of the issue\n- Select Subtask from the list of available issue types\n- Select the parent issue for the new subtask"
+}

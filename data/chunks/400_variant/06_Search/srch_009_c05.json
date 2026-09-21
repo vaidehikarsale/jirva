@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_009_c05",
+  "document_id": "srch_009",
+  "document_title": "JQL fields reference",
+  "source_url": "https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 5,
+  "chunk_count_in_doc": 33,
+  "content": "| Supported functions | When used with the IN and NOT IN operators, component supports:  | \n| Examples |  | \nCreated\nSearch for work items that were created on, before, or after a particular date (or date range). Note that if a time-component is not specified, midnight will be assumed. Please note that the search results will be relative to your configured time zone (which is by default the Jira server's time zone).\nUse one of the following formats:\n\"yyyy/MM/dd HH:mm\"\"yyyy-MM-dd HH:mm\"\"yyyy/MM/dd\"\"yyyy-MM-dd\"\nOr use \"w\" (weeks), \"d\" (days), \"h\" (hours) or \"m\" (minutes) to specify a date relative to the current time. The default is \"m\" (minutes). Be sure to use quote-marks (\"); if you omit the quote-marks, the number you supply will be interpreted as milliseconds after epoch (1970-1-1).\n| Syntax | created | \n|---|---|\n| Alias | createdDate | \n| Field Type | DATE | \n| Auto-complete | No | \n| Supported operators | = , != , > , >= , < , <= IS , IS NOT , IN , NOT IN | \n| Unsupported operators | ~ , !~ WAS, WAS IN, WAS NOT, WAS NOT IN, CHANGED | \n| Supported functions | When used with the EQUALS, NOT EQUALS, GREATER THAN, GREATER THAN EQUALS, LESS THAN or LESS THAN EQUALS operators, this field supports:  | \n| Examples |  | \nCreator"
+}

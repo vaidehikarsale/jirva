@@ -1,0 +1,11 @@
+{
+  "chunk_id": "perm_007_c01",
+  "document_id": "perm_007",
+  "document_title": "Permissions for company-managed projects",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/permissions-for-company-managed-projects/",
+  "category": "02_Permissions",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 3,
+  "content": "Use permission schemes to grant the permissions listed on this page.\nAdminister spaces\nJira admins automatically inherit the Administer spaces permission.\nOnly users with this permission can:\n- assign users to a space role\n- edit components\n- edit versions\n- edit some space details including: \n  - space name\n  - URL\n  - space lead\n  - description\nIt can only be granted to users who have been invited by an admin.\nBrowse spaces\nThis permission is a prerequisite for almost all permissions in a space.\nThe Browse spaces permission allows users to view a space, see its work items, and search for them (unless work items have been hidden by work-level security settings).\nThis permission doesn’t require Jira app access, and can be granted to any user who has access to your site.This is a common way to make a space public.\nThe Browse spaces permission can reveal the details of spaces in the directory and in search\nIf you grant this permission to User custom field value, Group custom field value, Reporter, or Current assignee in your permission scheme, any user who is logged into your site can see the name of the space on the View All Spaces page and when searching for work items. They cannot view the work items inside the space.\nThis is a known bug. See JAC for more\nManage work item layouts\nThe Manage work item layouts permission allows a user to change which fields appear on work in their space using the Layout settings page. They can add existing fields, but this permission doesn’t allow them to create new ones.\nThis permission can only allows a user to change a workflow if the screens used in the Layout panel are not shared with any other spaces. More about how permissions interact\nIt can only be granted to users who have been invited by an admin.\nEdit workflows"
+}

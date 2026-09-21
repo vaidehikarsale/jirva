@@ -1,0 +1,11 @@
+{
+  "chunk_id": "wf_003_c02",
+  "document_id": "wf_003",
+  "document_title": "How to create workflows for business spaces",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/how-to-create-workflows/",
+  "category": "01_Workflows",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 6,
+  "content": "Keep workflows simple\nWorkflows in business spaces are designed to make your work processes easier, so make sure you keep them as simple as you can. Here's an example of a simple editorial process:\nStart → Story ideas → Draft → Review → Final draft → Final review → Published\nIn the example above, a piece of work can only move forward in the process. However, we can simplify it a lot further by creating a review loop, instead of separate review statuses.\nThe loop allows us to move our work back and forth in a draft and review cycle.\nTo help you simplify processes, map them out in full (like the top example), then look at where you can consolidate steps. Remember that each step represents the current state of a piece of work, so if it can be in one state multiple times, consider having only one status to reflect this.\nDon't create a custom workflow for every variation of work item that you do. Try to re-use workflows for as many processes as you can.\nUpdate a space's workflow\nIf your business space has a workflow that's pretty close to what you need, you can update it by adding statuses and transitions to suit your needs.\nTo update the existing workflow:\n- Select a business space that you wish to update the workflow for.\n- Next to the name of your space in the sidebar, select More actions (•••), then Space settings.\n- Select Workflows from the sidebar.\n- Select Edit workflow.\n- You can do any of these actions: \n  - Select Add status to add a new step to the workflow (you can add existing statuses or create new ones)\n  - Select Add transition or drag from a node on one status to another to add a transition\n- Select Publish Draft."
+}

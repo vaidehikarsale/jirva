@@ -1,0 +1,11 @@
+{
+  "chunk_id": "brd_005_c02",
+  "document_id": "brd_005",
+  "document_title": "Monitor work in a kanban space",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/monitor-work-in-a-kanban-project/",
+  "category": "07_Boards",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 2,
+  "content": "| Prioritize the kanban board | Drag and drop a work item to rank it. You can also right-select the work item to open a menu that allows you to send it to the top or the bottom of the column. | \n| View and edit a work item’s fields | Select a work item to open the work item and edit work item fields. To open the work item in a separate tab or window, right-select on the work item key. To view the fields of a parent work item at the next level up in the hierarchy (epic by default in software spaces), select the parent work item lozenge on the work item itself. To edit multiple work items from the board:  | \n| Filter work items | Select a filter from the Quick filters dropdown to apply it to the board. To display quick filters as buttons, switch on Show quick filters in the dropdown menu. More about quick filters | \n| Prioritize a work item | Drag and drop a work item within a column to rank it. | \n| Transition a work item | Drag and drop a work item between columns. To transition multiple work items from the board:  | \n| Create subtasks | Select a work item and select . Subtasks are useful for breaking a story (work item) down into implementable chunks. | \n| Flag a work item | Select a work item and select More actions (), then Add flag. | \n| Delete a work item | Select a work item and select More actions (), then Delete. | \n| Bulk change work items |  More about bulk changing work items | \n| Release work items | Select Release to release completed work items. When you release work items, these work items no longer appear in the Done column, and a release version is created, which you can view in the Releases tab of the space. | \nWas this helpful?"
+}

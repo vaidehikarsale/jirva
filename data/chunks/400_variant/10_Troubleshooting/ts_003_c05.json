@@ -1,0 +1,11 @@
+{
+  "chunk_id": "ts_003_c05",
+  "document_id": "ts_003",
+  "document_title": "Understand common issues in Jira Service Management Cloud",
+  "source_url": "https://support.atlassian.com/jira/kb/troubleshooting-common-issues-in-jira-service-management-cloud/",
+  "category": "10_Troubleshooting",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 5,
+  "chunk_count_in_doc": 5,
+  "content": "The ticket doesn't transition when the agent or customer adds a comment\nIn Legacy automation and Automation, it’s possible to create a rule that transitions tickets from Waiting for Support to Waiting for Customer, and vice versa, when a comment is added.\nSometimes, this rule won’t transition work items, and the most common cause is the Assignee also being listed as a Customer role. This means the Assignee is listed as a Request participant or member of an Organization the ticket was shared with.\nTo prevent these permission issues, ensure the Assignee is not added as a Participant or to Organizations.\nIf other agents need to receive notifications or collaborate on a ticket, they can set themselves as Watchers.\nOther than issues with the Automation, adding an Agent as a Participant or Member of an Org can affect SLAs.\nA Jira and Space administrator can’t view Queues, Reports, and other options on the space sidebar\nWhen adding a new Org, Site, and Jira administrator, depending on the Product access settings, a Jira Service Management license is not automatically granted.\nIf a Jira administrator who is also a Space administrator is unable to view specific features on Service spaces, such as Queues, Reports, Change calendar, Customers, Knowledge base, among other features, it’s due to not having a Service Management product access (license).\nIf none of the linked fixes resolve your issue, gather the request key, project, and any error text, and contact Atlassian Support.\nWas this helpful?"
+}

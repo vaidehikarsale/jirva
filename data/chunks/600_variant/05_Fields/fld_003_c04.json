@@ -1,0 +1,11 @@
+{
+  "chunk_id": "fld_003_c04",
+  "document_id": "fld_003",
+  "document_title": "Customize work item fields in team-managed spaces",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/customize-an-issues-fields-in-team-managed-projects/",
+  "category": "05_Fields",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 4,
+  "chunk_count_in_doc": 4,
+  "content": "If you've enabled space features, like sprints or estimation, you might see a few other fields:\n- Sprint – labels the work item or task with the sprint it belongs to. This is useful in filtering, sorting, and reporting. The Sprint field is created automatically when you enable the Sprints feature. Read more about the sprints feature.\n- Story point estimate – the estimated amount of effort that the work item should take, expressed as a numeral (not necessarily equivalent to an amount of time). The Story points field is created automatically when you enable the Estimation feature, and select Story points as your estimation statistic. Read more about estimation.\n- Original estimate – the estimated amount of effort that a work item should take equivalent to an amount of time. The Original estimate field is always available. The Original estimate field is created automatically when you enable the Estimation feature and select Time as your estimation statistic. Read more about estimation.\nRequired fields\nUse required fields to mark a work type’s most important details.\n- Next to your space's name in the sidebar, select More actions (•••), then Space settings, then Work types.\n- Select the work type you want to edit.\n- Select the Required checkbox for any fields you want to make mandatory.\n- Select Save changes.\nOnce saved, new work items of that type can’t be created unless the required field is filled out.\nWas this helpful?"
+}

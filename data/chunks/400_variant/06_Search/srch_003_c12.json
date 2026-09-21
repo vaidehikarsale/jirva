@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c12",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 12,
+  "chunk_count_in_doc": 28,
+  "content": "| Syntax | workItemsWithRemoteLinksByGlobalId(globalId) | \n|---|---|\n| Supported fields | Work item | \n| Supported operators | IN ,NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \nlastLogin()\nPerform searches based on the time at which the current user's previous session began. See also currentLogin().\n| Syntax | lastLogin() | \n|---|---|\n| Supported fields | Created, Due, Resolved, Updated, custom fields of type Date/Time | \n| Supported operators | = ,!= ,> ,>= ,< ,<= ,WAS * ,WAS IN * ,WAS NOT * ,WAS NOT IN *,CHANGED * * Only in predicate | \n| Unsupported operators | ~ ,!~ ,IS ,IS NOT ,IN ,NOT IN | \n| Examples |  | \nlatestReleasedVersion()\nPerform searches based on the latest released version (i.e. the most recent version that has been released) of a specified space. See also releasedVersions().\nThe \"latest\" is determined by the ordering assigned to the versions, not by actual Version Due Dates.\n| Syntax | latestReleasedVersion(space) | \n|---|---|\n| Supported fields | AffectedVersion, FixVersion, custom fields of type Version | \n| Supported operators | = ,!= | \n| Unsupported operators | ~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,IN ,NOT IN ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \nlinkedWorkItem"
+}

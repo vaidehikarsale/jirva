@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c25",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 25,
+  "chunk_count_in_doc": 28,
+  "content": "See also startOfDay(), startOfWeek(), startOfMonth(), endOfDay(), endOfWeek(), endOfMonth() and endOfYear().\n| Syntax | startOfYear() where inc is an optional increment of(+/-)nn(y\\|M\\|w\\|d\\|h\\|m) . If the time unit qualifier is omitted, it defaults to the natural period of the function, e.g.startOfYear(\"+1\") is the same asstartOfYear(\"+1y\") . If the plus/minus(+/-) sign is omitted, plus(+) is assumed. | \n|---|---|\n| Supported fields | Created, Due, Resolved, Updated, custom fields of type Date/Time | \n| Supported operators | = ,!= ,> ,>= ,< ,<= ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Unsupported operators | ~ ,!~ ,IS ,IS NOT ,IN ,NOT IN | \n| Examples |  | \nsubtaskWorkTypes()\nPerform searches based on work items that are sub-tasks. See also standardWorkTypes().\n| Syntax | subtaskWorkTypes() | \n|---|---|\n| Supported fields | Type | \n| Supported operators | IN ,NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT IN ,WAS NOT ,CHANGED | \n| Examples |  | \nunreleasedVersions()"
+}

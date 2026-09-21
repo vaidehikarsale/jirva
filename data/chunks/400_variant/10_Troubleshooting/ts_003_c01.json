@@ -1,0 +1,11 @@
+{
+  "chunk_id": "ts_003_c01",
+  "document_id": "ts_003",
+  "document_title": "Understand common issues in Jira Service Management Cloud",
+  "source_url": "https://support.atlassian.com/jira/kb/troubleshooting-common-issues-in-jira-service-management-cloud/",
+  "category": "10_Troubleshooting",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 5,
+  "content": "Summary\nDiscover solutions to frequent requests in Jira Service Management, focusing on the Customer Portal, notifications, and permissions.\nSolution\nThis is a hub of common JSM Cloud issues with links to the specific fixes for each. Use your browser's find (Ctrl/Cmd-F) to jump to your symptom, then follow the linked article.\nAn Org & Site and Jira administrator can’t see all tickets in the Customer Portal\nThe Customer Portal is a place where customers can view the tickets they created and the ones shared with them (Organizations and Request participants).\nThe filters in the Portal are hard-coded, so they can’t be changed.\nWhen accessing Requests > Created by me, the filter would be:\nreporter = currentUser() AND resolution is EMPTY\nOn the Requests page, the currently logged-in user can select different statuses and request types to filter requests.\nWhen changing from Created by me to another option from the dropdown, it will show the following tickets:\nAll\nIt will show all tickets where the current user is the Reporter, a Request participant, or where the Organization the current user is a member of is shared.\nWhere I am a participant\nIt shows tickets where the current user is not the reporter, but a Request participant.\nShared with my organizations\nIf the current user is a member of more than one Organization, the tickets from all Orgs will be shown when using this filter.\nThe reason why a Site/Org and Jira administrator can’t view all the tickets via the Customer Portal is that.\nAs an administrator, the correct place to view all tickets is either directly in Space Queues or via Filters > Advanced search.\nThe customer is not receiving notifications about updates to their tickets\nThere are several reasons why a customer might not receive notifications for their request:\nThe Request type is empty on the ticket:"
+}

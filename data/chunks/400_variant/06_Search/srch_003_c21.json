@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c21",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 21,
+  "chunk_count_in_doc": 28,
+  "content": "| Syntax | releasedVersions()  | \n|---|---|\n| Supported fields | AffectedVersion, FixVersion, custom fields of type Version | \n| Supported operators | IN ,NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \nremaining()\nOnly applicable for sites with Jira Service Management subscriptions.\nReturns work items whose SLA clock is at a certain point relative to the goal.\n| Syntax | remaining() | \n|---|---|\n| Supported fields | SLA | \n| Supported operators | = ,!= ,> ,>= ,< ,<= | \n| Unsupported operators | ~ ,!~ ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \nrunning()\nOnly applicable for sites with Jira Service Management subscriptions.\nReturns work items that have an SLA that is running, regardless of the calendar.\nTo find work items that are running based on calendar hours, use withinCalendarHours().\n| Syntax | running() | \n|---|---|\n| Supported fields | SLA | \n| Supported operators | = ,!= | \n| Unsupported operators | ~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \nstandardWorkTypes()\nPerform searches based on \"standard\" work types, that is, search for work items that are not subtasks. See also subtaskWorkTypes().\n| Syntax | standardWorkTypes() | \n|---|---|\n| Supported fields | Type |"
+}

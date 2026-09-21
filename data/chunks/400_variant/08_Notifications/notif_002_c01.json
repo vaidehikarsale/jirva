@@ -1,0 +1,11 @@
+{
+  "chunk_id": "notif_002_c01",
+  "document_id": "notif_002",
+  "document_title": "Configure email notifications",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/configure-email-notifications/",
+  "category": "08_Notifications",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 3,
+  "content": "Jira can send email notifications to users when significant events occur (e.g. creation of a work item; completion of a work item).\nBefore you begin\nYou must be logged in as a user with the Administer Jira global permission.\nIf you're not a Jira admin, you can manage the email notifications you receive in your personal settings. How to manage your personal settings\nEmail notifications\nEnable email notifications\nThe email address from which notifications are sent can also be configured for each space. See Creating a notification scheme for more information.\nDisable email notifications\nJira spaces use notification schemes to send email notifications about space activity. There are two ways to disable email notifications for a given space:\n- Remove the notification scheme entirely from a space.\n- Edit a space's notification scheme so that no emails are sent. Take care when editing a scheme as more than one space may be using it. Read more about creating and editing a notification scheme.\nTo remove a notification scheme from a space:\n- Next to the name of your space in the sidebar, select More actions (•••), then Space settings.\n- Select Notifications.\n- Select Actions, then Use a different scheme.\n- In the Schemes dropdown, select None.\n- Select Associate.\nConfigure a space's sender email address\nYou can configure the sender email address for a Jira Cloud space. This will also serve as the reply address for responses to notifications, which can work in conjunction with Creating work items and comments from email.\nWhen you set the sender address for a space, all notifications are sent from this address. This setting is specific to the space and won't affect the configuration of other spaces.\nThe 'Sender Address' for a space can be configured as follows:\n- Choose Settings (), then Spaces."
+}

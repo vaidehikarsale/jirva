@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_009_c30",
+  "document_id": "srch_009",
+  "document_title": "JQL fields reference",
+  "source_url": "https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 30,
+  "chunk_count_in_doc": 33,
+  "content": "Search for work items that have certain text present in worklog comments using Jira text-search syntax. More about searching syntax for text fields.\nIf a work item has more than 1,000 worklogs, JQL will only search the most recent ones. To find older worklog entries, use the work item view or export the data directly.\n| Syntax | worklogComment | \n|---|---|\n| Field Type | TEXT | \n| Auto-complete | No | \n| Supported operators | ~ | \n| Unsupported operators | !~, = , != , > , >= , < , <= IS , IS NOT , IN , NOT IN , WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED | \n| Supported functions | None | \n| Examples |  | \nWorklog date\nOnly available if time-tracking has been enabled by your Jira administrator.\nSearch for work items with work logged on a specific date.\nIf a work item has more than 1,000 worklogs, JQL will only search the most recent ones. To find older worklog entries, use the work item view or export the data directly.\n| Syntax | worklogDate | \n|---|---|\n| Field Type | DATE | \n| Auto-complete | No | \n| Supported operators | = , != , > , >= , < , <=IS , IS NOT , IN , NOT IN | \n| Unsupported operators | ~ , !~WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED | \n| Supported functions | When used with the EQUALS, NOT EQUALS, GREATER THAN, GREATER THAN EQUALS, LESS THAN or LESS THAN EQUALS operators, this field supports:  | \n| Examples |  | \nWork item key\nSearch for work items with a particular key or ID (i.e. the number that Jira automatically allocates to a work item).\n| Syntax | workItemKey |"
+}

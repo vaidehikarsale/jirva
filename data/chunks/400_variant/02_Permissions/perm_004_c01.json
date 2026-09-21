@@ -1,0 +1,11 @@
+{
+  "chunk_id": "perm_004_c01",
+  "document_id": "perm_004",
+  "document_title": "Grant space permissions using permission schemes",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/grant-space-permissions-using-permission-schemes/",
+  "category": "02_Permissions",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 1,
+  "content": "Grant space permissions using permission schemes\nPermission schemes control who can access and edit spaces in your site\nView topic\nCreate a new permissions scheme that can be used across multiple spaces\nView topic\nHow to use permission schemes to assign permissions in a space\nView topic\nUse a different set of permissions for a space\nView topic\nSometimes, permissions in Jira conflict. Here's how you can navigate these overlaps.\nView topic\nPermissions, space roles, and work-level security features have limitations in Free Jira sites\nView topic\nTips and tricks on opening spaces up to the public\nView topic\nSee how space roles make managing permissions at scale easier\nView topic\nMake a new space role\nView topic\nSee what space roles are in your site, and where they're used\nView topic\nWas this helpful?\nYes\nNo\nIt wasn't accurate\nIt wasn't clear\nIt wasn't relevant\nProvide feedback about this article\nStill need help?\nThe Atlassian Community is here for you.\nAsk the Community\nExplore more\nWhat are permission schemes in Jira?\nCreate a new permission scheme\nGrant or revoke permissions in a scheme\nChange which permission scheme a space uses\nHow permissions interact with each other\nShow more\nManage permissions in Jira Cloud\nDefine who can access your Jira site using Permissions\nGrant space permissions using permission schemes\nTypes of permissions you can grant in a space scheme\nRestrict sensitive data using work item security schemes\nInvite and manage guests in Jira\nCommunity\nQuestions, discussions, and articles"
+}

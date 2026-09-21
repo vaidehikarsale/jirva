@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_001_c01",
+  "document_id": "srch_001",
+  "document_title": "Use advanced search with Jira Query Language JQL",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/use-advanced-search-with-jira-query-language-jql/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 1,
+  "content": "Optimize your searches with advanced search in Jira Cloud and learn how to construct precise queries in JQL.\nThe advanced search is the most powerful and flexible way to search for your work items in Jira. You can use the Jira Query Language (JQL) to specify criteria that cannot be defined in the quick or basic searches. For example, you can use the ORDER BY clause in a JQL query to search for work items and display them in an ascending or descending order.\nJQL is for everyone: developers, testers, agile project managers, and business users. However, you need to know how to construct structured queries using JQL to use this feature.\nWas this helpful?"
+}

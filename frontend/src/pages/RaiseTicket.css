@@ -1,0 +1,81 @@
+.raise-ticket-panel {
+  max-width: 560px;
+}
+
+.raise-ticket-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius);
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.raise-ticket-panel form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.raise-ticket-panel label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 6px;
+  margin-top: 14px;
+}
+
+.raise-ticket-panel label:first-of-type {
+  margin-top: 0;
+}
+
+.raise-ticket-panel input,
+.raise-ticket-panel textarea {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 9px 12px;
+  color: var(--color-text);
+  background: var(--color-surface);
+  resize: vertical;
+  transition: border-color var(--transition);
+}
+
+.raise-ticket-panel input:focus,
+.raise-ticket-panel textarea:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+
+.raise-ticket-panel input:disabled,
+.raise-ticket-panel textarea:disabled {
+  background: var(--color-neutral-bg);
+  color: var(--color-text-secondary);
+}
+
+.raise-ticket-panel .btn-primary {
+  margin-top: 20px;
+  align-self: flex-start;
+  transition: background var(--transition), transform var(--transition);
+}
+
+.raise-ticket-panel .btn-primary:not(:disabled):hover {
+  transform: translateY(-1px);
+}
+
+.form-error {
+  margin-top: 14px;
+  padding: 10px 12px;
+  background: var(--color-danger-bg);
+  color: var(--color-danger);
+  border-radius: var(--radius);
+  font-size: 13px;
+}
+
+.submitting-note {
+  margin-top: 10px;
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}

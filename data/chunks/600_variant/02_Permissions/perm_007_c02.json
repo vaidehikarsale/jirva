@@ -1,0 +1,11 @@
+{
+  "chunk_id": "perm_007_c02",
+  "document_id": "perm_007",
+  "document_title": "Permissions for company-managed projects",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/permissions-for-company-managed-projects/",
+  "category": "02_Permissions",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 2,
+  "content": "- If a sprint contains work from multiple boards, users need the Manage sprints permission in all spaces to update the sprint. Space roles can simplify handling this permission in complex setups. More about space roles\n- If your boards use complex JQL queries that unite work from multiple spaces, you may need to grant users the Manage sprints in all spaces in your site. An easier way to resolve problems from complex queries is to simplify your boards' JQL queries.\nView aggregated data\nThe View aggregated data permission allows users to see insights about their board, backlog, and deployments. This permission doesn’t require Jira app access, and can be granted to any user who has access to your site.\nEven if users don’t have access to a space, this permission can expose information such as:\n- the average estimations or work item count of a space\n- the work types used in a space\n- the names of epics in a space, even if child work items are restricted by work-level security settings\n- a team’s deployment frequency, even if work is restricted by work-level security settings\nView development tools\nThe View development tools permission allows a user to view the Development panel. It can only be granted to users who have been invited by an admin.\nView (read-only) workflow\nThe View (read-only) workflow permission allows users to view a workflow using the View workflow link. This permission doesn’t require Jira app access, and can be granted to any user who has access to your site.\nWas this helpful?"
+}

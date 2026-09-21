@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c18",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 18,
+  "chunk_count_in_doc": 28,
+  "content": "To find work items that are paused because they are outside calendar hours, use withinCalendarHours().\n| Syntax | paused() | \n|---|---|\n| Supported fields | SLA | \n| Supported operators | = ,!= | \n| Unsupported operators | ~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \npending()\nOnly applicable for sites with Jira Service Management subscriptions.\nSearch for requests with a pending approval step.\n| Syntax | pending() | \n|---|---|\n| Supported fields | Custom fields of type Approval | \n| Supported operators | = ,!= | \n| Unsupported operators | ~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \npendingApprovalBy()\nOnly applicable for sites with Jira Service Management subscriptions.\nSearch for requests where any specified user is the approver for a pending approval step and is yet to approve or decline the approval. You must specify a username.\n| Syntax | pendingApprovalBy(user1, user2) | \n|---|---|\n| Supported fields | Custom fields of type Approval | \n| Supported operators | = ,!= | \n| Unsupported operators | ~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \npendingBy()\nOnly applicable for sites with Jira Service Management subscriptions.\nSearch for requests where any specified user is an approver for a pending approval step, and may or may not have already approved or declined the request. You must specify a username."
+}

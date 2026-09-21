@@ -1,0 +1,11 @@
+{
+  "chunk_id": "ts_002_c05",
+  "document_id": "ts_002",
+  "document_title": "Common browser-related problems in Atlassian products",
+  "source_url": "https://support.atlassian.com/atlassian-knowledge-base/kb/browser-troubleshooting-guide/",
+  "category": "10_Troubleshooting",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 5,
+  "chunk_count_in_doc": 6,
+  "content": "With Jira 8.13.13, when viewing an Issue, if the browser window width is reduced (smaller than all elements on the Issue view) the vertical scrollbar disappears. No bug reports this behavior but it was validated that it is not occurring on versions 8.13.21 and 8.22.3.\nIn rare situations, a setting in a profile can cause page rendering to break even in Incognito mode - but works fine on other browsers. Creating a new profile solves this issue.\nSafari:\nNo problems reported yet.\nBIG-IP possible problems\nAfter bypassing your BIG-IP proxy, the issue no longer occurs. A few topics to verify that may or may not be related:\n- HTTP Compression - Directly affects the content encoding on the client side (browser) \n  - Please also check the content from the \"Browser workarounds\" section of the page above\n- Session Persistence - If the persistence is not correctly configured, it may cause communication problems in the browser\n- SSL shutdowns:\nSSL Shutdowns\nConfiguring SSL shutdowns\nWith respect to the shutdown of SSL connections, you can configure two settings on the BIG-IP system: Unclean Shutdown and Strict Resume.\nDisabling unclean SSL shutdowns\nIn an unclean shutdown, underlying TCP connections are closed without exchanging the required SSL shutdown alerts. However, you use the Unclean Shutdown setting to disable unclean shutdowns and thus force the SSL profile to perform a clean shutdown of all SSL connections by configuring this setting."
+}

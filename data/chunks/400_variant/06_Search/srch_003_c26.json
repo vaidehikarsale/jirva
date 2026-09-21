@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c26",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 26,
+  "chunk_count_in_doc": 28,
+  "content": "| Examples |  | \nunreleasedVersions()\nPerform searches based on the unreleased versions (i.e. versions that your Jira administrator has not yet released) of a specified space. You can also search on the unreleased versions of all spaces, by omitting the project parameter. See also earliestUnreleasedVersion().\n| Syntax | unreleasedVersions()  | \n|---|---|\n| Supported fields | AffectedVersion, FixVersion, custom fields of type Version | \n| Supported operators | IN ,NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT IN ,WAS NOT ,CHANGED | \n| Examples |  | \nupdatedBy()\nSearch for work items that were updated by a specific user, optionally within the specified time range. An update, in this case, includes creating a work item, updating any of the work item’s fields, creating or deleting a comment, or editing a comment (only the last edit).\nFor the time range, use one of the following formats:\n\"yyyy/MM/dd\"\"yyyy-MM-dd\"\nOr use \"w\" (weeks), or \"d\" (days) to specify a date relative to the current time. Unlike some other functions, updatedBy doesn't support values smaller than a day, and will always round them up to 1 day.\n| Syntax | updatedBy(user)  | \n|---|---|\n| Supported fields | Work item | \n| Supported operators | IN ,NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT IN ,WAS NOT ,CHANGED | \n| Examples |  |"
+}

@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_004_c05",
+  "document_id": "srch_004",
+  "document_title": "JQL operators",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-operators/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 5,
+  "chunk_count_in_doc": 13,
+  "content": "- Find all work items where the Reporter or Assignee is either Jack or Jill: reporter in (Jack,Jill) or assignee in (Jack,Jill)\n- Find all work items where the Reporter or Assignee is either Jack or Jill whose Atlassian account IDs are abcde-12345-fedcba and cdefb-67895-cbaed, respectively: reporter in (abcde-12345-fedcba,cdefb-67895-cbaed) or assignee in (abcde-12345-fedcba,cdefb-67895-cbaed)\n- Find all work items in version 3.14 or version 4.2: affectedVersion in (\"3.14\", \"4.2\")\nNOT IN\nThe \"NOT IN\" operator is used to search for work items where the value of the specified field is not one of multiple specified values.\nUsing \"NOT IN\" is equivalent to using multiple NOT_EQUALS (!=) statements, but is shorter and more convenient. That is, typing reporter NOT IN (tom, jane, harry) is the same as typing reporter != \"tom\" AND reporter != \"jane\" AND reporter != \"harry\".\nThe \"NOT IN\" operator will not match a field that has no value (i.e. a field that is empty). For example, assignee not in (jack,jill) will only match work items that have an assignee and the assignee is not \"jack\" or \"jill\". To find work items that are assigned to someone other than \"jack\" or \"jill\" or are unassigned, you would need to type: assignee not in (jack,jill) or assignee is empty.\nExamples"
+}

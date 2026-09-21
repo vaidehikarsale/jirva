@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c24",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 24,
+  "chunk_count_in_doc": 28,
+  "content": "See also startOfDay(), startOfMonth(), startOfYear(), endOfDay(), endOfWeek(), endOfMonth() and endOfYear().\n| Syntax | startOfWeek() where inc is an optional increment of(+/-)nn(y\\|M\\|w\\|d\\|h\\|m) . If the time unit qualifier is omitted, it defaults to the natural period of the function, e.g.startOfWeek(\"+1\") is the same asstartOfWeek(\"+1w\") . If the plus/minus(+/-) sign is omitted, plus(+) is assumed. | \n|---|---|\n| Supported fields | Created, Due, Resolved, Updated, custom fields of type Date/Time | \n| Supported operators | = ,!= ,> ,>= ,< ,<= ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Unsupported operators | ~ ,!~ ,IS ,IS NOT ,IN ,NOT IN | \n| Examples |  | \nstartOfYear()\nPerform searches based on the start of the current year.\nSee also startOfDay(), startOfWeek(), startOfMonth(), endOfDay(), endOfWeek(), endOfMonth() and endOfYear()."
+}

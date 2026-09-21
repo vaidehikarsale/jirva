@@ -1,0 +1,11 @@
+{
+  "chunk_id": "wf_003_c06",
+  "document_id": "wf_003",
+  "document_title": "How to create workflows for business spaces",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/how-to-create-workflows/",
+  "category": "01_Workflows",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 6,
+  "chunk_count_in_doc": 6,
+  "content": "For more information about these tasks, see Advanced workflow configuration.\nGet the most out of your workflows\n- Before you edit a workflow, make sure it isn't being used by any other spaces! Any changes made to a shared workflow will impact all the spaces using it.\n- To re-use a workflow in another space, select Create with shared configuration when you create the new space or update the default workflow in the new space to the one that you want.\n- Remember to hit Publish to make new or edited workflows active in your space.\nWas this helpful?"
+}

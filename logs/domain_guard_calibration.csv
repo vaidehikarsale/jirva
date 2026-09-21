@@ -1,0 +1,21 @@
+timestamp,ticket,expected_domain,retrieval_top_score,reference_similarity_score,short_circuited,predicted_domain,correct,predicted_category,closest_reference_ticket
+2026-09-09T11:16:15+00:00,Why can't I move my issue to Done?,Jira,0.011522365,0.8460208177566528,False,Jira,True,01_Workflows,Why can't I transition my issue to a different status?
+2026-09-09T11:16:45+00:00,How do I create a permission scheme?,Jira,0.9994248,0.7261963486671448,False,Jira,True,02_Permissions,How do I give someone edit access to issues?
+2026-09-09T11:17:00+00:00,How do I set up a Kanban board?,Jira,0.9979259,0.9406355619430542,False,Jira,True,07_Boards,How do I set up a Kanban board for my team?
+2026-09-09T11:17:21+00:00,What's the difference between team-managed and company-managed projects?,Jira,0.9944171,0.9954904317855835,False,Jira,True,04_Projects,What's the difference between a team-managed and company-managed project?
+2026-09-09T11:17:54+00:00,How do I add a custom field to my issue type?,Jira,0.97231185,0.9525889754295349,False,Jira,True,05_Fields,How do I add a custom field to my issue form?
+2026-09-09T11:18:30+00:00,Why am I not receiving email notifications?,Jira,0.89782166,0.8489928841590881,False,Jira,True,08_Notifications,Why am I not getting emails when issues are updated?
+2026-09-09T11:18:56+00:00,What is a queue in Jira Service Management?,Jira,0.8928713,0.7925803661346436,False,Jira,True,09_Jira_Service_Management,What is a queue and how do I set one up?
+2026-09-09T11:19:21+00:00,How do I link a subtask to a parent issue?,Jira,0.9970157,0.8955129981040955,False,Jira,True,03_Issues,How do I create a subtask under an existing issue?
+2026-09-09T11:19:56+00:00,How do I export project data to Excel?,Jira,0.042307686,0.6968226432800293,False,Jira,True,04_Projects,How do I find out what type of project I'm working in?
+2026-09-09T11:20:22+00:00,How do I bulk edit multiple issues at once?,Jira,0.46549278,0.764468252658844,False,Jira,True,03_Issues,How do I create a subtask under an existing issue?
+2026-09-09T11:20:32+00:00,What's the weather like today?,Out-of-Domain,5.4545257e-05,0.4412986636161804,True,Out-of-Domain,True,N/A (short-circuited),Why am I not getting emails when issues are updated?
+2026-09-09T11:20:43+00:00,How do I bake a chocolate cake?,Out-of-Domain,3.7447702e-05,0.49671655893325806,True,Out-of-Domain,True,N/A (short-circuited),How do I set up a Kanban board for my team?
+2026-09-09T11:20:53+00:00,What's the fastest sports car in the world?,Out-of-Domain,3.7446953e-05,0.4081709384918213,True,Out-of-Domain,True,N/A (short-circuited),How do I set up a Kanban board for my team?
+2026-09-09T11:21:04+00:00,Who won the latest election?,Out-of-Domain,3.9376668e-05,0.4832262098789215,True,Out-of-Domain,True,N/A (short-circuited),How do I add a new status to our workflow?
+2026-09-09T11:21:32+00:00,How do I reset my Windows password?,Out-of-Domain,0.0030991945,0.6139430999755859,False,Out-of-Domain,True,Out-of-Domain,How do I save a search so I can reuse it later?
+2026-09-09T11:21:58+00:00,What is the best Python framework?,Out-of-Domain,0.0009761016,0.5470083951950073,False,Out-of-Domain,True,Out-of-Domain,How do I find out what type of project I'm working in?
+2026-09-09T11:22:13+00:00,How do I configure a GitHub Actions workflow?,Out-of-Domain,0.65304893,0.7608116865158081,False,Jira,False,01_Workflows,How do I add a new status to our workflow?
+2026-09-09T11:22:43+00:00,How do I set up permissions in AWS S3?,Out-of-Domain,0.36244956,0.6878613233566284,False,Out-of-Domain,True,Out-of-Domain,How do I configure SLA goals for support requests?
+2026-09-09T11:23:02+00:00,How do I create a custom field in Salesforce?,Out-of-Domain,0.9601377,0.8432503938674927,False,Out-of-Domain,True,Out-of-Domain,How do I add a custom field to my issue form?
+2026-09-09T11:23:31+00:00,What's a good JQL alternative for SQL databases?,Out-of-Domain,0.3017553,0.7540576457977295,False,Jira,False,06_Search,How do I write a JQL query to find my assigned issues?

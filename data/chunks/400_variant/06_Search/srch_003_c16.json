@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c16",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 16,
+  "chunk_count_in_doc": 28,
+  "content": "| Syntax | openSprints() | \n|---|---|\n| Supported fields | Sprint | \n| Supported operators | IN ,NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \norganizationDetail()\nPerform searches based on the organization details.\nIn Customer Service Management\nThis function will return up to 32,000 organizations.\n| Syntax | organizationDetail(\"Field Name\", \"Field Value\") | \n|---|---|\n| Supported fields | Organization | \n| Supported operators | IN ,NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \nIn Jira Service Management\nThis function will return up to 32,000 organizations.\n| Syntax | organizationDetail(\"Field Name\", \"Field Value\") | \n|---|---|\n| Supported fields | Organizations | \n| Supported operators | IN ,NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \norganizationMembers()\nOnly applicable for sites with Jira Service Management subscriptions.\nSearch for all requests sent by the members of an organization. Returns requests that the members have shared with or kept private from that organization, and with any other organizations they're a member of."
+}

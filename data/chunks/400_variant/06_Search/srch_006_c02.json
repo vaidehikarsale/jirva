@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_006_c02",
+  "document_id": "srch_006",
+  "document_title": "What is a saved search",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/what-is-a-saved-search/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 2,
+  "content": "Selecting some filters, like the Viewed recently filter, will switch you to the advanced search (JQL) as the basic search can't represent the ORDER BY clause in this filter.\nFilters in Jira\nSystem filters\nJira has a set of filters that are pre-defined for you. The JQL query for these filters will be set and the search results will be displayed.\nFor example, you can simply select the My open work items filter to run it, and you’ll get a list of all your work items with the status Open.\nSystem filters in Jira are:\n- My open work items\n- Reported by me\n- All work items\n- Open work items\n- Done work items\n- Viewed recently\n- Created recently\n- Resolved recently\n- Updated recently\nSimply select one of the filters above to run them. These filters have a preset criteria defined already and you don’t have to define your search criteria for them.\nStarred filters\nYou can save your frequently used search criteria as filters. For example, if you often search for work items that are unassigned, then you can save a filter for this search so that you don’t have to set the search criteria every time you want to run it. You can select the filter instead to see all work items that are unassigned.\nWas this helpful?"
+}

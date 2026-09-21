@@ -1,0 +1,11 @@
+{
+  "chunk_id": "brd_003_c02",
+  "document_id": "brd_003",
+  "document_title": "Configure a company-managed board",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/configure-a-company-managed-board/",
+  "category": "07_Boards",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 2,
+  "content": "The suggested user list will not display if you don't have the Browse users and groups global permission. However, you can still enter the user names and group names manually. See Permissions overview for more information.\nYou may also want to give the new administrators rights to manage the Jira filter on which the board is based – see the Jira admin documentation on Managing shared filters.\nSharing a board\nA board is available to all users who can view the saved filter on which the board is based. Note that they'll also need Browse space permission for any space where work items are shown on the board. See Permissions overview for more information.\nTo share a board with different people, you'll need to either edit the saved filter (see the documentation on work item filters), or choose a different filter (see Configuring filters).\nWas this helpful?"
+}

@@ -1,0 +1,11 @@
+{
+  "chunk_id": "iss_002_c02",
+  "document_id": "iss_002",
+  "document_title": "Add edit and delete an issue type",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/add-edit-and-delete-an-issue-type/",
+  "category": "03_Issues",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 2,
+  "content": "- Select a work type scheme to associate the new work type (optional).\n- Select Add.\nWork types are associated to spaces using a work types scheme, allowing you to select the suitable scheme for your needs. You can add or remove the work type to other schemes at any time. For details, check out Associate work types with spaces\nEdit a work type\n- Select Settings () then Work items.\n- Select Work types.\n- Find the relevant work type and select Edit.\n- Edit the work type name, description, or avatar, and select Update.\nTranslate a work type\n- Select Settings () then Work items.\n- Select Work types.\n- Find the relevant work type and select Translate.\n- Select one of the installed language packs and select View.\n- Enter translations for each work type name and description (which will override any existing translations, if any, in that language pack) and select Update.\nDelete a work type\nBefore deleting a work type, we recommend searching for all work items of that type and bulk editing them to select another existing work type. You can then delete the original work type without affecting existing work.\n- Select Settings () then Work items.\n- Select Work types.\n- Find the relevant work type and select Delete.\nWas this helpful?"
+}

@@ -1,0 +1,11 @@
+{
+  "chunk_id": "wf_003_c04",
+  "document_id": "wf_003",
+  "document_title": "How to create workflows for business spaces",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/how-to-create-workflows/",
+  "category": "01_Workflows",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 4,
+  "chunk_count_in_doc": 6,
+  "content": "- What information is required to complete the process? For example, is there a request form? Are there designs or assets involved? What is the final output?\n- What restrictions do there need to be to ensure that the process is followed? For example, can some steps only be done by some people? Who are the approvers?\nLow-tech tip: use a whiteboard to create a flow diagram that everyone can see and agree on.\nCreate a new workflow\nIf there isn't an existing workflow to meet your needs, you can create a new one to use with your space.\n- Select Settings (), then Work items.\n- Select Workflows, then Add workflow.\n- Do both of the following until you've built your workflow: \n  - Select Add status to add a new step to the workflow (you can add existing statuses or create new ones)\n  - Select Add transition or drag from a node on one status to another to add a transition\n- Select Publish Draft.\n- Select the new workflow to use in your space: \n  - Select a business space that you wish to update the workflow for.\n  - Next to the name of your space in the sidebar, select More actions (•••), then Space settings.\n  - Select Workflows from the sidebar.\n  - Select Edit workflow.\n  - Select your new workflow, then Next.\n  - Choose the work types that will use this workflow and select Finish.\n  - Select Publish and Associate to migrate any existing work items to the new statuses in your workflow.\nTo change to a different initial status (the first one after the circle), click the transition line then drag the arrow from the existing initial status to your new one.\nManage task actions through transitions"
+}

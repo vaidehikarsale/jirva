@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_004_c02",
+  "document_id": "srch_004",
+  "document_title": "JQL operators",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-operators/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 13,
+  "content": "Note that typing field != value is the same as typing NOT field = value, and that field != EMPTY is the same as field IS_NOT EMPTY.\nThe \"!=\" operator will not match a field that has no value (i.e. a field that is empty). For example, component != fred will only match work items that have a component and the component is not \"fred\". To find work items that have a component other than \"fred\" or have no component, you would need to type: component != fred or component is empty.\nExamples\n- Find all work items that are assigned to any user's Atlassian account id except John Smith's: not assignee = abcde-12345-fedcbaor assignee != abcde-12345-fedcba\n- Find all work items that are not assigned to John Smith's Atlassian account ID assignee != abcde-12345-fedcba or assignee is empty\n- Find all work items that were reported by me but are not assigned to me: reporter = currentUser() and assignee != currentUser()\n- Find all work items where the Reporter or Assignee is anyone except John Smith: assignee != \"John Smith\" or reporter != \"John Smith\"\n- Find all work items where the Reports or Assignee is anyone except John Smith's: assignee != \"John Smith\" or reporter != \"John Smith\"\n- Find all work items that are not unassigned: assignee is not emptyor assignee != null\nGreater than (>)\nThe \">\" operator is used to search for work items where the value of the specified field is greater than the specified value."
+}

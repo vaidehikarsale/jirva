@@ -1,0 +1,11 @@
+{
+  "chunk_id": "perm_006_c02",
+  "document_id": "perm_006",
+  "document_title": "Grant or revoke permissions in a scheme",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/grant-or-revoke-permissions-in-a-scheme/",
+  "category": "02_Permissions",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 2,
+  "content": "- Space lead - this grants access to anyone listed as the Space owner on a space’s Details page. This is not the same as the Administer spaces permission.\n  - Single user - any user invited by your admin\n  - User custom field value - this grants access to anyone listed in a User picker (single or multi-select) type field on a work item. You’ll be asked which field you want to reference.\n- When you're done, select Update.\nWas this helpful?"
+}

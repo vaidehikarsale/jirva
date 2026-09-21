@@ -1,0 +1,11 @@
+{
+  "chunk_id": "wf_004_c07",
+  "document_id": "wf_004",
+  "document_title": "Configure advanced work item workflows",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/configure-advanced-issue-workflows/",
+  "category": "01_Workflows",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 7,
+  "chunk_count_in_doc": 11,
+  "content": "- In text mode, select the Post functions tab.\n- Select Add post function.\n- Add the post function and choose Publish Draft to finalize your changes.\nWhen you select Add post function you can choose from the available post functions, and set any necessary parameters. Options for editing or deleting a post function, and for changing the execution order, are at the right of the tab (hover there to see them).\nUse post functions with the initial transition\nYou can add post functions to a workflow's initial transition when you need to perform processing tasks – such as setting a particular field's value – when a work item is created. The initial transition is called 'Create' (if you created a blank workflow) or 'Create work item' (if you copied the system workflow).\nJira includes the following essential post functions that are specific to a workflow's initial transition and that are performed in this order:\n- Create the work item.\n- Fire an event that can be processed by the listeners.\nThe following optional post functions are available specifically for the initial transition:\n| Optional post function (initial transition only) | Description | \n|---|---|\n| Create Comment | Adds a comment to a work item if one is entered during a transition. | \n| Update Work Item Status | Sets the work item’s status to the linked status of the destination workflow status. | \n| Store Work Item | Stores updates to a work item (no change history is created). | \nAdditionally, the standard optional post functions can also be added to an initial transition. Optional post functions added to the Create transition must be placed before the 'Create the work item originally' post function.\nIf you wish, you can configure the initial status for your workflow to go to a different initial transition. See Configuring the initial status for details."
+}

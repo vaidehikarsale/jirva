@@ -1,0 +1,11 @@
+{
+  "chunk_id": "wf_002_c02",
+  "document_id": "wf_002",
+  "document_title": "Enable a workflow",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/manage-issue-workflows/",
+  "category": "01_Workflows",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 2,
+  "content": "- Next to the name of your space in the sidebar, select More actions (•••), then Space settings.\n- Select Workflows. You'll see which workflow scheme the space currently uses.\n- Select Switch Scheme and select the relevant workflow scheme from the Scheme list.\n- Select Associate to begin the migration process. Each work item needs to have a valid status, so you may need to assign statuses to a select number of work items after you switch workflow schemes.\nKeep in mind\n- All work items need a valid status. After you switch workflow schemes, you may need to assign new status to some work items.\n- Because all work items must move through a workflow, your Jira space must always be associated with a workflow scheme.\n- To disassociate a custom workflow scheme from a space, simply associate the space with the default workflow scheme instead.\nExport a workflow\nFor security reasons, only site admins can export workflows from Jira. Read about exporting workflows\nWas this helpful?"
+}

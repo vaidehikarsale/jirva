@@ -1,0 +1,11 @@
+{
+  "chunk_id": "wf_004_c06",
+  "document_id": "wf_004",
+  "document_title": "Configure advanced work item workflows",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/configure-advanced-issue-workflows/",
+  "category": "01_Workflows",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 6,
+  "chunk_count_in_doc": 11,
+  "content": "| Create Perforce Job Function | Creates a Perforce Job (if required) after completing the workflow transition. | \n| Set work item security level based on user's space role | Set the work item’s security level to the specified level if the current user is in a specified Space Role. | \n| Trigger a Webhook | Triggers the specified webhook after completing the workflow transition. Keep in mind webhooks send data into other environments that might not be secure or compliant. When you add this post function, you will be asked to specify a webhook. This webhook must already be defined in Jira (see Managing webhooks). | \n| Update Work Item Custom Field | Updates a work item custom field to a given value. | \n| Update Work Item Field | Updates one of the work item’s fields to a given value. Fields that can be updated include:  | \nAdditional post functions may be available from installed plugins, or you can create your own post functions using the plugin system – see the Workflow Plugin Modules for details.\nAdd a post function\nTo add a post function to a transition, edit the workflow that contains the transition, select the transition, then select Post functions in the properties panel for the transition.\nTo add a post function to a transition:\n- Select , then Work items.\n- Select Workflows and then Edit for the relevant workflow.\n- Select the transition: \n  - In diagram mode, select the transition arrow.\n  - In text mode, select the transition's name from the Transitions (id) column.\n- Open the post functions tab: \n  - In diagram mode, select Post functions in the properties panel to show the triggers configured for the transition.\n  - In text mode, select the Post functions tab.\n- Select Add post function.\n- Add the post function and choose Publish Draft to finalize your changes."
+}

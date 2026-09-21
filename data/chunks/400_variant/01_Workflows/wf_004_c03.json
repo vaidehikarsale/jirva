@@ -1,0 +1,11 @@
+{
+  "chunk_id": "wf_004_c03",
+  "document_id": "wf_004",
+  "document_title": "Configure advanced work item workflows",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/configure-advanced-issue-workflows/",
+  "category": "01_Workflows",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 3,
+  "chunk_count_in_doc": 11,
+  "content": "| Sub-Task Blocking Condition | Condition to block parent work item transition depending on sub-task status. | \n| User Is In Any Group | Condition to allow only users in a given group to execute a transition. | \n| User Is In Any Space Role | Condition to allow only users in a given space role to execute a transition. | \n| User Is In Custom Field | Allows only users in a given custom field to execute the transition. | \n| User Is In Group | Condition to allow only users in a given group to execute a transition. | \n| User Is In Group Custom Field | Condition to allow only users in a custom field-specified group to execute a transition. | \n| User Is In Space Role | Condition to allow only users in a given space role to execute a transition. | \n| Value Field | Allows to execute a transition if the given value of a field is equal to a constant value, or simply set. | \nAdd a condition\nTo add a condition to a transition, edit the workflow that contains the transition, select the transition, then select Conditions in the properties panel for the transition.\nTo add a condition to a transition:\n- Select , then Work items.\n- Select Workflows.\n- Select More () and then Edit next to the relevant workflow.\n- In diagram mode, select the transition arrow. In text mode, select the transition's name from the Transitions (id) column.\n- In diagram mode, select Conditions in the properties panel to show the triggers configured for the transition. In text mode, select the Conditions tab.\nWhen you select Add condition, you can choose from the available conditions, and set any necessary parameters for the condition. Additional conditions may be available from installed plugins, or you can create your own conditions using the plugin system; see the Workflow Plugin Modules for details.\nGroup conditions"
+}

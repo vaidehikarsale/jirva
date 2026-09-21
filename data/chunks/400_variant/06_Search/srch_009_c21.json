@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_009_c21",
+  "document_id": "srch_009",
+  "document_title": "JQL fields reference",
+  "source_url": "https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 21,
+  "chunk_count_in_doc": 33,
+  "content": "| Syntax | \"Request Type\" | \n|---|---|\n| Field Type | Custom field | \n| Auto-complete | Yes | \n| Supported operators | = , !=IN , NOT IN | \n| Unsupported operators | ~ , !~ , > , >= , < , <= IS , IS NOT, WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED Note that the Lucene value for Request Type, is portal-key/request-type-key . While the portal key cannot be changed after a service space portal is created, the space key can be changed. The Request Type key cannot be changed once the Request Type is created. | \n| Supported functions | None | \n| Examples |  | \nResolution\nThe resolution field doesn't exist in service team-managed spaces. This means you can't search for work items in service team-managed spaces with the resolution field. Instead, you can use the statusCategory field (a work item is resolved when statusCategory = Done).\nSearch for work items that have a particular resolution. You can search by resolution name or resolution ID (i.e. the number that Jira automatically allocates to a resolution).\n| Syntax | resolution | \n|---|---|\n| Field Type | RESOLUTION | \n| Auto-complete | Yes | \n| Supported operators | = , != , > , >= , < , <= IS , IS NOT, IN , NOT IN , WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED | \n| Unsupported operators | ~ , !~ | \n| Supported functions | None | \n| Examples |  | \nResolved"
+}

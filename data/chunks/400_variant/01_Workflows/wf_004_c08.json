@@ -1,0 +1,11 @@
+{
+  "chunk_id": "wf_004_c08",
+  "document_id": "wf_004",
+  "document_title": "Configure advanced work item workflows",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/configure-advanced-issue-workflows/",
+  "category": "01_Workflows",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 8,
+  "chunk_count_in_doc": 11,
+  "content": "If you wish, you can configure the initial status for your workflow to go to a different initial transition. See Configuring the initial status for details.\nIf you need to set the 'Resolution' field when creating a work item, add the 'Update Work Item Field' post function after the 'Create the work item' post function and after that, use the 'Store Work Item' post function. The 'Store Work Item' post function is useful for setting the Resolution field during work item creation.\nHowever, only use the Store Work Item post function where necessary, since it:\n- does not generate change history\n- is unable to persist fields that have a one-to-many relationship with the work item (for example, 'Version' or 'Component')\nUse a post function to set a field\nYou can use the ‘Update Work Item Field' post function to set the value of a work item’s field after a particular transition is executed.\nFor example, you might want a transition that moves the work item to a closed status to automatically set the 'Resolution' field.\nExample: Using a post function to set the Resolution field:\n- Edit the workflow that has the transition, and drag from status to another to create a new transition.\n- Select either None or a screen that does not contain the Resolution field.\n- Add a new \"Update Work Item Field\" post function and select a resolution from the Work Item Field and Field Value lists.\nTo create a transition that clears the Resolution field, follow the same steps above for adding an 'Update Work Item Field' post function to your transition. However, select None from the Field Value list.\nThe list of post functions for this transition includes the following statement:\n- The Resolution of the work item will be cleared.\nEach time one of these transitions is executed, the Resolution of the work item is automatically set or cleared, as specified in these post functions.\nUse a post function to send email notifications"
+}

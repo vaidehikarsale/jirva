@@ -1,0 +1,11 @@
+{
+  "chunk_id": "iss_003_c03",
+  "document_id": "iss_003",
+  "document_title": "Creating issues and subtasks",
+  "source_url": "https://support.atlassian.com/jira-work-management/docs/create-an-issue-and-a-sub-task/",
+  "category": "03_Issues",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 3,
+  "chunk_count_in_doc": 6,
+  "content": "- Clone attachments to add any existing attachments\n  - Clone links to add any existing linked issues\n  - Clone sprint values to copy across the issue's current and closed sprint values\n- Select Create\nCreate a subtask\nA subtask can be created for an issue to either split the issue into smaller chunks or to allow various aspects of an issue to be assigned to different people. If you find a subtask is holding up the resolution of an issue, you can convert the subtask to an issue, to allow it to be worked on independently. If you find an issue is really just a subtask of a bigger issue, you can also convert an issue to a subtask.\nYou can only create subtasks if your administrator has enabled subtasks, and has added the subtask issue type to the project's issue type scheme.\n- Open the issue you'd like to be the parent issue\n- Select Create subtask (\n- Add an issue summary and select Create\nNote that when you create a subtask, the following values are inherited from the parent task:\n- project\n- issue security level\nYou can customize the Create subtask screen to show fields you use most often. To do this, select Configure Fields at the top right corner of the dialog, and use the All and Custom links to switch between the default screen and your custom settings. Your changes are saved for future use.\nWork with issue types\nChange the issue type in the new issue view\nAfter you create an issue, you may want to change its type to better represent the work that needs to be done. For example, you may want to turn an issue that was raised as a task into a bug.\n- Open the issue you're working with\n- Click the issue type icon in the top-left corner next to the issue key\n- Choose the new issue type"
+}

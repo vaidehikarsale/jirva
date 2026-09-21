@@ -1,0 +1,11 @@
+{
+  "chunk_id": "wf_005_c02",
+  "document_id": "wf_005",
+  "document_title": "Best practices for workflows in Jira",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/best-practices-for-workflows-in-jira/",
+  "category": "01_Workflows",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 4,
+  "content": "Then take your team’s feedback and iterate. They’re the ones who are working in Jira.\nCreate a workflow for your team, not everyone else\nSome teams create a one-size-fits-all workflow and duplicate it across work types with only small changes on the way. Depending on the team, that might not work. A status and transition that works for one work type, for example, might not work for another. Some work items may require specific statuses and transitions, or even restrictions and automations that only work for them. You can mold a template, but it’ll never be the most effective workflow for your team.\nStill, the one-size-fits-all approach is tempting. It’s easier too. But ultimately, the people on your team will end up working with a tool not made for them, but for someone else. Remember, as an admin your job is to serve the people on your team. You want your team to work with joy and harmony. You want your workflows to be effective for the people working in them, not easy to create for the admin. Putting in the effort now will have a scaling effect, given that the people on your team have to work in Jira every day.\nIf not one-size-fits-all then, what do we recommend?\nStart from scratch. Start from zero, from nothing. Clear your mind of all templates that exist and do the work of talking to your team. Figure out the steps your team goes through and translate them into Jira. Talk to a representative from each role on your team, and make sure their needs are met. The best workflow is the one that’s tailored to your team, not for everyone else. It’s not easy and it’s going to take time, but your teams will thank you for it.\nKeep your workflow simple: limit statuses and transitions"
+}

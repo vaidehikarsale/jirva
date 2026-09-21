@@ -1,0 +1,11 @@
+{
+  "chunk_id": "wf_003_c01",
+  "document_id": "wf_003",
+  "document_title": "How to create workflows for business spaces",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/how-to-create-workflows/",
+  "category": "01_Workflows",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 6,
+  "content": "This page is for company-managed spaces\nTo check whether your space is team-managed or company-managed, select More actions (•••) next to the space name in either the header or the sidebar. At the bottom of the menu that opens, you’ll be able to view whether your space is team-managed or company-managed.\nThe way tasks and processes are managed in Jira business spaces is through workflows. A workflow maps out the steps and statuses that a task can go through and defines your process.\nIf your team does work that's more complicated than To Do → In Progress → Done, then you'll need to customize the way your typical processes are set up. You can edit the overall workflow used in a business space, or modify the way particular task types are handled in the workflow.\nYou need to be a Jira administrator to create and edit workflows.\nKey workflow components\nWorkflows in business spaces are made up of several key components.\nStatus: current state\nTransitions: change events\nTransitions are the actions that move a work item between statuses. For example, Sent to review.\nResolution: final state\nWhen a work item is finalised and no longer open, it needs a resolution status.\nThe resolution closes the work item and represents the final state of the piece of work. For example, Done, Published, or Rejected.\nWorkflow steps are mapped to board columns\nIf you use boards, you'll notice there's a correlation between your workflow's order and your board. Each step of a workflow is associated with a column on the board.\nThey may correlate one to one, or there may be multiple workflow steps associated with one column. For example, a work item with the workflow steps Draft, Review, or Approve might all appear in the In Progress column.\nKeep workflows simple"
+}

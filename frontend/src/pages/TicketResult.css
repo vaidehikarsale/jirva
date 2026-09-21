@@ -1,0 +1,121 @@
+.ticket-result {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 720px;
+}
+
+.ticket-result-toolbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ticket-result-toolbar .delete-link {
+  background: none;
+  border: 1px solid var(--color-border);
+  color: var(--color-danger);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: var(--radius);
+}
+
+.ticket-result-toolbar .delete-link:hover {
+  background: var(--color-danger-bg);
+  border-color: var(--color-danger);
+}
+
+.ticket-result-toolbar .delete-link:disabled {
+  color: var(--color-text-secondary);
+  cursor: default;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.section-header h2 {
+  margin: 0;
+}
+
+.badge-with-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.analysis-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 24px;
+  margin-top: 12px;
+}
+
+.analysis-grid > div:nth-child(2) {
+  grid-column: 1 / -1;
+}
+
+.field-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  text-transform: none;
+  margin-top: 14px;
+  margin-bottom: 4px;
+}
+
+.field-label:first-child {
+  margin-top: 0;
+}
+
+.field-value {
+  display: block;
+  font-size: 14px;
+  color: var(--color-text);
+}
+
+.field-value.mono {
+  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  font-size: 13px;
+}
+
+.decision-reason {
+  margin: 0 0 4px 0;
+  color: var(--color-text);
+}
+
+.answer-panel {
+  background: var(--color-neutral-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  white-space: pre-wrap;
+  font-size: 14px;
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+.sources-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sources-list li {
+  padding: 6px 0;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 13px;
+}
+
+.sources-list li:last-child {
+  border-bottom: none;
+}
+
+.source-score {
+  color: var(--color-text-secondary);
+  font-size: 12px;
+}

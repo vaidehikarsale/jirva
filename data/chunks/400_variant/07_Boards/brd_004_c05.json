@@ -1,0 +1,11 @@
+{
+  "chunk_id": "brd_004_c05",
+  "document_id": "brd_004",
+  "document_title": "Configure columns",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/configure-columns/",
+  "category": "07_Boards",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 5,
+  "chunk_count_in_doc": 8,
+  "content": "- Select Columns.\n- Drag and drop the relevant status to the Unmapped statuses panel.\n- If no work items have the status, you can select Delete () on the status card to delete it.\nIf your board is not using the simplified workflow, statuses can only be deleted by Jira admins in the workflow editor. What are Jira workflows?\nSet column constraints\nSetting constraints on each workflow state is a crucial part of kanban, so that you can ensure that work is continually flowing through the pipeline. You may also find it handy in Scrum, so that you can see bottlenecks early, and adjust the scope of your sprint. You can specify constraints for all columns, or just some of them.\nConstraints trigger a visual indicator when a minimum or maximum number of work items appear in a column. On the board, you’ll notice\nOn the board view, if a column constraint is exceeded, then the column header will change color, as follows:\n- Red column header — maximum number of work items exceeded\n- Yellow column header — minimum number of work items not met\nThe values of the column constraints will appear at the top of each column you set them for. These values don't have any impact on the number of work items displayed in the columns.\nColumn constraints apply to the total number of work items in a column, regardless of whether they are hidden by a quick filter. Configure quick filters\nTo set column constraints of a board:\n- Next to your board’s name in the sidebar, select More actions (•••), then Board settings.\n- Expand the remainder of the menu in the sidebar by selecting Layout.\n- Select Columns.\n- Edit the constraints, as described in the following table."
+}

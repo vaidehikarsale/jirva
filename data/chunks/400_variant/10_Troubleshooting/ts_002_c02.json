@@ -1,0 +1,11 @@
+{
+  "chunk_id": "ts_002_c02",
+  "document_id": "ts_002",
+  "document_title": "Common browser-related problems in Atlassian products",
+  "source_url": "https://support.atlassian.com/atlassian-knowledge-base/kb/browser-troubleshooting-guide/",
+  "category": "10_Troubleshooting",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 6,
+  "content": "| Is this error occurring in all the computers with this browser? | HIGH | HIGH | HIGH | HIGH | Yes: Possible Bug, company policy (firewall, blocked site, Antivirus blocking) No: Problem is likely with a personal browser configuration or user's machine. | \n| If you access the instance bypassing any web proxies (IP: PORT), does the problem disappear? NOTE: This does not apply to Cloud instances. | HIGH | HIGH | HIGH | HIGH | Yes: Sometimes the problem is related to the proxy, but may not always be the root cause even when this test is performed. No: Proxy is not the root cause of the issue. | \n| If you disable the \"Compatibility View\", does the problem still occur? | LOW | HIGH | LOW | LOW | Yes: The compatibility view is disabled. No: The compatibility view must be disabled, as it is not supported by Internet Explorer. | \n| If you access the instance in Private/Incognito mode, does the problem disappear? | MEDIUM | MEDIUM | HIGH | LOW | Yes: Cache and Cookies must be cleaned. (Usually occurs with Firefox). No: The problem is possibly not related to cache and cookies, but you may want to clean these manually. | \n| Have you tried to access the instance on a previous version of this same browser and check if the problem persists? | MEDIUM | MEDIUM | MEDIUM | LOW | Yes: Proceed with all the troubleshooting above. No: This may be a bug or a problem with this specific version of the browser and you should verify the forums and release notes of the recent versions of the browser to check if this has been fixed. | \nParticularities of specific browsers\nMozilla Firefox:"
+}

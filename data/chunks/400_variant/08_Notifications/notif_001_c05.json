@@ -1,0 +1,11 @@
+{
+  "chunk_id": "notif_001_c05",
+  "document_id": "notif_001",
+  "document_title": "Configure notification schemes",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/configure-notification-schemes/",
+  "category": "08_Notifications",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 5,
+  "chunk_count_in_doc": 6,
+  "content": "| All watchers | All users who are \"watching\" the work item, the people listed in the Watchers field. | \n| User custom field value | The value of a custom field of type User Picker or Multi User Picker that may have been associated with work items. An example of where this can be useful: if you have a custom User field called Tester, you can have the tester notified when a work item is resolved. | \n| Group custom field value | The value of a custom field of type Group Picker or Multi Group Picker that may have been associated with work items. | \nUser control over email notifications\nEach user on your Jira Cloud site (including you) can choose to turn off email notifications for certain situations, to reduce the amount of email they get from Jira. For example, they can configure their personal settings to get an email when someone mentions them but not for activity on work items where they're the reporter.\nBy default, they'll get email updates for work item activity when:\n- They’re watching the work item\n- They’re the reporter\n- They’re the assignee for the work item\n- Someone mentions them\nIf they don't want email updates for any of those situations, they can uncheck the relevant checkbox. For example, if they only want emails when someone mentions them, they should uncheck all the checkboxes apart from the Someone mentions you checkbox.\nEmail notifications will only be sent to people who have permission to view the relevant work item — that is, people who:\n- have the Browse Spaces permission for the space to which the work item belongs; and\n- are members of any work item security levels that have been applied to the work item.\nJira can only send email notifications if SMTP email has been enabled (see Configuring email notifications)."
+}

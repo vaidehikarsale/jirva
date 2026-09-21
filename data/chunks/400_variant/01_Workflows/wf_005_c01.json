@@ -1,0 +1,11 @@
+{
+  "chunk_id": "wf_005_c01",
+  "document_id": "wf_005",
+  "document_title": "Best practices for workflows in Jira",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/best-practices-for-workflows-in-jira/",
+  "category": "01_Workflows",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 4,
+  "content": "Iterate on your workflow\nIt’s great to plan out your workflow, but don’t worry about getting the perfect workflow on the first try. Teams change, and Jira can adapt to those changes. What’s important is creating the best workflow you can now and iterating based on changes and feedback from the team.\nThis may seem counterintuitive, especially if your team isn’t used to working agile and want to set and forget the workflows. Keep in mind that Jira workflows are here to serve your team’s needs at the current time. They’re here to adapt to your needs right now. As you evolve, your workflows evolve with you.\nInvolve stakeholders when creating workflows\nWhen admins don’t involve the team in creating workflows, the workflow may not be the best one for the team. Remember that when you’re building a workflow, you’re doing it for people. These people will be working with the workflow you build, so make it work for them.\nWe recommend involving a stakeholder from each role on your team. In a multidisciplinary team you may have roles like:\n- Product manager\n- Software engineer\n- Product designer\n- Content designer\n- Quality assurance engineer\nGet a representative from each of these roles, find out how they work, and once you’ve created your workflows, check that they’re happy with them. If you don’t, you might end up with statuses and transitions that people don’t use, and you might miss important workflow rules that can speed your team up.\nThen take your team’s feedback and iterate. They’re the ones who are working in Jira.\nCreate a workflow for your team, not everyone else"
+}

@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c14",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 14,
+  "chunk_count_in_doc": 28,
+  "content": "| Syntax | For groups: membersOf(Group)For teams: membersOf(id:<teamId>) Teams don’t currently work with team names. You must use the teamId, which you can get from the team profile URL. You can also use groups with the groupID if required i.e, membersOf(id:<groupId>) | \n|---|---|\n| Supported fields | Assignee, Reporter, Voter, Watcher, Creator, custom fields of type User | \n| Supported operators | IN ,NOT IN ,WAS IN ,WAS NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS NOT ,CHANGED | \n| Examples |  | \nmyApproval()\nOnly applicable for sites with Jira Service Management subscriptions.\nSearch for requests where the current user is the approver for a pending or completed approval step, and may or may not have already approved or declined the request.\n| Syntax | myApproval() | \n|---|---|\n| Supported fields | Custom fields of type Approval | \n| Supported operators | = | \n| Unsupported operators | != ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,IN ,NOT IN ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \nmyPendingApproval()\nOnly applicable for sites with Jira Service Management subscriptions.\nSearch for requests where the current user is the approver for a pending approval step and is yet to approve or decline the approval.\n| Syntax | myPendingApproval() | \n|---|---|\n| Supported fields | Custom fields of type Approval | \n| Supported operators | = |"
+}

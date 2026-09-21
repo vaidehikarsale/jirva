@@ -1,0 +1,11 @@
+{
+  "chunk_id": "brd_004_c06",
+  "document_id": "brd_004",
+  "document_title": "Configure columns",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/configure-columns/",
+  "category": "07_Boards",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 6,
+  "chunk_count_in_doc": 8,
+  "content": "- Expand the remainder of the menu in the sidebar by selecting Layout.\n- Select Columns.\n- Edit the constraints, as described in the following table.\n| Enable column constraints | Under Column constraints, select either Work item count or Work item count, excluding subtasks. Enabling column constraints will show the work item count in each column. You may want to exclude subtasks (recommended for Scrum teams), so you can constrain the number of stories for your team, rather than the number of individual tasks. | \n|---|---|\n| Set a column's minimum or maximum constraint | Under a column’s name, you can enter a minimum or maximum value. To remove a constraint, clear the existing value. | \n| Remove constraints for all columns | Under Column constraints, select None. | \nConfigure columns directly on the board\nIf you’re a space or board admin, and the board uses the simplified workflow, you can configure columns directly on the board:\n- To create a column, select the + icon to the right of all columns.\n- To rename a column, select its name to edit directly.\n- To move a column, select its top, then drag the column to its new position.\n- To set column constraints, right-click its name or hover to select More actions (), then Set column limit.\n- To delete a column, right-click its name or hover to select More actions (), then Delete.\nEnable the kanban backlog\nYou must be a Jira administrator or a board administrator for the board to enable the kanban backlog.\nManaging your backlog in the first column of your kanban board is easy to do — as long as there are only a few work items in your backlog. As your backlog grows, viewing and scrolling through these work items can become inefficient."
+}

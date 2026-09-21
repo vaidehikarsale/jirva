@@ -1,0 +1,11 @@
+{
+  "chunk_id": "perm_006_c01",
+  "document_id": "perm_006",
+  "document_title": "Grant or revoke permissions in a scheme",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/grant-or-revoke-permissions-in-a-scheme/",
+  "category": "02_Permissions",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 1,
+  "content": "Once you’ve created a permission scheme, use it to define what actions users can perform in your spaces. What permissions I grant in a space?\nThe processes on this page require the Administer Jira permission.\nTo grant permissions using a scheme:\n- Select Settings (), then Work items.\n- Under the Work item attributes section, select Permission Schemes. You may need to scroll down since it’s at the bottom of the list.\n- Select either the name of the scheme you want to update or Permissions in the actions column. This opens the detailed view of the permissions in this scheme.\n- Find the permission you want to edit and select Update.\n- Next, select who you’d like to grant this permission to. Permissions in a scheme can be given to: \n  - Space roles - this refers to any custom space roles that you’ve set up – More about managing space roles\n  - Application access - any user with access to an app\n  - Group - these groups are managed by your Organization admin. Reach out to them to update group membership or to remove users from a group\n  - Public - More about publicly available spaces\n  - Any logged in user\n  - Current assignee - this grants access to anyone listed in a work item’s Assignee field\n  - Reporter - this grants access to anyone listed in a work item’s Reporter field\n  - Group custom field value - this grants access to anyone listed in a Group picker (single or multi-select) type field on a work item. You’ll be asked which field you want to reference.\n  - Space lead - this grants access to anyone listed as the Space owner on a space’s Details page. This is not the same as the Administer spaces permission.\n  - Single user - any user invited by your admin\n  - User custom field value - this grants access to anyone listed in a User picker (single or multi-select) type field on a work item. You’ll be asked which field you want to reference.\n- When you're done, select Update.\nWas this helpful?"
+}

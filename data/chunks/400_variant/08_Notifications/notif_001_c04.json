@@ -1,0 +1,11 @@
+{
+  "chunk_id": "notif_001_c04",
+  "document_id": "notif_001",
+  "document_title": "Configure notification schemes",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/configure-notification-schemes/",
+  "category": "08_Notifications",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 4,
+  "chunk_count_in_doc": 6,
+  "content": "| Work item worklog deleted | An entry in a work item's worklog has been deleted. | \n| Generic event | The exact nature of this event depends on the workflow transition(s) from it was fired. | \n| Custom event(s) | The exact nature of these events depends on the workflow transition(s) from which they were fired. | \nJira apps don’t have a specific notification event for the deletion of work item comments. When a work item's comment is deleted, Jira sends out an email notification as an 'Work item updated' event.\nRecipients\nThe following types of recipients can receive email notifications.\n| Recipient | Description | \n|---|---|\n| Current assignee | The user to whom the work item is currently assigned. | \n| Reporter | The user who originally created the work item. | \n| Current user | The user who performed the action that has triggered this event. | \n| Space owner | The user who is managing the space to which the work item belongs. | \n| Component lead | The user who is managing the component to which the work item belongs. | \n| Single user | A particular user in your Jira system. | \n| Group | A particular group in your Jira system. | \n| Space role | The members of a particular space role for this space. We recommend using space roles (rather than groups) in your notifications as this can help minimize the number of notification schemes in your system. How to manage space roles | \n| All watchers | All users who are \"watching\" the work item, the people listed in the Watchers field. |"
+}

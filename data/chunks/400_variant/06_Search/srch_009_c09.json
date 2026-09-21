@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_009_c09",
+  "document_id": "srch_009",
+  "document_title": "JQL fields reference",
+  "source_url": "https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 9,
+  "chunk_count_in_doc": 33,
+  "content": "| Syntax | due | \n|---|---|\n| Alias | dueDate | \n| Field Type | DATE | \n| Auto-complete | No | \n| Supported operators | = , != , > , >= , < , <=IS , IS NOT , IN , NOT IN | \n| Unsupported operators | ~ , !~ WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED | \n| Supported functions | When used with the EQUALS, NOT EQUALS, GREATER THAN, GREATER THAN EQUALS,  LESS THAN or LESS THAN EQUALS operators, this field supports:  | \n| Examples |  | \nEnvironment\nSearch for work items where the environment contains particular text using Jira text-search syntax. More about searching syntax for text fields.\n| Syntax | environment | \n|---|---|\n| Field Type | TEXT | \n| Auto-complete | No | \n| Supported operators | ~ , !~ IS , IS NOT | \n| Unsupported operators | = , != , > , >= , < , <= IN , NOT IN, WAS, WAS IN, WAS NOT, WAS NOT IN , CHANGED | \n| Supported functions | None | \n| Examples |  | \nEpic link\nAs of February 2024, Epic link function has been retired in favor of Parent. Existing filters that use the Epic link function still function, but you’ll need to use Parent when creating new filters.\nFilter\nYou can use a saved filter to narrow your search. You can search by filter name or filter ID (i.e. the number that Jira automatically allocates to a saved filter).\nNote:\n- It is safer to search by filter ID than by filter name. It is possible for a filter name to be changed, which could break a saved filter that invokes another filter by name. Filter IDs, however, are unique and cannot be changed.\n- An unnamed link statement in your typed query will override an ORDER BY statement in the saved filter."
+}

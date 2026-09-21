@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_004_c09",
+  "document_id": "srch_004",
+  "document_title": "JQL operators",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-operators/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 9,
+  "chunk_count_in_doc": 13,
+  "content": "IS NOT\nThe \"IS NOT\" operator can only be used with EMPTY or NULL. That is, it is used to search for work items where the specified field has a value.\nNote that not all fields are compatible with this operator; see the individual field reference for details.\nExamples\n- Find all work items that have one or more votes: votes is not emptyor votes is not null\nWAS\nThe \"WAS\" operator is used to find work items that currently have or previously had the specified value for the specified field.\nThis operator has the following optional predicates:\n- AFTER \"date\"\n- BEFORE \"date\"\n- BY \"username\" or BY (username1,username2)\n- DURING (\"date1\",\"date2\")\n- ON \"date\"\nThis operator will match the value name (e.g. \"Resolved\"), which was configured in your system at the time that the field was changed. This operator will also match the value ID associated with that value name too — that is, it will match \"4\" as well as \"Resolved\".\nIf a work item has more than 10,000 changes, JQL queries using the WAS operator will only search the most recent changes. To find older history, use the work item view or export the data directly.\nThis operator can be used with the Assignee, Fix Version, Priority, Reporter, Resolution, and Status fields only.\nExamples\n- Find work items that currently have or previously had a status of 'In Progress': status WAS \"In Progress\"\n- Find work items that were resolved by Joe Smith before 2nd February: status WAS \"Resolved\" BY jsmith BEFORE \"2019/02/02\"\n- Find work items that were resolved by Joe Smith, whose Atlassian account ID is abcde-12345-fedcba, before 2nd February: status WAS \"Resolved\" BY abcde-12345-fedcba BEFORE \"2019/02/02\""
+}

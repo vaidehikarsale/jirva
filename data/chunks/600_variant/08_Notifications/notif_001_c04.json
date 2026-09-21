@@ -1,0 +1,11 @@
+{
+  "chunk_id": "notif_001_c04",
+  "document_id": "notif_001",
+  "document_title": "Configure notification schemes",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/configure-notification-schemes/",
+  "category": "08_Notifications",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 4,
+  "chunk_count_in_doc": 4,
+  "content": "- They’re the assignee for the work item\n- Someone mentions them\nIf they don't want email updates for any of those situations, they can uncheck the relevant checkbox. For example, if they only want emails when someone mentions them, they should uncheck all the checkboxes apart from the Someone mentions you checkbox.\nEmail notifications will only be sent to people who have permission to view the relevant work item — that is, people who:\n- have the Browse Spaces permission for the space to which the work item belongs; and\n- are members of any work item security levels that have been applied to the work item.\nJira can only send email notifications if SMTP email has been enabled (see Configuring email notifications).\nJira's default setting is to not notify users of their own changes. This can be changed on a per user basis via their profile preferences.\nCustomize the look and feel of your email notifications\nCurrently, Jira Cloud does not offer a way for you to customize the look and feel of your email notifications. But, there are many third party apps available on the Atlassian Marketplace that can help you.\nWas this helpful?"
+}

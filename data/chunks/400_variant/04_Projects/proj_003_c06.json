@@ -1,0 +1,11 @@
+{
+  "chunk_id": "proj_003_c06",
+  "document_id": "proj_003",
+  "document_title": "Get started with team-managed spaces",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/get-started-with-team-managed-projects/",
+  "category": "04_Projects",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 6,
+  "chunk_count_in_doc": 6,
+  "content": "Only space admins and Jira admins can clear Done work items. Work items will be automatically cleared from your board 14 days after being moved to the Done column.\nOnce a work item is cleared, it will no longer appear on your board. This also applies to the work item’s subtasks. When a parent work item is cleared, its subtasks are also cleared, regardless of each subtask’s status.\nTo view cleared work items, select See all Done work items in the Done column, or enable the space work item navigator and select the Done filter.\nLearn more\nIf you want to learn more or want to ask us about Jira's team-managed spaces, join the discussion at Atlassian Community.\nWas this helpful?"
+}

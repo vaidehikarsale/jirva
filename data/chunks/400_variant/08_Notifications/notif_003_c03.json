@@ -1,0 +1,11 @@
+{
+  "chunk_id": "notif_003_c03",
+  "document_id": "notif_003",
+  "document_title": "Configure email notifications for a custom event",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/configure-email-notifications-for-a-custom-event/",
+  "category": "08_Notifications",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 3,
+  "chunk_count_in_doc": 3,
+  "content": "- In the Event dropdrown menu, select the custom event you want to fire in this transition.\n- Select Update.\n- Publish the changes to your workflow by selecting Publish draft.\nYou did it! Now, any space that uses this workflow will get your custom email event notification on the transition you elected.\nWas this helpful?"
+}

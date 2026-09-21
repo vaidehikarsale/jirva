@@ -1,0 +1,11 @@
+{
+  "chunk_id": "wf_004_c09",
+  "document_id": "wf_004",
+  "document_title": "Configure advanced work item workflows",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/configure-advanced-issue-workflows/",
+  "category": "01_Workflows",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 9,
+  "chunk_count_in_doc": 11,
+  "content": "- The Resolution of the work item will be cleared.\nEach time one of these transitions is executed, the Resolution of the work item is automatically set or cleared, as specified in these post functions.\nUse a post function to send email notifications\nUse the 'Fire an event that can be processed by the listeners' post function to fire the 'Generic Event', which is a built-in Jira event that can be used to trigger the sending of email notifications after a particular transition is executed.\nAlternatively, you could fire a custom event that you've created specifically for this transition.\nWhen a transition is performed, Jira will:\n- Look up the notification scheme associated with the work item’s space and identify the users associated with the fired event;\n- Send an email notification to each user.\nExample: Use a post function to fire the Generic Event to send email notifications:\n- Create or edit your transition.\n- Select the transition's Post Functions tab and edit the 'Fire an event that can be processed by the listeners' post function.\n- Select Generic Event from the list of events.\nUse a post function to update the Team field\nWhen using the Team field with advanced work item workflows, you must use the Team UUID value instead of the team name.\nTo add a post function which updates the Team field:\n- Select Update Work Item Custom Field from the Add Post Function screen.\n- Select Add.\n- From the Work Item Custom Field dropdown, select Team.\n- For Custom Field Value, you must enter the Team UUID.\nTo get the Team UUID:\n- Go to the team profile page.\n- Copy the value of the Team UUID from the URL. For example: https://yoursite.atlassian.net/people/team/[TeamUUID]\n- Paste the Team UUID to Custom Field Value.\nTransition properties"
+}

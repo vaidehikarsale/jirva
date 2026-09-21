@@ -1,0 +1,11 @@
+{
+  "chunk_id": "jsm_007_c02",
+  "document_id": "jsm_007",
+  "document_title": "Whats the difference between request types and issue types",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/whats-the-difference-between-request-types-and-issue-types/",
+  "category": "09_Jira_Service_Management",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 2,
+  "content": "If you create a work item without a request type, your requests won’t have access to all Jira Service Management features. Work items with a work type only can be found in Queues.\nThe fields of a request type come directly from their work type. The request type must have the same work type as the work item it’s connected to. If you change the work type of a work item, you’ll also need to update the request type to match. Learn more about how work types and request types connect.\nAs you set up a request type, you can choose to include fields that are hidden from your customers in the portal but still make them available to your team to help them resolve the work item. Some fields can only be used on the work item, but not on the request form. Learn more about configuring request types.\nWork types\nWork types manage the foundational settings of your work items, such as workflows and fields. Each work type maps to a single specific workflow, but can access any of the fields available in your service project. Adding a field to a work type allows any work item with that work type to use that field in work items.\nA Jira Service Management administrator can add and delete work types from a service project to represent different types of work that agents do. Each Jira product comes with default work types to suit the needs of your projects and teams. You can customize your work types as needed to suit your team’s way of working.\nWas this helpful?"
+}

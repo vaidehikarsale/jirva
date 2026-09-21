@@ -1,0 +1,180 @@
+2026-09-05T08:09:01+00:00,01_Workflows,https://support.atlassian.com/jira-cloud-administration/docs/configure-workflow-schemes/,success,saved,..\data\documents_test\01_Workflows\wf_001.json
+2026-09-05T08:09:05+00:00,01_Workflows,https://support.atlassian.com/jira-cloud-administration/docs/manage-issue-workflows/,success,saved,..\data\documents_test\01_Workflows\wf_002.json
+2026-09-05T08:09:08+00:00,01_Workflows,https://support.atlassian.com/jira-software-cloud/docs/how-to-create-workflows/,success,saved,..\data\documents_test\01_Workflows\wf_003.json
+2026-09-05T08:13:27+00:00,01_Workflows,https://support.atlassian.com/jira-cloud-administration/docs/configure-workflow-schemes/,duplicate,already exists in output_dir,
+2026-09-05T08:13:27+00:00,01_Workflows,https://support.atlassian.com/jira-cloud-administration/docs/manage-issue-workflows/,duplicate,already exists in output_dir,
+2026-09-05T08:13:27+00:00,01_Workflows,https://support.atlassian.com/jira-software-cloud/docs/how-to-create-workflows/,duplicate,already exists in output_dir,
+2026-09-05T11:48:58+00:00,01_Workflows,https://support.atlassian.com/jira-cloud-administration/docs/configure-workflow-schemes/,success,saved,..\data\documents\01_Workflows\wf_001.json
+2026-09-05T11:49:01+00:00,01_Workflows,https://support.atlassian.com/jira-cloud-administration/docs/manage-issue-workflows/,success,saved,..\data\documents\01_Workflows\wf_002.json
+2026-09-05T11:49:03+00:00,01_Workflows,https://support.atlassian.com/jira-software-cloud/docs/how-to-create-workflows/,success,saved,..\data\documents\01_Workflows\wf_003.json
+2026-09-05T11:49:06+00:00,01_Workflows,https://support.atlassian.com/jira-cloud-administration/docs/configure-advanced-issue-workflows/,success,saved,..\data\documents\01_Workflows\wf_004.json
+2026-09-05T11:49:08+00:00,01_Workflows,https://support.atlassian.com/jira-software-cloud/docs/best-practices-for-workflows-in-jira/,success,saved,..\data\documents\01_Workflows\wf_005.json
+2026-09-05T11:49:12+00:00,01_Workflows,https://support.atlassian.com/jira-software-cloud/docs/use-the-simplified-workflow/,success,saved,..\data\documents\01_Workflows\wf_006.json
+2026-09-05T11:49:16+00:00,01_Workflows,https://support.atlassian.com/jira-cloud-administration/docs/create-and-manage-issue-workflows-and-issue-workflow-schemes/,success,saved,..\data\documents\01_Workflows\wf_007.json
+2026-09-05T11:49:19+00:00,02_Permissions,https://support.atlassian.com/jira-cloud-administration/docs/create-a-new-permission-scheme/,success,saved,..\data\documents\02_Permissions\perm_001.json
+2026-09-05T11:49:22+00:00,02_Permissions,https://support.atlassian.com/jira-cloud-administration/docs/manage-permissions/,success,saved,..\data\documents\02_Permissions\perm_002.json
+2026-09-05T11:49:24+00:00,02_Permissions,https://support.atlassian.com/jira-cloud-administration/docs/what-are-permission-schemes-in-jira/,success,saved,..\data\documents\02_Permissions\perm_003.json
+2026-09-05T11:49:27+00:00,02_Permissions,https://support.atlassian.com/jira-cloud-administration/docs/grant-space-permissions-using-permission-schemes/,success,saved,..\data\documents\02_Permissions\perm_004.json
+2026-09-05T11:49:31+00:00,02_Permissions,https://support.atlassian.com/jira-service-management-cloud/docs/overview-of-jira-cloud-permissions/,success,saved,..\data\documents\02_Permissions\perm_005.json
+2026-09-05T11:49:34+00:00,02_Permissions,https://support.atlassian.com/jira-cloud-administration/docs/grant-or-revoke-permissions-in-a-scheme/,success,saved,..\data\documents\02_Permissions\perm_006.json
+2026-09-05T11:49:36+00:00,02_Permissions,https://support.atlassian.com/jira-cloud-administration/docs/permissions-for-company-managed-projects/,success,saved,..\data\documents\02_Permissions\perm_007.json
+2026-09-05T11:49:40+00:00,03_Issues,https://confluence.atlassian.com/spaces/ADMINJIRASERVER/pages/938847092/Associating+issue+types+with+projects,success,saved,..\data\documents\03_Issues\iss_001.json
+2026-09-05T11:49:42+00:00,03_Issues,https://support.atlassian.com/jira-cloud-administration/docs/add-edit-and-delete-an-issue-type/,success,saved,..\data\documents\03_Issues\iss_002.json
+2026-09-05T11:49:45+00:00,03_Issues,https://support.atlassian.com/jira-work-management/docs/create-an-issue-and-a-sub-task/,success,saved,..\data\documents\03_Issues\iss_003.json
+2026-09-05T11:49:49+00:00,03_Issues,https://support.atlassian.com/jira-service-management-cloud/docs/link-subtasks-issues-and-pages-from-the-new-issue-view/,success,saved,..\data\documents\03_Issues\iss_004.json
+2026-09-05T11:49:52+00:00,04_Projects,https://support.atlassian.com/jira-software-cloud/docs/what-are-team-managed-and-company-managed-projects/,success,saved,..\data\documents\04_Projects\proj_001.json
+2026-09-05T11:49:56+00:00,04_Projects,https://support.atlassian.com/jira-work-management/docs/learn-how-company-managed-and-team-managed-projects-differ/,success,saved,..\data\documents\04_Projects\proj_002.json
+2026-09-05T11:49:58+00:00,04_Projects,https://support.atlassian.com/jira-software-cloud/docs/get-started-with-team-managed-projects/,success,saved,..\data\documents\04_Projects\proj_003.json
+2026-09-05T11:50:01+00:00,04_Projects,https://support.atlassian.com/jira/kb/what-type-of-project-am-i-using/,success,saved,..\data\documents\04_Projects\proj_004.json
+2026-09-05T11:50:04+00:00,05_Fields,https://support.atlassian.com/jira/kb/understanding-custom-field-descriptions-in-jira-cloud/,success,saved,..\data\documents\05_Fields\fld_001.json
+2026-09-05T11:50:07+00:00,05_Fields,https://support.atlassian.com/jira-cloud-administration/docs/edit-a-custom-fields-options/,success,saved,..\data\documents\05_Fields\fld_002.json
+2026-09-05T11:50:10+00:00,05_Fields,https://support.atlassian.com/jira-software-cloud/docs/customize-an-issues-fields-in-team-managed-projects/,success,saved,..\data\documents\05_Fields\fld_003.json
+2026-09-05T11:50:12+00:00,05_Fields,https://support.atlassian.com/jira-cloud-administration/docs/edit-or-delete-a-custom-field/,success,saved,..\data\documents\05_Fields\fld_004.json
+2026-09-05T11:50:15+00:00,05_Fields,https://support.atlassian.com/jira/kb/associate-fields-with-screens-in-jira-cloud/,success,saved,..\data\documents\05_Fields\fld_005.json
+2026-09-05T11:50:18+00:00,05_Fields,https://support.atlassian.com/jira-cloud-administration/docs/manage-screen-schemes/,success,saved,..\data\documents\05_Fields\fld_006.json
+2026-09-05T11:50:20+00:00,06_Search,https://support.atlassian.com/jira-service-management-cloud/docs/use-advanced-search-with-jira-query-language-jql/,success,saved,..\data\documents\06_Search\srch_001.json
+2026-09-05T11:50:26+00:00,06_Search,https://confluence.atlassian.com/display/JIRASOFTWARESERVER/Advanced+searching+-+fields+reference,success,saved,..\data\documents\06_Search\srch_002.json
+2026-09-05T11:50:30+00:00,06_Search,https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/,success,saved,..\data\documents\06_Search\srch_003.json
+2026-09-05T11:50:34+00:00,06_Search,https://support.atlassian.com/jira-service-management-cloud/docs/jql-operators/,success,saved,..\data\documents\06_Search\srch_004.json
+2026-09-05T11:50:38+00:00,06_Search,https://support.atlassian.com/jira-software-cloud/docs/search-syntax-for-text-fields/,success,saved,..\data\documents\06_Search\srch_005.json
+2026-09-05T11:50:42+00:00,06_Search,https://support.atlassian.com/jira-software-cloud/docs/what-is-a-saved-search/,success,saved,..\data\documents\06_Search\srch_006.json
+2026-09-05T11:50:45+00:00,06_Search,https://support.atlassian.com/jira-software-cloud/docs/save-your-search-as-a-filter/,success,saved,..\data\documents\06_Search\srch_007.json
+2026-09-05T11:50:48+00:00,06_Search,https://support.atlassian.com/jira-service-management-cloud/docs/save-your-search-as-a-custom-filter/,success,saved,..\data\documents\06_Search\srch_008.json
+2026-09-05T11:50:52+00:00,07_Boards,https://support.atlassian.com/jira-software-cloud/docs/create-a-board/,success,saved,..\data\documents\07_Boards\brd_001.json
+2026-09-05T11:50:54+00:00,07_Boards,https://support.atlassian.com/jira-software-cloud/docs/create-a-kanban-board-based-on-projects/,success,saved,..\data\documents\07_Boards\brd_002.json
+2026-09-05T11:50:57+00:00,07_Boards,https://support.atlassian.com/jira-software-cloud/docs/configure-a-company-managed-board/,success,saved,..\data\documents\07_Boards\brd_003.json
+2026-09-05T11:51:00+00:00,07_Boards,https://support.atlassian.com/jira-software-cloud/docs/configure-columns/,success,saved,..\data\documents\07_Boards\brd_004.json
+2026-09-05T11:51:03+00:00,07_Boards,https://support.atlassian.com/jira-software-cloud/docs/monitor-work-in-a-kanban-project/,success,saved,..\data\documents\07_Boards\brd_005.json
+2026-09-05T11:51:06+00:00,07_Boards,https://support.atlassian.com/jira-software-cloud/docs/create-a-board-based-on-filters/,success,saved,..\data\documents\07_Boards\brd_006.json
+2026-09-05T11:51:08+00:00,08_Notifications,https://support.atlassian.com/jira-cloud-administration/docs/configure-notification-schemes/,success,saved,..\data\documents\08_Notifications\notif_001.json
+2026-09-05T11:51:10+00:00,08_Notifications,https://support.atlassian.com/jira-cloud-administration/docs/configure-email-notifications/,success,saved,..\data\documents\08_Notifications\notif_002.json
+2026-09-05T11:51:13+00:00,08_Notifications,https://support.atlassian.com/jira-cloud-administration/docs/configure-email-notifications-for-a-custom-event/,success,saved,..\data\documents\08_Notifications\notif_003.json
+2026-09-05T11:51:16+00:00,08_Notifications,https://support.atlassian.com/jira-software-cloud/docs/manage-your-jira-personal-settings/,success,saved,..\data\documents\08_Notifications\notif_004.json
+2026-09-05T11:51:19+00:00,08_Notifications,https://support.atlassian.com/jira-service-management-cloud/docs/send-notifications-from-a-custom-domain-email-address/,success,saved,..\data\documents\08_Notifications\notif_005.json
+2026-09-05T11:51:22+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/what-are-queues/,success,saved,..\data\documents\09_Jira_Service_Management\jsm_001.json
+2026-09-05T11:51:25+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/check-out-your-queues/,success,saved,..\data\documents\09_Jira_Service_Management\jsm_002.json
+2026-09-05T11:51:29+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/best-practices-for-managing-queues-at-scale/,success,saved,..\data\documents\09_Jira_Service_Management\jsm_003.json
+2026-09-05T11:51:32+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/make-a-queue-for-your-team/,success,saved,..\data\documents\09_Jira_Service_Management\jsm_004.json
+2026-09-05T11:51:36+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/manage-your-request-types-and-ticket-categories/,success,saved,..\data\documents\09_Jira_Service_Management\jsm_005.json
+2026-09-05T11:51:39+00:00,09_Jira_Service_Management,https://confluence.atlassian.com/servicemanagementserver0511/service-level-agreements-slas-overview-1319568427.html,success,saved,..\data\documents\09_Jira_Service_Management\jsm_006.json
+2026-09-05T11:51:43+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/whats-the-difference-between-request-types-and-issue-types/,success,saved,..\data\documents\09_Jira_Service_Management\jsm_007.json
+2026-09-05T11:51:46+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/categorize-customer-requests-into-request-types/,success,saved,..\data\documents\09_Jira_Service_Management\jsm_008.json
+2026-09-05T11:52:06+00:00,10_Troubleshooting,https://confluence.atlassian.com/jirakb/jira-service-management-cloud-knowledge-base-779160876.html,success,saved,..\data\documents\10_Troubleshooting\ts_001.json
+2026-09-05T11:52:09+00:00,10_Troubleshooting,https://support.atlassian.com/atlassian-knowledge-base/kb/browser-troubleshooting-guide/,success,saved,..\data\documents\10_Troubleshooting\ts_002.json
+2026-09-05T11:52:12+00:00,10_Troubleshooting,https://support.atlassian.com/jira/kb/troubleshooting-common-issues-in-jira-service-management-cloud/,success,saved,..\data\documents\10_Troubleshooting\ts_003.json
+2026-09-05T11:52:15+00:00,10_Troubleshooting,https://support.atlassian.com/automation/kb/automation-for-jira-troubleshooting-guide-for-situations-where-automation/,success,saved,..\data\documents\10_Troubleshooting\ts_004.json
+2026-09-07T03:28:43+00:00,01_Workflows,https://support.atlassian.com/jira-cloud-administration/docs/configure-workflow-schemes/,duplicate,already exists in output_dir,
+2026-09-07T03:28:43+00:00,01_Workflows,https://support.atlassian.com/jira-cloud-administration/docs/manage-issue-workflows/,duplicate,already exists in output_dir,
+2026-09-07T03:28:43+00:00,01_Workflows,https://support.atlassian.com/jira-software-cloud/docs/how-to-create-workflows/,duplicate,already exists in output_dir,
+2026-09-07T03:28:43+00:00,01_Workflows,https://support.atlassian.com/jira-cloud-administration/docs/configure-advanced-issue-workflows/,duplicate,already exists in output_dir,
+2026-09-07T03:28:43+00:00,01_Workflows,https://support.atlassian.com/jira-software-cloud/docs/best-practices-for-workflows-in-jira/,duplicate,already exists in output_dir,
+2026-09-07T03:28:43+00:00,01_Workflows,https://support.atlassian.com/jira-software-cloud/docs/use-the-simplified-workflow/,duplicate,already exists in output_dir,
+2026-09-07T03:28:43+00:00,01_Workflows,https://support.atlassian.com/jira-cloud-administration/docs/create-and-manage-issue-workflows-and-issue-workflow-schemes/,duplicate,already exists in output_dir,
+2026-09-07T03:28:43+00:00,02_Permissions,https://support.atlassian.com/jira-cloud-administration/docs/create-a-new-permission-scheme/,duplicate,already exists in output_dir,
+2026-09-07T03:28:43+00:00,02_Permissions,https://support.atlassian.com/jira-cloud-administration/docs/manage-permissions/,duplicate,already exists in output_dir,
+2026-09-07T03:28:43+00:00,02_Permissions,https://support.atlassian.com/jira-cloud-administration/docs/what-are-permission-schemes-in-jira/,duplicate,already exists in output_dir,
+2026-09-07T03:28:43+00:00,02_Permissions,https://support.atlassian.com/jira-cloud-administration/docs/grant-space-permissions-using-permission-schemes/,duplicate,already exists in output_dir,
+2026-09-07T03:28:43+00:00,02_Permissions,https://support.atlassian.com/jira-service-management-cloud/docs/overview-of-jira-cloud-permissions/,duplicate,already exists in output_dir,
+2026-09-07T03:28:43+00:00,02_Permissions,https://support.atlassian.com/jira-cloud-administration/docs/grant-or-revoke-permissions-in-a-scheme/,duplicate,already exists in output_dir,
+2026-09-07T03:28:43+00:00,02_Permissions,https://support.atlassian.com/jira-cloud-administration/docs/permissions-for-company-managed-projects/,duplicate,already exists in output_dir,
+2026-09-07T03:28:43+00:00,03_Issues,https://support.atlassian.com/jira-cloud-administration/docs/add-edit-and-delete-an-issue-type/,duplicate,already exists in output_dir,
+2026-09-07T03:28:43+00:00,03_Issues,https://support.atlassian.com/jira-work-management/docs/create-an-issue-and-a-sub-task/,duplicate,already exists in output_dir,
+2026-09-07T03:28:43+00:00,03_Issues,https://support.atlassian.com/jira-service-management-cloud/docs/link-subtasks-issues-and-pages-from-the-new-issue-view/,duplicate,already exists in output_dir,
+2026-09-07T03:28:45+00:00,03_Issues,https://support.atlassian.com/jira-cloud-administration/docs/associate-issue-types-with-projects/,success,saved,..\data\documents\03_Issues\iss_005.json
+2026-09-07T03:28:46+00:00,04_Projects,https://support.atlassian.com/jira-software-cloud/docs/what-are-team-managed-and-company-managed-projects/,duplicate,already exists in output_dir,
+2026-09-07T03:28:46+00:00,04_Projects,https://support.atlassian.com/jira-work-management/docs/learn-how-company-managed-and-team-managed-projects-differ/,duplicate,already exists in output_dir,
+2026-09-07T03:28:46+00:00,04_Projects,https://support.atlassian.com/jira-software-cloud/docs/get-started-with-team-managed-projects/,duplicate,already exists in output_dir,
+2026-09-07T03:28:46+00:00,04_Projects,https://support.atlassian.com/jira/kb/what-type-of-project-am-i-using/,duplicate,already exists in output_dir,
+2026-09-07T03:28:46+00:00,05_Fields,https://support.atlassian.com/jira/kb/understanding-custom-field-descriptions-in-jira-cloud/,duplicate,already exists in output_dir,
+2026-09-07T03:28:46+00:00,05_Fields,https://support.atlassian.com/jira-cloud-administration/docs/edit-a-custom-fields-options/,duplicate,already exists in output_dir,
+2026-09-07T03:28:46+00:00,05_Fields,https://support.atlassian.com/jira-software-cloud/docs/customize-an-issues-fields-in-team-managed-projects/,duplicate,already exists in output_dir,
+2026-09-07T03:28:46+00:00,05_Fields,https://support.atlassian.com/jira-cloud-administration/docs/edit-or-delete-a-custom-field/,duplicate,already exists in output_dir,
+2026-09-07T03:28:46+00:00,05_Fields,https://support.atlassian.com/jira/kb/associate-fields-with-screens-in-jira-cloud/,duplicate,already exists in output_dir,
+2026-09-07T03:28:46+00:00,05_Fields,https://support.atlassian.com/jira-cloud-administration/docs/manage-screen-schemes/,duplicate,already exists in output_dir,
+2026-09-07T03:28:46+00:00,06_Search,https://support.atlassian.com/jira-service-management-cloud/docs/use-advanced-search-with-jira-query-language-jql/,duplicate,already exists in output_dir,
+2026-09-07T03:28:46+00:00,06_Search,https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/,duplicate,already exists in output_dir,
+2026-09-07T03:28:46+00:00,06_Search,https://support.atlassian.com/jira-service-management-cloud/docs/jql-operators/,duplicate,already exists in output_dir,
+2026-09-07T03:28:46+00:00,06_Search,https://support.atlassian.com/jira-software-cloud/docs/search-syntax-for-text-fields/,duplicate,already exists in output_dir,
+2026-09-07T03:28:46+00:00,06_Search,https://support.atlassian.com/jira-software-cloud/docs/what-is-a-saved-search/,duplicate,already exists in output_dir,
+2026-09-07T03:28:46+00:00,06_Search,https://support.atlassian.com/jira-software-cloud/docs/save-your-search-as-a-filter/,duplicate,already exists in output_dir,
+2026-09-07T03:28:46+00:00,06_Search,https://support.atlassian.com/jira-service-management-cloud/docs/save-your-search-as-a-custom-filter/,duplicate,already exists in output_dir,
+2026-09-07T03:28:50+00:00,06_Search,https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/,success,saved,..\data\documents\06_Search\srch_009.json
+2026-09-07T03:28:52+00:00,07_Boards,https://support.atlassian.com/jira-software-cloud/docs/create-a-board/,duplicate,already exists in output_dir,
+2026-09-07T03:28:52+00:00,07_Boards,https://support.atlassian.com/jira-software-cloud/docs/create-a-kanban-board-based-on-projects/,duplicate,already exists in output_dir,
+2026-09-07T03:28:52+00:00,07_Boards,https://support.atlassian.com/jira-software-cloud/docs/configure-a-company-managed-board/,duplicate,already exists in output_dir,
+2026-09-07T03:28:52+00:00,07_Boards,https://support.atlassian.com/jira-software-cloud/docs/configure-columns/,duplicate,already exists in output_dir,
+2026-09-07T03:28:52+00:00,07_Boards,https://support.atlassian.com/jira-software-cloud/docs/monitor-work-in-a-kanban-project/,duplicate,already exists in output_dir,
+2026-09-07T03:28:52+00:00,07_Boards,https://support.atlassian.com/jira-software-cloud/docs/create-a-board-based-on-filters/,duplicate,already exists in output_dir,
+2026-09-07T03:28:52+00:00,08_Notifications,https://support.atlassian.com/jira-cloud-administration/docs/configure-notification-schemes/,duplicate,already exists in output_dir,
+2026-09-07T03:28:52+00:00,08_Notifications,https://support.atlassian.com/jira-cloud-administration/docs/configure-email-notifications/,duplicate,already exists in output_dir,
+2026-09-07T03:28:52+00:00,08_Notifications,https://support.atlassian.com/jira-cloud-administration/docs/configure-email-notifications-for-a-custom-event/,duplicate,already exists in output_dir,
+2026-09-07T03:28:52+00:00,08_Notifications,https://support.atlassian.com/jira-software-cloud/docs/manage-your-jira-personal-settings/,duplicate,already exists in output_dir,
+2026-09-07T03:28:52+00:00,08_Notifications,https://support.atlassian.com/jira-service-management-cloud/docs/send-notifications-from-a-custom-domain-email-address/,duplicate,already exists in output_dir,
+2026-09-07T03:28:52+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/what-are-queues/,duplicate,already exists in output_dir,
+2026-09-07T03:28:52+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/check-out-your-queues/,duplicate,already exists in output_dir,
+2026-09-07T03:28:52+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/best-practices-for-managing-queues-at-scale/,duplicate,already exists in output_dir,
+2026-09-07T03:28:52+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/make-a-queue-for-your-team/,duplicate,already exists in output_dir,
+2026-09-07T03:28:52+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/manage-your-request-types-and-ticket-categories/,duplicate,already exists in output_dir,
+2026-09-07T03:28:52+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/whats-the-difference-between-request-types-and-issue-types/,duplicate,already exists in output_dir,
+2026-09-07T03:28:52+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/categorize-customer-requests-into-request-types/,duplicate,already exists in output_dir,
+2026-09-07T03:28:55+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/create-service-level-agreements-slas/,success,saved,..\data\documents\09_Jira_Service_Management\jsm_009.json
+2026-09-07T03:28:57+00:00,10_Troubleshooting,https://support.atlassian.com/atlassian-knowledge-base/kb/browser-troubleshooting-guide/,duplicate,already exists in output_dir,
+2026-09-07T03:28:57+00:00,10_Troubleshooting,https://support.atlassian.com/jira/kb/troubleshooting-common-issues-in-jira-service-management-cloud/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,01_Workflows,https://support.atlassian.com/jira-cloud-administration/docs/configure-workflow-schemes/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,01_Workflows,https://support.atlassian.com/jira-cloud-administration/docs/manage-issue-workflows/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,01_Workflows,https://support.atlassian.com/jira-software-cloud/docs/how-to-create-workflows/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,01_Workflows,https://support.atlassian.com/jira-cloud-administration/docs/configure-advanced-issue-workflows/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,01_Workflows,https://support.atlassian.com/jira-software-cloud/docs/best-practices-for-workflows-in-jira/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,01_Workflows,https://support.atlassian.com/jira-software-cloud/docs/use-the-simplified-workflow/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,01_Workflows,https://support.atlassian.com/jira-cloud-administration/docs/create-and-manage-issue-workflows-and-issue-workflow-schemes/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,02_Permissions,https://support.atlassian.com/jira-cloud-administration/docs/create-a-new-permission-scheme/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,02_Permissions,https://support.atlassian.com/jira-cloud-administration/docs/manage-permissions/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,02_Permissions,https://support.atlassian.com/jira-cloud-administration/docs/what-are-permission-schemes-in-jira/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,02_Permissions,https://support.atlassian.com/jira-cloud-administration/docs/grant-space-permissions-using-permission-schemes/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,02_Permissions,https://support.atlassian.com/jira-service-management-cloud/docs/overview-of-jira-cloud-permissions/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,02_Permissions,https://support.atlassian.com/jira-cloud-administration/docs/grant-or-revoke-permissions-in-a-scheme/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,02_Permissions,https://support.atlassian.com/jira-cloud-administration/docs/permissions-for-company-managed-projects/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,03_Issues,https://support.atlassian.com/jira-cloud-administration/docs/add-edit-and-delete-an-issue-type/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,03_Issues,https://support.atlassian.com/jira-work-management/docs/create-an-issue-and-a-sub-task/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,03_Issues,https://support.atlassian.com/jira-service-management-cloud/docs/link-subtasks-issues-and-pages-from-the-new-issue-view/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,03_Issues,https://support.atlassian.com/jira-cloud-administration/docs/associate-issue-types-with-projects/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,04_Projects,https://support.atlassian.com/jira-software-cloud/docs/what-are-team-managed-and-company-managed-projects/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,04_Projects,https://support.atlassian.com/jira-work-management/docs/learn-how-company-managed-and-team-managed-projects-differ/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,04_Projects,https://support.atlassian.com/jira-software-cloud/docs/get-started-with-team-managed-projects/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,04_Projects,https://support.atlassian.com/jira/kb/what-type-of-project-am-i-using/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,05_Fields,https://support.atlassian.com/jira/kb/understanding-custom-field-descriptions-in-jira-cloud/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,05_Fields,https://support.atlassian.com/jira-cloud-administration/docs/edit-a-custom-fields-options/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,05_Fields,https://support.atlassian.com/jira-software-cloud/docs/customize-an-issues-fields-in-team-managed-projects/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,05_Fields,https://support.atlassian.com/jira-cloud-administration/docs/edit-or-delete-a-custom-field/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,05_Fields,https://support.atlassian.com/jira/kb/associate-fields-with-screens-in-jira-cloud/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,05_Fields,https://support.atlassian.com/jira-cloud-administration/docs/manage-screen-schemes/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,06_Search,https://support.atlassian.com/jira-service-management-cloud/docs/use-advanced-search-with-jira-query-language-jql/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,06_Search,https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,06_Search,https://support.atlassian.com/jira-service-management-cloud/docs/jql-operators/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,06_Search,https://support.atlassian.com/jira-software-cloud/docs/search-syntax-for-text-fields/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,06_Search,https://support.atlassian.com/jira-software-cloud/docs/what-is-a-saved-search/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,06_Search,https://support.atlassian.com/jira-software-cloud/docs/save-your-search-as-a-filter/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,06_Search,https://support.atlassian.com/jira-service-management-cloud/docs/save-your-search-as-a-custom-filter/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,06_Search,https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,07_Boards,https://support.atlassian.com/jira-software-cloud/docs/create-a-board/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,07_Boards,https://support.atlassian.com/jira-software-cloud/docs/create-a-kanban-board-based-on-projects/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,07_Boards,https://support.atlassian.com/jira-software-cloud/docs/configure-a-company-managed-board/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,07_Boards,https://support.atlassian.com/jira-software-cloud/docs/configure-columns/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,07_Boards,https://support.atlassian.com/jira-software-cloud/docs/monitor-work-in-a-kanban-project/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,07_Boards,https://support.atlassian.com/jira-software-cloud/docs/create-a-board-based-on-filters/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,08_Notifications,https://support.atlassian.com/jira-cloud-administration/docs/configure-notification-schemes/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,08_Notifications,https://support.atlassian.com/jira-cloud-administration/docs/configure-email-notifications/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,08_Notifications,https://support.atlassian.com/jira-cloud-administration/docs/configure-email-notifications-for-a-custom-event/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,08_Notifications,https://support.atlassian.com/jira-software-cloud/docs/manage-your-jira-personal-settings/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,08_Notifications,https://support.atlassian.com/jira-service-management-cloud/docs/send-notifications-from-a-custom-domain-email-address/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/what-are-queues/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/check-out-your-queues/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/best-practices-for-managing-queues-at-scale/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/make-a-queue-for-your-team/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/manage-your-request-types-and-ticket-categories/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/whats-the-difference-between-request-types-and-issue-types/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/categorize-customer-requests-into-request-types/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/create-service-level-agreements-slas/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,10_Troubleshooting,https://support.atlassian.com/atlassian-knowledge-base/kb/browser-troubleshooting-guide/,duplicate,already exists in output_dir,
+2026-09-07T04:02:25+00:00,10_Troubleshooting,https://support.atlassian.com/jira/kb/troubleshooting-common-issues-in-jira-service-management-cloud/,duplicate,already exists in output_dir,
+2026-09-07T04:02:27+00:00,09_Jira_Service_Management,https://support.atlassian.com/jira-service-management-cloud/docs/set-up-sla-goals/,success,saved,..\data\documents\09_Jira_Service_Management\jsm_010.json

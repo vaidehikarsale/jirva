@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_009_c06",
+  "document_id": "srch_009",
+  "document_title": "JQL fields reference",
+  "source_url": "https://support.atlassian.com/jira-service-desk-cloud/docs/advanced-search-reference-jql-fields/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 6,
+  "chunk_count_in_doc": 33,
+  "content": "| Supported functions | When used with the EQUALS, NOT EQUALS, GREATER THAN, GREATER THAN EQUALS, LESS THAN or LESS THAN EQUALS operators, this field supports:  | \n| Examples |  | \nCreator\nSearch for work items that were created by a particular user. You can search by the user's full name, ID, or email address. Note that a work item's creator does not change, so you cannot search for past creators (e.g. WAS).\n| Syntax | creator | \n|---|---|\n| Field Type | USER | \n| Auto-complete | Yes | \n| Supported operators | = , != IS , IS NOT , IN , NOT IN | \n| Unsupported operators | ~ , !~ , > , >= , < , <= CHANGED, WAS, WAS IN, WAS NOT, WAS NOT IN | \n| Supported functions | When used with the IN and NOT IN operators, this field supports:  When used with the EQUALS and NOT EQUALS operators, this field supports:  | \n| Examples |  | \nCustom field\nOnly applicable if your Jira administrator has created one or more custom fields.\nSearch for work items where a particular custom field has a particular value. You can search by custom field name or custom field ID (i.e. the number that Jira automatically allocates to a custom field).\nFor multiple choice and dropdown custom fields, you can search by both option value and option ID. However, for performance reasons, when using closedSprints(), futureSprints(), and openSprints(), you can only search by option value. For example, if closedSprints() were to return 16, the following query:\n\"customField1[Dropdown]\" in (12, closedSprints())\nwould search for option values 12 and 16 and ID 12.\n| Syntax | CustomFieldName | \n|---|---|"
+}

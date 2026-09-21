@@ -1,0 +1,11 @@
+{
+  "chunk_id": "fld_005_c02",
+  "document_id": "fld_005",
+  "document_title": "Associate fields with screens in Jira Cloud",
+  "source_url": "https://support.atlassian.com/jira/kb/associate-fields-with-screens-in-jira-cloud/",
+  "category": "05_Fields",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 3,
+  "content": "- Access Project settings > Workflows\n- Select Edit\n- You can select a specific transition and from there see the Screen linked to the transition\nSelect the screen to be directed to the page to add and remove fields.\nAssociate a custom field with multiple screens at once\nWhen a new Custom field is created, it’s possible to select one or multiple screens to include the new field.\nIf a pre-existing field needs to be added to several Screens, you can follow these steps:\n- Go to Settings (Cog icon) > Work items\n- Select Custom fields\n- Filter or scroll to find your field\n- Select More options (•••) > Associate to Screens\n- Fill each checkbox to select the Screens where this field should appear\n- Select Update to save the changes\nAlternatively, you can reach this same page from a project's field configuration page.\n- From a project that includes this field, select Project settings\n- Select Fields \n  - For Jira Software projects, this item is nested under the All work expander\n- Select the pencil icon to edit\n- Find the field in the list\n- By selecting Screens next to the field, you'll be taken to the same page in step 5 above\n- Fill each checkbox to select the Screens where this field should appear\n- Select Update to save the changes\nAdd, edit, or remove fields using the Work item layout editor\nJira administrators can also add custom fields to the work item view without the need to add them to the Screen. The steps vary slightly depending on the project type in use.\nWork item layout in Jira Software projects\n- Select Project settings\n- Select All work > Layout\nIssue layout in Jira Business projects\n- Select Project settings\n- Select Work item layout > Edit work item layout\nRequest type editor in Jira Service Management projects\n- Select Project settings\n- Select Request management > Request types > choose a category of request type\n- Select one of the request types from the page"
+}

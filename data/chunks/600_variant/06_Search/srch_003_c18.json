@@ -1,0 +1,11 @@
+{
+  "chunk_id": "srch_003_c18",
+  "document_id": "srch_003",
+  "document_title": "JQL functions",
+  "source_url": "https://support.atlassian.com/jira-service-management-cloud/docs/jql-functions/",
+  "category": "06_Search",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 18,
+  "chunk_count_in_doc": 18,
+  "content": "| Supported fields | Work item | \n| Supported operators | IN ,NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT IN ,WAS NOT ,CHANGED | \n| Examples |  | \nvotedWorkItems()\nPerform searches based on work itemss for which you have voted. Also, see the Voter field. Note, this function can only be used by logged-in users.\nThis function will return up to 32,000 work item IDs.\n| Syntax | votedWorkItems() | \n|---|---|\n| Supported fields | Work item | \n| Supported operators | IN ,NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT IN ,WAS NOT ,CHANGED | \n| Examples |  | \nwatchedWorkItems()\nPerform searches based on work items that you are watching. Also, see the Watcher field. Note that this function can only be used by logged-in users.\nThis function will return up to 32,000 work item IDs.\n| Syntax | watchedWorkItems() | \n|---|---|\n| Supported fields | Work item | \n| Supported operators | IN ,NOT IN | \n| Unsupported operators | = ,!= ,~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \nwithinCalendarHours()\nOnly applicable for sites with Jira Service Management subscriptions.\nReturns work items that have an SLA that is running according to the SLA calendar.\nFor example, say your space has two SLAs that count Time to First Response. Some work items with this SLA use a 9am-1pm calendar, and others use a 9am-5pm calendar. If an agent starts work at 3pm, they probably want to work on work items from the 9am-5pm agreement first. They can use withinCalendarHours() to find all the work items where Time to First Response is running at 3pm.\n| Syntax | withinCalendarHours() | \n|---|---|\n| Supported fields | SLA | \n| Supported operators | = ,!= | \n| Unsupported operators | ~ ,!~ ,> ,>= ,< ,<= ,IS ,IS NOT ,WAS ,WAS IN ,WAS NOT ,WAS NOT IN ,CHANGED | \n| Examples |  | \nWas this helpful?"
+}

@@ -1,0 +1,11 @@
+{
+  "chunk_id": "proj_003_c02",
+  "document_id": "proj_003",
+  "document_title": "Get started with team-managed spaces",
+  "source_url": "https://support.atlassian.com/jira-software-cloud/docs/get-started-with-team-managed-projects/",
+  "category": "04_Projects",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 2,
+  "chunk_count_in_doc": 6,
+  "content": "While the roadmap can help you plan and track large initiatives over time, the board is more tactical. It captures the work your team is currently carrying out, usually over the next week or two.\nThe columns on your board start out with default statuses to represent the state of work. This visual representation of your team’s work helps you discuss and track the progress of your space from start to finish.\nWhat are status categories?\nJira lets you collect many statuses within three categories (or: status categories). These categories help you sort, filter, and report on your space work.\nIn Jira, your space comes with three default categories:\n- To do\n- In progress\n- Done\nFor example, you might have a “Backlog” status and a “Waiting for approval” status, in the To do category. Or, you might have a “Developing” status and an “In review” status, in the In progress category.\nIn Jira, your space comes with three default statuses that match the three default categories:\n- To do\n- In progress\n- Done\nWe recommend these statuses when starting a space. As your team progresses, you may need to add more statuses to control the flow of your team’s work.\nUnderstand the relationship between a status and a column\nYou can edit or rearrange columns so the board accurately reflects your team’s process.\nWhen you first start out, columns and statuses are connected to each other. This means when you create a column, you’re also creating a status.\nThe relationship between statuses and columns also applies to the order the columns are in on the board.\nThe leftmost position (first position, from left to right) is associated with the To do category. The rightmost position (last position, from left to right) is associated with the Done category. Everything in between is considered In progress.\nWork in the rightmost column is marked as resolved"
+}

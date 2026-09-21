@@ -1,0 +1,11 @@
+{
+  "chunk_id": "iss_002_c01",
+  "document_id": "iss_002",
+  "document_title": "Add edit and delete an issue type",
+  "source_url": "https://support.atlassian.com/jira-cloud-administration/docs/add-edit-and-delete-an-issue-type/",
+  "category": "03_Issues",
+  "source_type": "Atlassian Official Documentation",
+  "chunk_index": 1,
+  "chunk_count_in_doc": 2,
+  "content": "A work item represents an action that has to be done. That action can be a task, a bug, a feature request or any type of action your organization might need to work with. Work items are the core of the Jira apps since all the team collaboration happens around the work items and their organization.\nAs a Jira administrator, you can create new work types to represent different pieces of work for your teams. Work types live within a work type scheme, which you can then associate with one or more spaces. Find out about work types.\nThis page describes adding work types to use in company-managed spaces. If you're looking for information about team-managed space work types, check out how to set up work types in team-managed software spaces or set up request types in team-managed service spaces.\nYou must be a Jira administrator with the Administer Jira permissions to add, edit, or delete work types in company-managed spaces. Find out about global permissions.\nAdd a new work type\nYou can configure this and any other work type schemes to group your work types and associate them with one or more spaces. Find out about work type schemes.\n- Select Settings (), then Work items.\n- In the left column, go to Work types, then Add work type.\n- Enter a name and description for your new work type.\n- Choose between a standard or sub-task work type. \n  - Standard work types are added at the story level, while subtask work types are added underneath the story level (alongside the existing default work type already named subtasks). Jira admins can add standard work types to higher hierarchy levels by configuring the work type hierarchy.\n- Select a work type scheme to associate the new work type (optional).\n- Select Add."
+}
