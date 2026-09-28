@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 import { getTicket, deleteTicket } from "../api";
 import { getOutcomeBadge } from "../outcomeBadge";
-import { CheckCircleIcon, CompassIcon, AlertTriangleIcon, HelpCircleIcon, GlobeIcon } from "../icons";
+import { CheckCircleIcon, CompassIcon, AlertTriangleIcon, HelpCircleIcon, GlobeIcon, FileTextIcon } from "../icons";
+import PageHeader from "../components/PageHeader";
 import "./TicketResult.css";
 
 const OUTCOME_ICONS = {
@@ -26,10 +27,10 @@ function OutcomeBadge({ outcomeKey, badge }) {
 function AnalysisSection({ ticket, ticketAnalysis }) {
   return (
     <div className="panel section">
-      <h2>Ticket Analysis</h2>
+      <h2>Query Analysis</h2>
       <div className="analysis-grid">
         <div>
-          <span className="field-label">Ticket ID</span>
+          <span className="field-label">Query ID</span>
           <span className="field-value mono">{ticket.ticket_id || "-"}</span>
         </div>
         <div>
@@ -59,7 +60,7 @@ function AnalysisSection({ ticket, ticketAnalysis }) {
           <div>
             <span className="field-label">Out-of-domain status</span>
             <span className="field-value">
-              This ticket was classified as outside JIRVA's supported domain
+              This query was classified as outside JIRVA's supported domain
               before detailed analysis - category, intent, severity, and
               risk were not assessed.
             </span>
@@ -159,7 +160,7 @@ function NonResolutionSection({ ticket }) {
 
       <span className="field-label">Suggested next steps</span>
       <p className="decision-reason">
-        A human support agent should review this ticket directly - JIRVA did
+        A human support agent should review this request directly - JIRVA did
         not generate an automated response for this case.
       </p>
     </div>
@@ -184,7 +185,7 @@ export default function TicketResult() {
         if (!cancelled) setTicket(data);
       })
       .catch((err) => {
-        if (!cancelled) setError(err.message || "Could not load this ticket.");
+        if (!cancelled) setError(err.message || "Could not load this result.");
       })
       .finally(() => {
         if (!cancelled) setLoading(false);
@@ -194,7 +195,7 @@ export default function TicketResult() {
   }, [id]);
 
   async function handleDelete() {
-    const confirmed = window.confirm("Delete this ticket? This cannot be undone.");
+    const confirmed = window.confirm("Delete this query? This cannot be undone.");
     if (!confirmed) return;
 
     setDeleting(true);
@@ -202,21 +203,21 @@ export default function TicketResult() {
       await deleteTicket(id);
       navigate("/tickets");
     } catch (err) {
-      setError(err.message || "Could not delete this ticket.");
+      setError(err.message || "Could not delete this query.");
       setDeleting(false);
     }
   }
 
   if (loading) {
-    return <div className="panel"><p>Loading ticket...</p></div>;
+    return <div className="panel"><p>Loading result...</p></div>;
   }
 
   if (error) {
     return (
       <div className="panel">
-        <h1>Ticket not found</h1>
+        <h1>Query not found</h1>
         <p className="form-error">{error}</p>
-        <Link to="/raise">Raise a new ticket</Link>
+        <Link to="/raise">Ask JIRVA</Link>
       </div>
     );
   }
@@ -226,11 +227,19 @@ export default function TicketResult() {
 
   return (
     <div className="ticket-result">
-      <div className="ticket-result-toolbar">
-        <button className="delete-link" onClick={handleDelete} disabled={deleting}>
-          {deleting ? "Deleting..." : "Delete ticket"}
-        </button>
-      </div>
+      <PageHeader
+        icon={FileTextIcon}
+        title="Query Result"
+        description={ticket.title || "Details of a single query submitted to JIRVA."}
+        action={
+          <div className="ticket-result-toolbar">
+            <Link to="/tickets" className="ticket-result-back">Back to Query History</Link>
+            <button className="delete-link" onClick={handleDelete} disabled={deleting}>
+              {deleting ? "Deleting..." : "Delete query"}
+            </button>
+          </div>
+        }
+      />
       <AnalysisSection ticket={ticket} ticketAnalysis={ticket.ticket_analysis} />
       {isResolutionPath ? (
         <ResolutionSection ticket={ticket} />

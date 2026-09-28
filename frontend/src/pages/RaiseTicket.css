@@ -1,23 +1,22 @@
-.raise-ticket-panel {
-  max-width: 560px;
+.raise-ticket-page {
+  max-width: var(--content-width-medium);
 }
 
-.raise-ticket-icon {
-  width: 36px;
-  height: 36px;
-  border-radius: var(--radius);
-  background: var(--color-accent-soft);
-  color: var(--color-accent);
+.raise-ticket-layout {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 10px;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.raise-ticket-panel {
+  flex: 1 1 360px;
+  min-width: 320px;
 }
 
 .raise-ticket-panel form {
   display: flex;
   flex-direction: column;
-  margin-top: 16px;
 }
 
 .raise-ticket-panel label {
