@@ -20,6 +20,14 @@
   --shadow-md: 0 4px 12px rgba(16, 24, 40, 0.08);
   --transition: 160ms ease;
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  /* Shared page container widths, by page type - previously every page
+     picked its own max-width (560/720/820/880/1000/unbounded) with no
+     system behind the numbers. Narrow = single form, Medium = mixed
+     content, Wide = data tables/dashboards with multiple panels. */
+  --content-width-narrow: 640px;
+  --content-width-medium: 880px;
+  --content-width-wide: 1100px;
 }
 
 * {
@@ -137,6 +145,201 @@ input, textarea, select {
 
 .coming-soon .badge {
   margin-top: 8px;
+}
+
+/* Shared page header (icon badge + title + description + optional action),
+   used by every page so headers stop looking different from one page to
+   the next. Dashboard keeps its own distinct "hero" treatment since it's
+   the landing page - everywhere else uses this. */
+.page-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.page-header-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius);
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.page-header-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.page-header-text h1 {
+  margin-bottom: 2px;
+}
+
+.page-header-text p {
+  margin: 0;
+}
+
+.page-header-action {
+  flex-shrink: 0;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+/* Shared stat card (used by Dashboard's metric row and TicketsList's
+   summary row) - one definition so both look identical. */
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 16px;
+  text-align: left;
+  font-family: inherit;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+}
+
+.stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-accent);
+}
+
+.stat-card.active {
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-md);
+  background: var(--color-accent-soft);
+}
+
+.stat-card-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: var(--radius);
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2px;
+}
+
+.stat-card-count {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--color-text);
+  font-variant-numeric: tabular-nums;
+}
+
+.stat-card-label {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+}
+
+/* Shared distribution list (horizontal bar breakdown) - used by both the
+   Evaluation page and Dashboard's Category Breakdown panel. */
+.distribution-block h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  margin-bottom: 8px;
+}
+
+.distribution-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+  font-size: 12px;
+}
+
+.distribution-row-label {
+  width: 96px;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--color-text);
+}
+
+.distribution-bar-track {
+  flex: 1;
+  height: 6px;
+  background: var(--color-neutral-bg);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.distribution-bar-fill {
+  height: 100%;
+  background: var(--color-accent);
+  border-radius: 3px;
+}
+
+.distribution-row-value {
+  width: 24px;
+  text-align: right;
+  flex-shrink: 0;
+  color: var(--color-text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+.distribution-empty {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+/* Shared pagination controls - used by TicketsList (Query History) and
+   SystemLogs, so both pages' Previous/Next controls look and behave
+   identically. */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.pagination-btn {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--color-text);
+  cursor: pointer;
+  transition: border-color var(--transition), color var(--transition);
+}
+
+.pagination-btn:hover:not(:disabled) {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.pagination-btn:disabled {
+  color: var(--color-text-secondary);
+  cursor: default;
+  opacity: 0.5;
+}
+
+.pagination-status {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  font-variant-numeric: tabular-nums;
 }
 
 .donut-wrap {
