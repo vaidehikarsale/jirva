@@ -1,0 +1,115 @@
+.logs-panel {
+  max-width: var(--content-width-wide);
+}
+
+.logs-refresh {
+  align-self: flex-start;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--color-text);
+  cursor: pointer;
+  transition: border-color var(--transition), color var(--transition);
+}
+
+.logs-refresh:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.logs-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.logs-filter {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 8px 10px;
+  font-size: 13px;
+  color: var(--color-text);
+  background: var(--color-surface);
+}
+
+.logs-count {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+.logs-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.logs-table th {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text-secondary);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.logs-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text);
+  vertical-align: top;
+}
+
+.logs-table tr:last-child td {
+  border-bottom: none;
+}
+
+.logs-table tbody tr:nth-child(even):not(.logs-row-error) {
+  background: var(--color-neutral-bg);
+}
+
+.logs-table tr:hover {
+  background: var(--color-accent-soft);
+}
+
+.logs-row-error {
+  background: var(--color-danger-bg);
+}
+
+.logs-row-error:hover {
+  background: var(--color-danger-bg);
+}
+
+.logs-cell-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 12px;
+  white-space: nowrap;
+  color: var(--color-text-secondary);
+}
+
+.logs-cell-ticket {
+  max-width: 320px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.logs-error-message {
+  margin-top: 4px;
+  font-size: 11px;
+  color: var(--color-danger);
+  max-width: 280px;
+  white-space: normal;
+}
+
+.logs-empty {
+  color: var(--color-text-secondary);
+  font-size: 13px;
+  padding: 12px 0;
+}

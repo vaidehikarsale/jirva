@@ -1,0 +1,151 @@
+.evaluation-page {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: var(--content-width-wide);
+}
+
+.evaluation-section-title {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-text-secondary);
+  margin-bottom: 10px;
+}
+
+.calibration-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.calibration-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
+.calibration-header h2 {
+  margin-bottom: 2px;
+}
+
+.calibration-header p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.calibration-accuracy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+
+.calibration-accuracy-value {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.calibration-accuracy-label {
+  font-size: 11px;
+  color: var(--color-text-secondary);
+}
+
+.calibration-meta {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  margin: 8px 0 0 0;
+}
+
+.calibration-meta code {
+  font-size: 11px;
+}
+
+.calibration-note {
+  font-size: 12px;
+  color: var(--color-warning);
+  background: var(--color-warning-bg);
+  border-radius: var(--radius);
+  padding: 8px 10px;
+  margin: 8px 0 0 0;
+}
+
+.confusion-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  margin-top: 12px;
+}
+
+.confusion-table th,
+.confusion-table td {
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--color-border);
+  text-align: center;
+}
+
+.confusion-table th:first-child,
+.confusion-table td:first-child {
+  text-align: left;
+}
+
+.confusion-table th {
+  color: var(--color-text-secondary);
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.confusion-row-label {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.confusion-match {
+  background: var(--color-success-bg);
+  color: var(--color-success);
+  font-weight: 700;
+}
+
+.confusion-miss {
+  background: var(--color-danger-bg);
+  color: var(--color-danger);
+  font-weight: 700;
+}
+
+.live-metrics-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.live-metric {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.live-metric-value {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color-text);
+  font-variant-numeric: tabular-nums;
+}
+
+.live-metric-label {
+  font-size: 11px;
+  color: var(--color-text-secondary);
+}
+
+.distribution-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
