@@ -1,3 +1,54 @@
+.tickets-page {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: var(--content-width-wide);
+}
+
+.tickets-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
+.tickets-search-wrap {
+  position: relative;
+  flex: 1;
+  max-width: 320px;
+}
+
+.tickets-search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-text-secondary);
+  pointer-events: none;
+}
+
+.tickets-search {
+  width: 100%;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 8px 12px 8px 32px;
+  font-size: 13px;
+  color: var(--color-text);
+  transition: border-color var(--transition);
+}
+
+.tickets-search:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+
+.tickets-filter-note {
+  font-size: 13px;
+  margin: 0;
+  white-space: nowrap;
+}
+
 .tickets-table {
   width: 100%;
   border-collapse: collapse;
@@ -24,6 +75,14 @@
   border-bottom: none;
 }
 
+.tickets-table tbody tr:nth-child(even) {
+  background: var(--color-neutral-bg);
+}
+
+.tickets-table tbody tr:hover {
+  background: var(--color-accent-soft);
+}
+
 .tickets-table td.mono {
   font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
   font-size: 12px;
@@ -47,3 +106,4 @@
   color: var(--color-text-secondary);
   cursor: default;
 }
+

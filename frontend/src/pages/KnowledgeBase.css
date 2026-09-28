@@ -1,32 +1,5 @@
 .kb-panel {
-  max-width: 820px;
-}
-
-.kb-header {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  margin-bottom: 16px;
-}
-
-.kb-icon {
-  width: 36px;
-  height: 36px;
-  border-radius: var(--radius);
-  background: var(--color-accent-soft);
-  color: var(--color-accent);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-.kb-header h1 {
-  margin-bottom: 2px;
-}
-
-.kb-header p {
-  margin: 0;
+  max-width: var(--content-width-wide);
 }
 
 .kb-controls {

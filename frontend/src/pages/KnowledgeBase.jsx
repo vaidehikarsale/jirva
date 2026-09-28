@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { getKnowledgeBase } from "../api";
 import { BookIcon } from "../icons";
+import PageHeader from "../components/PageHeader";
 import "./KnowledgeBase.css";
 
 export default function KnowledgeBase() {
@@ -32,13 +33,11 @@ export default function KnowledgeBase() {
 
   return (
     <div className="panel kb-panel">
-      <div className="kb-header">
-        <div className="kb-icon"><BookIcon width={20} height={20} /></div>
-        <div>
-          <h1>Knowledge Base</h1>
-          <p>Documents JIRVA retrieves evidence from.</p>
-        </div>
-      </div>
+      <PageHeader
+        icon={BookIcon}
+        title="Knowledge Base"
+        description="Documents JIRVA retrieves evidence from."
+      />
 
       {error && <div className="form-error">{error}</div>}
 
