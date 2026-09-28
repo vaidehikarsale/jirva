@@ -1,11 +1,12 @@
 import { NavLink } from "react-router-dom";
 import { GridIcon, PlusCircleIcon, ListIcon, BookIcon, BarChartIcon, TerminalIcon } from "../icons";
+import SystemStatus from "./SystemStatus";
 import "./Sidebar.css";
 
 const NAV_PRIMARY = [
   { to: "/", label: "Dashboard", icon: GridIcon, end: true },
-  { to: "/raise", label: "Raise Ticket", icon: PlusCircleIcon },
-  { to: "/tickets", label: "Tickets", icon: ListIcon },
+  { to: "/raise", label: "Ask JIRVA", icon: PlusCircleIcon },
+  { to: "/tickets", label: "Query History", icon: ListIcon },
 ];
 
 const NAV_SECONDARY = [
@@ -45,6 +46,7 @@ export default function Sidebar() {
         <NavGroup items={NAV_SECONDARY} />
       </nav>
 
+      <SystemStatus />
       <div className="sidebar-footer">JIRVA prototype - v0.1</div>
     </aside>
   );
