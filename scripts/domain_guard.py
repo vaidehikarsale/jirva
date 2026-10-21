@@ -124,6 +124,15 @@ def compute_retrieval_signal(qdrant_client, embed_model, cross_encoder, bm25, ch
     return top_score, top_evidence, reranked
 
 
+def is_short_circuited(retrieval_score, reference_score,
+                        retrieval_threshold=DEFAULT_RETRIEVAL_THRESHOLD,
+                        reference_threshold=DEFAULT_REFERENCE_THRESHOLD):
+    """Pure gate logic, extracted so it can be unit-tested without loading
+    any models/index: short-circuit to Out-of-Domain only when BOTH signals
+    independently fall below their threshold."""
+    return (retrieval_score < retrieval_threshold) and (reference_score < reference_threshold)
+
+
 def check_domain(ticket, qdrant_client, embed_model, cross_encoder, bm25, chunks,
                   ref_texts, ref_embeddings, collection,
                   retrieval_threshold=DEFAULT_RETRIEVAL_THRESHOLD,
@@ -146,7 +155,8 @@ def check_domain(ticket, qdrant_client, embed_model, cross_encoder, bm25, chunks
         embed_model, ticket, ref_texts, ref_embeddings
     )
 
-    both_signals_low = (retrieval_score < retrieval_threshold) and (reference_score < reference_threshold)
+    both_signals_low = is_short_circuited(retrieval_score, reference_score,
+                                           retrieval_threshold, reference_threshold)
 
     result = {
         "retrieval_top_score": retrieval_score,

@@ -21,12 +21,19 @@ Endpoints:
                           cards and the Tickets history table. Deliberately
                           excludes full answer/evidence text to keep the
                           list payload light.
+  GET  /logs            - paginated processing/error events (event_log.py),
+                          newest first. Powers the System Logs page.
+  GET  /evaluation       - calibration accuracy (from the frozen, hand-
+                          labeled Day 5/9 calibration logs) plus live,
+                          unlabeled operational distribution/latency/error
+                          stats. Powers the Evaluation page.
 
-Storage: JSON file (JIRVA_TICKETS_FILE, default ../data/tickets_store.json).
-NOT a real database - no concurrent-write locking, fine for a single-user
-prototype. Previously in-memory only, which meant every uvicorn --reload
-restart silently wiped ticket history - not usable as a real history
-feature, so this was upgraded to file-backed storage on Day 11.
+Storage: SQLite (JIRVA_DB_FILE, default ../data/jirva.db), via ticket_store.py.
+Originally a hand-rolled JSON file (Day 11) with no concurrent-write
+locking and a full-file rewrite on every save; migrated to SQLite for real
+locking, indexed listing, and crash-safety (see ticket_store.py's docstring
+for the full rationale). Existing JSON history is a one-time import via
+migrate_tickets_to_sqlite.py, not read directly by this file anymore.
 
 Day 11 fix (upload endpoint): the pipeline (retrieval + ticket_analysis)
 runs on `description` ALONE, not title+description concatenated. Title
@@ -44,15 +51,15 @@ CORS is currently wide open (allow_origins=["*"]) for local development
 with the React frontend. Tighten before deployment (Day 14 checklist item).
 """
 
-import json
 import os
 import uuid
 from contextlib import asynccontextmanager
 from datetime import datetime, timezone
+
 from typing import Optional
 
 from dotenv import load_dotenv
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Response
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from qdrant_client import QdrantClient
@@ -63,6 +70,9 @@ from domain_guard import build_reference_embeddings, check_domain
 from decision_engine import decide, ESCALATE
 from langgraph_flow import build_graph
 from jirva import OUT_OF_DOMAIN_MESSAGE
+from ticket_store import TicketStore
+from event_log import EventLog, timed_event
+from evaluation import calibration_summary, live_summary
 
 EMBED_MODEL_NAME = "BAAI/bge-small-en-v1.5"
 RERANK_MODEL_NAME = "BAAI/bge-reranker-base"
@@ -72,32 +82,10 @@ RERANK_MODEL_NAME = "BAAI/bge-reranker-base"
 CHUNKS_DIR = os.getenv("JIRVA_CHUNKS_DIR", "../data/chunks/400_variant")
 COLLECTION = os.getenv("JIRVA_COLLECTION", "jirva_400")
 
-# Day 11 update: JSON-file-backed persistence, not just an in-memory dict.
-# Previously, every uvicorn --reload restart (which happens on every code
-# save) silently wiped all uploaded tickets - not usable as a real "ticket
-# history" feature. Still not a database, still zero new dependencies
-# (json is stdlib) - just survives restarts now.
-TICKETS_FILE = os.getenv("JIRVA_TICKETS_FILE", "../data/tickets_store.json")
-
-TICKETS = {}
-
-
-def _load_tickets_from_disk():
-    if not os.path.exists(TICKETS_FILE):
-        return {}
-    try:
-        with open(TICKETS_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except (json.JSONDecodeError, OSError) as e:
-        print(f"WARNING: could not load {TICKETS_FILE} ({e}) - starting with empty ticket history.")
-        return {}
-
-
-def _save_tickets_to_disk():
-    os.makedirs(os.path.dirname(TICKETS_FILE) or ".", exist_ok=True)
-    with open(TICKETS_FILE, "w", encoding="utf-8") as f:
-        json.dump(TICKETS, f, indent=2)
-
+# SQLite-backed persistence (see ticket_store.py). Survives uvicorn --reload
+# restarts the same way the old JSON file did, but with real concurrent-write
+# safety and indexed listing instead of a full-file rewrite per save.
+DB_FILE = os.getenv("JIRVA_DB_FILE", "../data/jirva.db")
 
 # Populated once at startup (see lifespan below), reused across requests -
 # models/index are loaded once, not per-request, same principle every CLI
@@ -133,9 +121,10 @@ async def lifespan(app: FastAPI):
         COLLECTION,
     )
 
-    loaded = _load_tickets_from_disk()
-    TICKETS.update(loaded)
-    print(f"Loaded {len(loaded)} previously stored ticket(s) from {TICKETS_FILE}")
+    resources["ticket_store"] = TicketStore(DB_FILE)
+    print(f"Loaded {resources['ticket_store'].count()} previously stored ticket(s) from {DB_FILE}")
+
+    resources["event_log"] = EventLog(DB_FILE)
 
     print("Startup complete - JIRVA API ready.")
 
@@ -152,6 +141,11 @@ app.add_middleware(
     allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
+    # Without this, the browser's fetch() can't read X-Total-Count at all
+    # (CORS hides non-standard response headers from JS by default even
+    # though the request itself succeeds) - needed for TicketsList's
+    # pagination to compute a page count.
+    expose_headers=["X-Total-Count"],
 )
 
 
@@ -194,72 +188,80 @@ def analyze_ticket_endpoint(body: TicketRequest):
     """Classification only - NOT via the graph, no generation call. Calls
     check_domain() + decide() directly, the same functions the graph uses
     internally, just without the conditional generate step."""
-    guard_result = check_domain(
-        body.ticket, resources["qdrant_client"], resources["embed_model"],
-        resources["cross_encoder"], resources["bm25"], resources["chunks"],
-        resources["ref_texts"], resources["ref_embeddings"], COLLECTION,
-    )
+    with timed_event(resources["event_log"], "/ticket/analyze", body.ticket) as rec:
+        guard_result = check_domain(
+            body.ticket, resources["qdrant_client"], resources["embed_model"],
+            resources["cross_encoder"], resources["bm25"], resources["chunks"],
+            resources["ref_texts"], resources["ref_embeddings"], COLLECTION,
+        )
+        rec.domain = guard_result["domain"]
 
-    if guard_result["domain"] == "Out-of-Domain":
+        if guard_result["domain"] == "Out-of-Domain":
+            return {
+                "ticket": body.ticket,
+                "domain": "Out-of-Domain",
+                "message": OUT_OF_DOMAIN_MESSAGE,
+            }
+
+        reranked = guard_result["reranked_evidence"]
+        ta = guard_result["analysis"]
+        evidence_confidence = float(reranked[0][1]) if reranked else 0.0
+        top_evidence_category = reranked[0][0]["category"] if reranked else None
+
+        decision = decide(
+            evidence_confidence=evidence_confidence,
+            risk=ta["risk"],
+            ticket_category=ta["category"],
+            top_evidence_category=top_evidence_category,
+        )
+        rec.outcome = decision["outcome"]
+
         return {
             "ticket": body.ticket,
-            "domain": "Out-of-Domain",
-            "message": OUT_OF_DOMAIN_MESSAGE,
+            "domain": "Jira",
+            "ticket_analysis": _serialize_ticket_analysis(ta),
+            "evidence_confidence": evidence_confidence,
+            "decision": _serialize_decision(decision),
         }
 
-    reranked = guard_result["reranked_evidence"]
-    ta = guard_result["analysis"]
-    evidence_confidence = float(reranked[0][1]) if reranked else 0.0
-    top_evidence_category = reranked[0][0]["category"] if reranked else None
 
-    decision = decide(
-        evidence_confidence=evidence_confidence,
-        risk=ta["risk"],
-        ticket_category=ta["category"],
-        top_evidence_category=top_evidence_category,
-    )
-
-    return {
-        "ticket": body.ticket,
-        "domain": "Jira",
-        "ticket_analysis": _serialize_ticket_analysis(ta),
-        "evidence_confidence": evidence_confidence,
-        "decision": _serialize_decision(decision),
-    }
-
-
-def _run_full_pipeline(ticket_text: str) -> dict:
+def _run_full_pipeline(ticket_text: str, endpoint: str) -> dict:
     """Shared by /ticket/resolve and /ticket/upload - runs the LangGraph app
     and returns a clean, JSON-safe response dict. Single source of truth for
-    this shape so the two endpoints can't silently drift apart."""
-    result = resources["graph"].invoke({"ticket": ticket_text})
+    this shape so the two endpoints can't silently drift apart. Also the
+    single place logging happens for both callers, so neither can forget to
+    record an event."""
+    with timed_event(resources["event_log"], endpoint, ticket_text) as rec:
+        result = resources["graph"].invoke({"ticket": ticket_text})
+        rec.domain = result["domain"]
 
-    if result["domain"] == "Out-of-Domain":
-        return {
+        if result["domain"] == "Out-of-Domain":
+            return {
+                "ticket": ticket_text,
+                "domain": "Out-of-Domain",
+                "answer": result["answer"],
+            }
+
+        rec.outcome = result["outcome"]
+        response = {
             "ticket": ticket_text,
-            "domain": "Out-of-Domain",
-            "answer": result["answer"],
+            "domain": result["domain"],
+            "ticket_analysis": _serialize_ticket_analysis(result["ticket_analysis"]),
+            "outcome": result["outcome"],
+            "decision": _serialize_decision(result["decision"]),
+            "answer": result.get("answer"),
+            "evidence_used": result.get("evidence_used", []),
         }
-
-    response = {
-        "ticket": ticket_text,
-        "domain": result["domain"],
-        "ticket_analysis": _serialize_ticket_analysis(result["ticket_analysis"]),
-        "outcome": result["outcome"],
-        "decision": _serialize_decision(result["decision"]),
-        "answer": result.get("answer"),
-        "evidence_used": result.get("evidence_used", []),
-    }
-    if result["outcome"] == ESCALATE:
-        response["escalation_reason"] = result.get("escalation_reason")
-    return response
+        if result["outcome"] == ESCALATE:
+            response["escalation_reason"] = result.get("escalation_reason")
+        return response
 
 
 @app.post("/ticket/resolve")
 def resolve_ticket_endpoint(body: TicketRequest):
     """Full pipeline via the LangGraph app. Not persisted - for ad-hoc
     resolution of arbitrary ticket text."""
-    return _run_full_pipeline(body.ticket)
+    return _run_full_pipeline(body.ticket, "/ticket/resolve")
 
 
 @app.post("/ticket/upload")
@@ -277,69 +279,61 @@ def upload_ticket_endpoint(body: UploadRequest):
     ticket_text = body.description.strip()
     ticket_id = str(uuid.uuid4())
 
-    result = _run_full_pipeline(ticket_text)
+    result = _run_full_pipeline(ticket_text, "/ticket/upload")
     result["ticket_id"] = ticket_id
     result["title"] = body.title
     result["description"] = body.description
     result["created_at"] = datetime.now(timezone.utc).isoformat()
 
-    TICKETS[ticket_id] = result
-    _save_tickets_to_disk()
+    resources["ticket_store"].save(ticket_id, result)
     return result
 
 
 @app.get("/ticket/{ticket_id}")
 def get_ticket_endpoint(ticket_id: str):
-    if ticket_id not in TICKETS:
+    result = resources["ticket_store"].get(ticket_id)
+    if result is None:
         raise HTTPException(status_code=404, detail=f"No ticket found with id {ticket_id}")
-    return TICKETS[ticket_id]
+    return result
 
 
 @app.delete("/ticket/{ticket_id}")
 def delete_ticket_endpoint(ticket_id: str):
     """Day 11 addition. Removes a ticket from history - useful for clearing
-    out test/duplicate submissions made while verifying behavior. Persists
-    the deletion to disk immediately, same as upload does on write."""
-    if ticket_id not in TICKETS:
+    out test/duplicate submissions made while verifying behavior."""
+    deleted = resources["ticket_store"].delete(ticket_id)
+    if not deleted:
         raise HTTPException(status_code=404, detail=f"No ticket found with id {ticket_id}")
-    del TICKETS[ticket_id]
-    _save_tickets_to_disk()
     return {"deleted": True, "ticket_id": ticket_id}
 
 
 @app.get("/tickets")
-def list_tickets_endpoint():
+def list_tickets_endpoint(
+    response: Response,
+    limit: Optional[int] = None,
+    offset: int = 0,
+    outcome: Optional[str] = None,
+    q: Optional[str] = None,
+):
     """Lightweight summary list for the Dashboard cards and Tickets history
     table. Deliberately excludes full answer/evidence text - GET /ticket/{id}
-    still serves that when a specific ticket is opened.
+    still serves that when a specific ticket is opened. Sorting/filtering
+    now happens in SQL (ticket_store.list_summaries), not by scanning every
+    ticket's full JSON payload on every request.
 
-    outcome is "OUT_OF_DOMAIN" (a display-only sentinel, not a real
-    decision_engine.py outcome) for tickets where domain was Out-of-Domain,
-    since those never reach ticket_analysis/decision at all and so have no
-    real outcome field to report.
+    Real pagination: omit `limit` (the Dashboard's usage) to get the full,
+    unpaginated history for accurate outcome counts. Pass `limit`/`offset`
+    (TicketsList's usage) to get one page; the total count for the current
+    `outcome`/`q` filters is returned via the `X-Total-Count` response
+    header so the client can compute page count without a second request.
+
+    `q` is a case-insensitive title substring filter (see
+    ticket_store.list_summaries's docstring for scope - title only, not
+    full ticket text).
     """
-    summaries = []
-    for ticket_id, t in TICKETS.items():
-        if t.get("domain") == "Out-of-Domain":
-            outcome = "OUT_OF_DOMAIN"
-            category = "Out-of-Domain"
-            risk = None
-        else:
-            outcome = t.get("outcome")
-            category = t.get("ticket_analysis", {}).get("category")
-            risk = t.get("ticket_analysis", {}).get("risk")
-
-        summaries.append({
-            "ticket_id": ticket_id,
-            "title": t.get("title", ""),
-            "category": category,
-            "outcome": outcome,
-            "risk": risk,
-            "created_at": t.get("created_at"),
-        })
-
-    summaries.sort(key=lambda s: s["created_at"] or "", reverse=True)
-    return summaries
+    total = resources["ticket_store"].count(outcome=outcome, search=q)
+    response.headers["X-Total-Count"] = str(total)
+    return resources["ticket_store"].list_summaries(limit=limit, offset=offset, outcome=outcome, search=q)
 
 
 @app.get("/knowledge-base")
@@ -373,3 +367,32 @@ def list_knowledge_base_endpoint():
             }
 
     return sorted(docs.values(), key=lambda d: (d["category"], d["document_title"]))
+
+
+@app.get("/logs")
+def list_logs_endpoint(response: Response, limit: int = 50, offset: int = 0, status: Optional[str] = None):
+    """Backs the System Logs page. Every /ticket/analyze, /ticket/resolve,
+    and /ticket/upload call is recorded via event_log.timed_event - this
+    returns one page of rows, newest first, same real-pagination pattern as
+    GET /tickets: the total count for the current `status` filter comes back
+    via the X-Total-Count response header so the client can compute page
+    count without a second request."""
+    total = resources["event_log"].count(status=status)
+    response.headers["X-Total-Count"] = str(total)
+    return resources["event_log"].list_recent(limit=limit, offset=offset, status=status)
+
+
+@app.get("/evaluation")
+def evaluation_endpoint():
+    """Backs the Evaluation page. Returns two clearly separate sections:
+    `calibration` (real accuracy against hand-labeled Day 5/9 test sets -
+    see evaluation.py's docstring for why this isn't re-run live) and
+    `live` (unlabeled operational distribution/latency/error-rate stats
+    from actual ticket history and recent events)."""
+    return {
+        "calibration": calibration_summary(),
+        "live": live_summary(
+            resources["ticket_store"].list_summaries(),
+            resources["event_log"].list_recent(limit=500),
+        ),
+    }

@@ -20,6 +20,28 @@ silently miss a sensitive ticket. Lowering to 0 minimizes (does not
 guarantee-eliminate) this sampling randomness. Thresholds and
 decision_engine.py logic are unchanged.
 
+Latency update: this call now uses CLASSIFICATION_MODEL_NAME (a small,
+non-reasoning free model) instead of openrouter_client's default reasoning
+model. Classification only needs to emit a small structured JSON object,
+not deep chain-of-thought, and the reasoning model was spending ~6.5-8s per
+call on hidden reasoning tokens for that - the whole reason a RESOLVE/GUIDE
+query took ~15-30s+ end to end (this call, then a second reasoning-model
+call in rag_answer.py/jirva.py to actually generate the answer). Benchmarked
+against several current OpenRouter free models on the exact classification
+prompt (see git history for the throwaway benchmark script); this one
+consistently returned correct, valid JSON in ~1.5-3s.
+
+Consequence worth knowing: since domain/category classification also goes
+through this same call, logs/domain_guard_calibration.csv's accuracy
+number on the Evaluation page now reflects a *different* model's behavior
+than what was originally calibrated - not re-verified/regenerated here
+(that requires a full live re-run against Qdrant + this model). The
+decision_engine.py threshold calibration (resolve/fallback_threshold) is
+unaffected - those are calibrated against evidence_confidence (retrieval
+reranker scores), which this change does not touch. The HIGH_RISK_BACKSTOP_RULES
+safety net below is also unaffected - it's a deterministic keyword match
+independent of which model classified risk.
+
 Usage (as a library):
     from ticket_analysis import analyze_ticket
     result = analyze_ticket(
@@ -34,6 +56,9 @@ import json
 import re
 
 from openrouter_client import call_nemotron
+
+# Small, non-reasoning free model - see the "Latency update" note above.
+CLASSIFICATION_MODEL_NAME = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
 
 VALID_CATEGORIES = [
     "01_Workflows", "02_Permissions", "03_Issues", "04_Projects", "05_Fields",
@@ -195,7 +220,7 @@ def analyze_ticket(ticket, retrieval_top_score, reference_similarity_score, top_
         {"role": "user", "content": user_message},
     ]
 
-    raw_output = call_nemotron(messages, max_tokens=200, temperature=0)
+    raw_output = call_nemotron(messages, max_tokens=200, temperature=0, model=CLASSIFICATION_MODEL_NAME)
     parsed = _extract_json(raw_output)
 
     parse_error = parsed is None
